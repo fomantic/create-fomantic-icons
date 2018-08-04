@@ -44,5 +44,17 @@
   "truck-loading": {
     "fuiName": "truck packing",
     "className": "truck.packing"
+  },
+  "tablet-android": {
+    "fuiName": "android-tablet",
+    "className": "android-tablet"
+  },
+  "tablet-android-alt": {
+    "fuiName": "android-tablet alternate",
+    "className": "android-tablet.alternate"
+  },
+  "mobile-android": {
+    "fuiName": "android-mobile alternate",
+    "className": "android-mobile.alternate"
   }
 }
