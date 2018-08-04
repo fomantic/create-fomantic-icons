@@ -1,0 +1,19 @@
+{
+  "paths": {
+    "metadata": {
+      "icons": "/metadata/icons.json",
+      "categories": "/metadata/categories.yml"
+    },
+    "fonts": "/webfonts/",
+    "templates": {
+      "src": "./templates/icon.overrides.crather",
+      "docs": "./templates/icon.html.eco.crather"
+    },
+    "dist": {
+      "map": "./dist/icon-map.json",
+      "src": "./dist/src/themes/default/elements/icon.overrides",
+      "docs": "./dist/server/documents/elements/icon.html.eco",
+      "fonts": "./dist/src/themes/default/assets/fonts/"
+    }
+  }
+}

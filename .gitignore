@@ -1,0 +1,10 @@
+# Project
+node_modules/
+dist/
+fontawesome*
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.idea
+.vscode

@@ -1,0 +1,48 @@
+{
+  "blank-demo-template": {
+    "faName": "you-shouldnt-change-this-but-you-can",
+    "fuiName": "the name used by FUI",
+    "className": "the class name used by FUI",
+    "unicode": "the icon unicode",
+    "categories": "an array of categories the icon should be in"
+  },
+  "accessible-icon": {
+    "fuiName": "accessible",
+    "className": "accessible"
+  },
+  "500px": {
+    "className": "\\35 00px"
+  },
+  "vimeo-v": {
+    "fuiName": "vimeo v",
+    "className": "vimeo.v"
+  },
+  "red-river": {
+    "fuiName": "redriver",
+    "className": "redriver"
+  },
+  "external-link-alt": {
+    "fuiName": "external alternate",
+    "className": "external.alternate"
+  },
+  "link": {
+    "fuiName": "linkify",
+    "className": "linkify"
+  },
+  "line": {
+    "fuiName": "linechat",
+    "className": "linechat"
+  },
+  "apple-alt": {
+    "fuiName": "fruit-apple",
+    "className": "fruit-apple"
+  },
+  "less": {
+    "fuiName": "lesscss",
+    "className": "lesscss"
+  },
+  "truck-loading": {
+    "fuiName": "truck packing",
+    "className": "truck.packing"
+  }
+}

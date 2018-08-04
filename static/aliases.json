@@ -1,0 +1,4082 @@
+[
+  {
+    "faName": "chess-rock",
+    "fuiName": "chess rock",
+    "className": "chess.rock",
+    "unicode": "f447",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "chess"
+    ]
+  },
+  {
+    "faName": "ordered-list",
+    "fuiName": "ordered list",
+    "className": "ordered.list",
+    "unicode": "f0cb",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "unordered-list",
+    "fuiName": "unordered list",
+    "className": "unordered.list",
+    "unicode": "f0ca",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "user-doctor",
+    "fuiName": "user doctor",
+    "className": "user.doctor",
+    "unicode": "f0f0",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "shield",
+    "fuiName": "shield",
+    "className": "shield",
+    "unicode": "f3ed",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "puzzle",
+    "fuiName": "puzzle",
+    "className": "puzzle",
+    "unicode": "f12e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "credit-card-amazon-pay",
+    "fuiName": "credit card amazon pay",
+    "className": "credit.card.amazon.pay",
+    "unicode": "f42d",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "credit-card-american-express",
+    "fuiName": "credit card american express",
+    "className": "credit.card.american.express",
+    "unicode": "f1f3",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "credit-card-diners-club",
+    "fuiName": "credit card diners club",
+    "className": "credit.card.diners.club",
+    "unicode": "f24c",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "credit-card-discover",
+    "fuiName": "credit card discover",
+    "className": "credit.card.discover",
+    "unicode": "f1f2",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "credit-card-jcb",
+    "fuiName": "credit card jcb",
+    "className": "credit.card.jcb",
+    "unicode": "f24b",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "credit-card-mastercard",
+    "fuiName": "credit card mastercard",
+    "className": "credit.card.mastercard",
+    "unicode": "f1f1",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "credit-card-paypal",
+    "fuiName": "credit card paypal",
+    "className": "credit.card.paypal",
+    "unicode": "f1f4",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "credit-card-stripe",
+    "fuiName": "credit card stripe",
+    "className": "credit.card.stripe",
+    "unicode": "f1f5",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "credit-card-visa",
+    "fuiName": "credit card visa",
+    "className": "credit.card.visa",
+    "unicode": "f1f0",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "add-circle",
+    "fuiName": "add circle",
+    "className": "add.circle",
+    "unicode": "f055",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "add-square",
+    "fuiName": "add square",
+    "className": "add.square",
+    "unicode": "f0fe",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "add-to-calendar",
+    "fuiName": "add to calendar",
+    "className": "add.to.calendar",
+    "unicode": "f271",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "add-to-cart",
+    "fuiName": "add to cart",
+    "className": "add.to.cart",
+    "unicode": "f217",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "add-user",
+    "fuiName": "add user",
+    "className": "add.user",
+    "unicode": "f234",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "add",
+    "fuiName": "add",
+    "className": "add",
+    "unicode": "f067",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "alarm-mute",
+    "fuiName": "alarm mute",
+    "className": "alarm.mute",
+    "unicode": "f1f6",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "alarm",
+    "fuiName": "alarm",
+    "className": "alarm",
+    "unicode": "f0f3",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "ald",
+    "fuiName": "ald",
+    "className": "ald",
+    "unicode": "f2a2",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "communication"
+    ]
+  },
+  {
+    "faName": "als",
+    "fuiName": "als",
+    "className": "als",
+    "unicode": "f2a2",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "communication"
+    ]
+  },
+  {
+    "faName": "american-express-card",
+    "fuiName": "american express card",
+    "className": "american.express.card",
+    "unicode": "f1f3",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "american-express",
+    "fuiName": "american express",
+    "className": "american.express",
+    "unicode": "f1f3",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "amex",
+    "fuiName": "amex",
+    "className": "amex",
+    "unicode": "f1f3",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "announcement",
+    "fuiName": "announcement",
+    "className": "announcement",
+    "unicode": "f0a1",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "payments-shopping"
+    ]
+  },
+  {
+    "faName": "area-chart",
+    "fuiName": "area chart",
+    "className": "area.chart",
+    "unicode": "f1fe",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "business"
+    ]
+  },
+  {
+    "faName": "area-graph",
+    "fuiName": "area graph",
+    "className": "area.graph",
+    "unicode": "f1fe",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "business"
+    ]
+  },
+  {
+    "faName": "arrow-down-cart",
+    "fuiName": "arrow down cart",
+    "className": "arrow.down.cart",
+    "unicode": "f218",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "asexual",
+    "fuiName": "asexual",
+    "className": "asexual",
+    "unicode": "f22d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "asl-interpreting",
+    "fuiName": "asl interpreting",
+    "className": "asl.interpreting",
+    "unicode": "f2a3",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "communication"
+    ]
+  },
+  {
+    "faName": "asl",
+    "fuiName": "asl",
+    "className": "asl",
+    "unicode": "f2a3",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "communication"
+    ]
+  },
+  {
+    "faName": "assistive-listening-devices",
+    "fuiName": "assistive listening devices",
+    "className": "assistive.listening.devices",
+    "unicode": "f2a2",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "communication"
+    ]
+  },
+  {
+    "faName": "attach",
+    "fuiName": "attach",
+    "className": "attach",
+    "unicode": "f0c6",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "attention",
+    "fuiName": "attention",
+    "className": "attention",
+    "unicode": "f06a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "balance",
+    "fuiName": "balance",
+    "className": "balance",
+    "unicode": "f24e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "bar",
+    "fuiName": "bar",
+    "className": "bar",
+    "unicode": "f0fc",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "bathtub",
+    "fuiName": "bathtub",
+    "className": "bathtub",
+    "unicode": "f2cd",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "battery-four",
+    "fuiName": "battery four",
+    "className": "battery.four",
+    "unicode": "f240",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "battery-high",
+    "fuiName": "battery high",
+    "className": "battery.high",
+    "unicode": "f241",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "battery-low",
+    "fuiName": "battery low",
+    "className": "battery.low",
+    "unicode": "f243",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "battery-medium",
+    "fuiName": "battery medium",
+    "className": "battery.medium",
+    "unicode": "f242",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "battery-one",
+    "fuiName": "battery one",
+    "className": "battery.one",
+    "unicode": "f243",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "battery-three",
+    "fuiName": "battery three",
+    "className": "battery.three",
+    "unicode": "f241",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "battery-two",
+    "fuiName": "battery two",
+    "className": "battery.two",
+    "unicode": "f242",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "battery-zero",
+    "fuiName": "battery zero",
+    "className": "battery.zero",
+    "unicode": "f244",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "birthday",
+    "fuiName": "birthday",
+    "className": "birthday",
+    "unicode": "f1fd",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "block-layout",
+    "fuiName": "block layout",
+    "className": "block.layout",
+    "unicode": "f009",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "bluetooth-alternative",
+    "fuiName": "bluetooth alternative",
+    "className": "bluetooth.alternative",
+    "unicode": "f294",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "broken-chain",
+    "fuiName": "broken chain",
+    "className": "broken.chain",
+    "unicode": "f127",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "browser",
+    "fuiName": "browser",
+    "className": "browser",
+    "unicode": "f022",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "call-square",
+    "fuiName": "call square",
+    "className": "call.square",
+    "unicode": "f098",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "call",
+    "fuiName": "call",
+    "className": "call",
+    "unicode": "f095",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "cancel",
+    "fuiName": "cancel",
+    "className": "cancel",
+    "unicode": "f00d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "cart",
+    "fuiName": "cart",
+    "className": "cart",
+    "unicode": "f07a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "vehicles"
+    ]
+  },
+  {
+    "faName": "cc",
+    "fuiName": "cc",
+    "className": "cc",
+    "unicode": "f20a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "audio-video"
+    ]
+  },
+  {
+    "faName": "chain",
+    "fuiName": "chain",
+    "className": "chain",
+    "unicode": "f0c1",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "chat",
+    "fuiName": "chat",
+    "className": "chat",
+    "unicode": "f075",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "shapes"
+    ]
+  },
+  {
+    "faName": "checked-calendar",
+    "fuiName": "checked calendar",
+    "className": "checked.calendar",
+    "unicode": "f274",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "checkmark",
+    "fuiName": "checkmark",
+    "className": "checkmark",
+    "unicode": "f00c",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "circle-notched",
+    "fuiName": "circle notched",
+    "className": "circle.notched",
+    "unicode": "f1ce",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "spinners"
+    ]
+  },
+  {
+    "faName": "close",
+    "fuiName": "close",
+    "className": "close",
+    "unicode": "f00d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "cny",
+    "fuiName": "cny",
+    "className": "cny",
+    "unicode": "f157",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "cocktail",
+    "fuiName": "cocktail",
+    "className": "cocktail",
+    "unicode": "f000",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "commenting",
+    "fuiName": "commenting",
+    "className": "commenting",
+    "unicode": "f27a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "communication"
+    ]
+  },
+  {
+    "faName": "computer",
+    "fuiName": "computer",
+    "className": "computer",
+    "unicode": "f108",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "computers"
+    ]
+  },
+  {
+    "faName": "configure",
+    "fuiName": "configure",
+    "className": "configure",
+    "unicode": "f0ad",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "content",
+    "fuiName": "content",
+    "className": "content",
+    "unicode": "f0c9",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "deafness",
+    "fuiName": "deafness",
+    "className": "deafness",
+    "unicode": "f2a4",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "accessibility"
+    ]
+  },
+  {
+    "faName": "delete-calendar",
+    "fuiName": "delete calendar",
+    "className": "delete.calendar",
+    "unicode": "f273",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "delete",
+    "fuiName": "delete",
+    "className": "delete",
+    "unicode": "f00d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "detective",
+    "fuiName": "detective",
+    "className": "detective",
+    "unicode": "f21b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "diners-club-card",
+    "fuiName": "diners club card",
+    "className": "diners.club.card",
+    "unicode": "f24c",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "diners-club",
+    "fuiName": "diners club",
+    "className": "diners.club",
+    "unicode": "f24c",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "discover-card",
+    "fuiName": "discover card",
+    "className": "discover.card",
+    "unicode": "f1f2",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "discover",
+    "fuiName": "discover",
+    "className": "discover",
+    "unicode": "f1f2",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "discussions",
+    "fuiName": "discussions",
+    "className": "discussions",
+    "unicode": "f086",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "communication"
+    ]
+  },
+  {
+    "faName": "doctor",
+    "fuiName": "doctor",
+    "className": "doctor",
+    "unicode": "f0f0",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "dollar",
+    "fuiName": "dollar",
+    "className": "dollar",
+    "unicode": "f155",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "dont",
+    "fuiName": "dont",
+    "className": "dont",
+    "unicode": "f05e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "dribble",
+    "fuiName": "dribble",
+    "className": "dribble",
+    "unicode": "f17d",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "drivers-license",
+    "fuiName": "drivers license",
+    "className": "drivers.license",
+    "unicode": "f2c2",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "dropdown",
+    "fuiName": "dropdown",
+    "className": "dropdown",
+    "unicode": "f0d7",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "eercast",
+    "fuiName": "eercast",
+    "className": "eercast",
+    "unicode": "f2da",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "emergency",
+    "fuiName": "emergency",
+    "className": "emergency",
+    "unicode": "f0f9",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "vehicles"
+    ]
+  },
+  {
+    "faName": "envira-gallery",
+    "fuiName": "envira gallery",
+    "className": "envira.gallery",
+    "unicode": "f299",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "erase",
+    "fuiName": "erase",
+    "className": "erase",
+    "unicode": "f12d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "eur",
+    "fuiName": "eur",
+    "className": "eur",
+    "unicode": "f153",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "euro",
+    "fuiName": "euro",
+    "className": "euro",
+    "unicode": "f153",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "eyedropper",
+    "fuiName": "eyedropper",
+    "className": "eyedropper",
+    "unicode": "f1fb",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "fa",
+    "fuiName": "fa",
+    "className": "fa",
+    "unicode": "f2b4",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "factory",
+    "fuiName": "factory",
+    "className": "factory",
+    "unicode": "f275",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "favorite",
+    "fuiName": "favorite",
+    "className": "favorite",
+    "unicode": "f005",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "shapes"
+    ]
+  },
+  {
+    "faName": "feed",
+    "fuiName": "feed",
+    "className": "feed",
+    "unicode": "f09e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "female-homosexual",
+    "fuiName": "female homosexual",
+    "className": "female.homosexual",
+    "unicode": "f226",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "file-text",
+    "fuiName": "file text",
+    "className": "file.text",
+    "unicode": "f15c",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "find",
+    "fuiName": "find",
+    "className": "find",
+    "unicode": "f1e5",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "first-aid",
+    "fuiName": "first aid",
+    "className": "first.aid",
+    "unicode": "f0fa",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "five-hundred-pixels",
+    "fuiName": "five hundred pixels",
+    "className": "five.hundred.pixels",
+    "unicode": "f26e",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "fork",
+    "fuiName": "fork",
+    "className": "fork",
+    "unicode": "f126",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "code"
+    ]
+  },
+  {
+    "faName": "game",
+    "fuiName": "game",
+    "className": "game",
+    "unicode": "f11b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "gay",
+    "fuiName": "gay",
+    "className": "gay",
+    "unicode": "f227",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "gbp",
+    "fuiName": "gbp",
+    "className": "gbp",
+    "unicode": "f154",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "gittip",
+    "fuiName": "gittip",
+    "className": "gittip",
+    "unicode": "f184",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "google-plus-circle",
+    "fuiName": "google plus circle",
+    "className": "google.plus.circle",
+    "unicode": "f2b3",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "google-plus-official",
+    "fuiName": "google plus official",
+    "className": "google.plus.official",
+    "unicode": "f2b3",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "grab",
+    "fuiName": "grab",
+    "className": "grab",
+    "unicode": "f255",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "hands"
+    ]
+  },
+  {
+    "faName": "graduation",
+    "fuiName": "graduation",
+    "className": "graduation",
+    "unicode": "f19d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "grid-layout",
+    "fuiName": "grid layout",
+    "className": "grid.layout",
+    "unicode": "f00a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "group",
+    "fuiName": "group",
+    "className": "group",
+    "unicode": "f0c0",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "h",
+    "fuiName": "h",
+    "className": "h",
+    "unicode": "f0fd",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "hand-victory",
+    "fuiName": "hand victory",
+    "className": "hand.victory",
+    "unicode": "f25b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "hands"
+    ]
+  },
+  {
+    "faName": "handicap",
+    "fuiName": "handicap",
+    "className": "handicap",
+    "unicode": "f193",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "vehicles"
+    ]
+  },
+  {
+    "faName": "hard-of-hearing",
+    "fuiName": "hard of hearing",
+    "className": "hard.of.hearing",
+    "unicode": "f2a4",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "accessibility"
+    ]
+  },
+  {
+    "faName": "header",
+    "fuiName": "header",
+    "className": "header",
+    "unicode": "f1dc",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "help-circle",
+    "fuiName": "help circle",
+    "className": "help.circle",
+    "unicode": "f059",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "help",
+    "fuiName": "help",
+    "className": "help",
+    "unicode": "f128",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "heterosexual",
+    "fuiName": "heterosexual",
+    "className": "heterosexual",
+    "unicode": "f228",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "hide",
+    "fuiName": "hide",
+    "className": "hide",
+    "unicode": "f070",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "hotel",
+    "fuiName": "hotel",
+    "className": "hotel",
+    "unicode": "f236",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "hourglass-four",
+    "fuiName": "hourglass four",
+    "className": "hourglass.four",
+    "unicode": "f254",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "hourglass-full",
+    "fuiName": "hourglass full",
+    "className": "hourglass.full",
+    "unicode": "f254",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "hourglass-one",
+    "fuiName": "hourglass one",
+    "className": "hourglass.one",
+    "unicode": "f251",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "date-time"
+    ]
+  },
+  {
+    "faName": "hourglass-three",
+    "fuiName": "hourglass three",
+    "className": "hourglass.three",
+    "unicode": "f253",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "date-time"
+    ]
+  },
+  {
+    "faName": "hourglass-two",
+    "fuiName": "hourglass two",
+    "className": "hourglass.two",
+    "unicode": "f252",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "date-time"
+    ]
+  },
+  {
+    "faName": "idea",
+    "fuiName": "idea",
+    "className": "idea",
+    "unicode": "f0eb",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "ils",
+    "fuiName": "ils",
+    "className": "ils",
+    "unicode": "f20b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "in-cart",
+    "fuiName": "in cart",
+    "className": "in.cart",
+    "unicode": "f218",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "inr",
+    "fuiName": "inr",
+    "className": "inr",
+    "unicode": "f156",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "intergender",
+    "fuiName": "intergender",
+    "className": "intergender",
+    "unicode": "f224",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "intersex",
+    "fuiName": "intersex",
+    "className": "intersex",
+    "unicode": "f224",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "japan-credit-bureau-card",
+    "fuiName": "japan credit bureau card",
+    "className": "japan.credit.bureau.card",
+    "unicode": "f24b",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "japan-credit-bureau",
+    "fuiName": "japan credit bureau",
+    "className": "japan.credit.bureau",
+    "unicode": "f24b",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "jcb",
+    "fuiName": "jcb",
+    "className": "jcb",
+    "unicode": "f24b",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "jpy",
+    "fuiName": "jpy",
+    "className": "jpy",
+    "unicode": "f157",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "krw",
+    "fuiName": "krw",
+    "className": "krw",
+    "unicode": "f159",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "lab",
+    "fuiName": "lab",
+    "className": "lab",
+    "unicode": "f0c3",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "law",
+    "fuiName": "law",
+    "className": "law",
+    "unicode": "f24e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "legal",
+    "fuiName": "legal",
+    "className": "legal",
+    "unicode": "f0e3",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "lesbian",
+    "fuiName": "lesbian",
+    "className": "lesbian",
+    "unicode": "f226",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "lightning",
+    "fuiName": "lightning",
+    "className": "lightning",
+    "unicode": "f0e7",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "images"
+    ]
+  },
+  {
+    "faName": "like",
+    "fuiName": "like",
+    "className": "like",
+    "unicode": "f004",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "shapes"
+    ]
+  },
+  {
+    "faName": "line-graph",
+    "fuiName": "line graph",
+    "className": "line.graph",
+    "unicode": "f201",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "business"
+    ]
+  },
+  {
+    "faName": "linkedin-square",
+    "fuiName": "linkedin square",
+    "className": "linkedin.square",
+    "unicode": "f08c",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "linkify",
+    "fuiName": "linkify",
+    "className": "linkify",
+    "unicode": "f0c1",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "lira",
+    "fuiName": "lira",
+    "className": "lira",
+    "unicode": "f195",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "list-layout",
+    "fuiName": "list layout",
+    "className": "list.layout",
+    "unicode": "f00b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "magnify",
+    "fuiName": "magnify",
+    "className": "magnify",
+    "unicode": "f00e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "mail-forward",
+    "fuiName": "mail forward",
+    "className": "mail.forward",
+    "unicode": "f064",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "mail-square",
+    "fuiName": "mail square",
+    "className": "mail.square",
+    "unicode": "f199",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "communication"
+    ]
+  },
+  {
+    "faName": "mail",
+    "fuiName": "mail",
+    "className": "mail",
+    "unicode": "f0e0",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "male-homosexual",
+    "fuiName": "male homosexual",
+    "className": "male.homosexual",
+    "unicode": "f227",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "man",
+    "fuiName": "man",
+    "className": "man",
+    "unicode": "f222",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "marker",
+    "fuiName": "marker",
+    "className": "marker",
+    "unicode": "f041",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "shapes"
+    ]
+  },
+  {
+    "faName": "mars-alternate",
+    "fuiName": "mars alternate",
+    "className": "mars.alternate",
+    "unicode": "f229",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "mars-horizontal",
+    "fuiName": "mars horizontal",
+    "className": "mars.horizontal",
+    "unicode": "f22b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "mars-vertical",
+    "fuiName": "mars vertical",
+    "className": "mars.vertical",
+    "unicode": "f22a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "mastercard-card",
+    "fuiName": "mastercard card",
+    "className": "mastercard.card",
+    "unicode": "f1f1",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "mastercard",
+    "fuiName": "mastercard",
+    "className": "mastercard",
+    "unicode": "f1f1",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "microsoft-edge",
+    "fuiName": "microsoft edge",
+    "className": "microsoft.edge",
+    "unicode": "f282",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "military",
+    "fuiName": "military",
+    "className": "military",
+    "unicode": "f0fb",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "vehicles"
+    ]
+  },
+  {
+    "faName": "ms-edge",
+    "fuiName": "ms edge",
+    "className": "ms.edge",
+    "unicode": "f282",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "mute",
+    "fuiName": "mute",
+    "className": "mute",
+    "unicode": "f131",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "new-pied-piper",
+    "fuiName": "new pied piper",
+    "className": "new.pied.piper",
+    "unicode": "f2ae",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "non-binary-transgender",
+    "fuiName": "non binary transgender",
+    "className": "non.binary.transgender",
+    "unicode": "f223",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "numbered-list",
+    "fuiName": "numbered list",
+    "className": "numbered.list",
+    "unicode": "f0cb",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "optinmonster",
+    "fuiName": "optinmonster",
+    "className": "optinmonster",
+    "unicode": "f23c",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "options",
+    "fuiName": "options",
+    "className": "options",
+    "unicode": "f1de",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "other-gender-horizontal",
+    "fuiName": "other gender horizontal",
+    "className": "other.gender.horizontal",
+    "unicode": "f22b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "other-gender-vertical",
+    "fuiName": "other gender vertical",
+    "className": "other.gender.vertical",
+    "unicode": "f22a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "other-gender",
+    "fuiName": "other gender",
+    "className": "other.gender",
+    "unicode": "f229",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "payment",
+    "fuiName": "payment",
+    "className": "payment",
+    "unicode": "f09d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "payments-shopping"
+    ]
+  },
+  {
+    "faName": "paypal-card",
+    "fuiName": "paypal card",
+    "className": "paypal.card",
+    "unicode": "f1f4",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "pencil-square",
+    "fuiName": "pencil square",
+    "className": "pencil.square",
+    "unicode": "f14b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "photo",
+    "fuiName": "photo",
+    "className": "photo",
+    "unicode": "f030",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "payments-shopping"
+    ]
+  },
+  {
+    "faName": "picture",
+    "fuiName": "picture",
+    "className": "picture",
+    "unicode": "f03e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "pie-chart",
+    "fuiName": "pie chart",
+    "className": "pie.chart",
+    "unicode": "f200",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "business"
+    ]
+  },
+  {
+    "faName": "pie-graph",
+    "fuiName": "pie graph",
+    "className": "pie.graph",
+    "unicode": "f200",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "business"
+    ]
+  },
+  {
+    "faName": "pied-piper-hat",
+    "fuiName": "pied piper hat",
+    "className": "pied.piper.hat",
+    "unicode": "f2ae",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "pin",
+    "fuiName": "pin",
+    "className": "pin",
+    "unicode": "f08d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "plus-cart",
+    "fuiName": "plus cart",
+    "className": "plus.cart",
+    "unicode": "f217",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "pocket",
+    "fuiName": "pocket",
+    "className": "pocket",
+    "unicode": "f265",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "point",
+    "fuiName": "point",
+    "className": "point",
+    "unicode": "f041",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "shapes"
+    ]
+  },
+  {
+    "faName": "pointing-down",
+    "fuiName": "pointing down",
+    "className": "pointing.down",
+    "unicode": "f0a7",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "hands"
+    ]
+  },
+  {
+    "faName": "pointing-left",
+    "fuiName": "pointing left",
+    "className": "pointing.left",
+    "unicode": "f0a5",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "hands"
+    ]
+  },
+  {
+    "faName": "pointing-right",
+    "fuiName": "pointing right",
+    "className": "pointing.right",
+    "unicode": "f0a4",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "hands"
+    ]
+  },
+  {
+    "faName": "pointing-up",
+    "fuiName": "pointing up",
+    "className": "pointing.up",
+    "unicode": "f0a6",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "hands"
+    ]
+  },
+  {
+    "faName": "pound",
+    "fuiName": "pound",
+    "className": "pound",
+    "unicode": "f154",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "power-cord",
+    "fuiName": "power cord",
+    "className": "power.cord",
+    "unicode": "f1e6",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "power",
+    "fuiName": "power",
+    "className": "power",
+    "unicode": "f011",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "privacy",
+    "fuiName": "privacy",
+    "className": "privacy",
+    "unicode": "f084",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "payments-shopping"
+    ]
+  },
+  {
+    "faName": "r-circle",
+    "fuiName": "r circle",
+    "className": "r.circle",
+    "unicode": "f25d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "business"
+    ]
+  },
+  {
+    "faName": "rain",
+    "fuiName": "rain",
+    "className": "rain",
+    "unicode": "f0e9",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "record",
+    "fuiName": "record",
+    "className": "record",
+    "unicode": "f03d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "audio-video"
+    ]
+  },
+  {
+    "faName": "refresh",
+    "fuiName": "refresh",
+    "className": "refresh",
+    "unicode": "f021",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "spinners"
+    ]
+  },
+  {
+    "faName": "remove-circle",
+    "fuiName": "remove circle",
+    "className": "remove.circle",
+    "unicode": "f057",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "remove-from-calendar",
+    "fuiName": "remove from calendar",
+    "className": "remove.from.calendar",
+    "unicode": "f272",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "remove-user",
+    "fuiName": "remove user",
+    "className": "remove.user",
+    "unicode": "f235",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "remove",
+    "fuiName": "remove",
+    "className": "remove",
+    "unicode": "f00d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "repeat",
+    "fuiName": "repeat",
+    "className": "repeat",
+    "unicode": "f01e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "rmb",
+    "fuiName": "rmb",
+    "className": "rmb",
+    "unicode": "f157",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "rouble",
+    "fuiName": "rouble",
+    "className": "rouble",
+    "unicode": "f158",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "rub",
+    "fuiName": "rub",
+    "className": "rub",
+    "unicode": "f158",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "ruble",
+    "fuiName": "ruble",
+    "className": "ruble",
+    "unicode": "f158",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "rupee",
+    "fuiName": "rupee",
+    "className": "rupee",
+    "unicode": "f156",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "s15",
+    "fuiName": "s15",
+    "className": "s15",
+    "unicode": "f2cd",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "selected-radio",
+    "fuiName": "selected radio",
+    "className": "selected.radio",
+    "unicode": "f192",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "send",
+    "fuiName": "send",
+    "className": "send",
+    "unicode": "f1d8",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "setting",
+    "fuiName": "setting",
+    "className": "setting",
+    "unicode": "f013",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "spinners"
+    ]
+  },
+  {
+    "faName": "settings",
+    "fuiName": "settings",
+    "className": "settings",
+    "unicode": "f085",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "shekel",
+    "fuiName": "shekel",
+    "className": "shekel",
+    "unicode": "f20b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "sheqel",
+    "fuiName": "sheqel",
+    "className": "sheqel",
+    "unicode": "f20b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "shipping",
+    "fuiName": "shipping",
+    "className": "shipping",
+    "unicode": "f0d1",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "vehicles"
+    ]
+  },
+  {
+    "faName": "shop",
+    "fuiName": "shop",
+    "className": "shop",
+    "unicode": "f07a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "vehicles"
+    ]
+  },
+  {
+    "faName": "shuffle",
+    "fuiName": "shuffle",
+    "className": "shuffle",
+    "unicode": "f074",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "audio-video"
+    ]
+  },
+  {
+    "faName": "shutdown",
+    "fuiName": "shutdown",
+    "className": "shutdown",
+    "unicode": "f011",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "sidebar",
+    "fuiName": "sidebar",
+    "className": "sidebar",
+    "unicode": "f0c9",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "signing",
+    "fuiName": "signing",
+    "className": "signing",
+    "unicode": "f2a7",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "accessibility"
+    ]
+  },
+  {
+    "faName": "signup",
+    "fuiName": "signup",
+    "className": "signup",
+    "unicode": "f044",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "sliders",
+    "fuiName": "sliders",
+    "className": "sliders",
+    "unicode": "f1de",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "soccer",
+    "fuiName": "soccer",
+    "className": "soccer",
+    "unicode": "f1e3",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "sports"
+    ]
+  },
+  {
+    "faName": "sort-alphabet-ascending",
+    "fuiName": "sort alphabet ascending",
+    "className": "sort.alphabet.ascending",
+    "unicode": "f15d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "sort-alphabet-descending",
+    "fuiName": "sort alphabet descending",
+    "className": "sort.alphabet.descending",
+    "unicode": "f15e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "sort-ascending",
+    "fuiName": "sort ascending",
+    "className": "sort.ascending",
+    "unicode": "f0de",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "sort-content-ascending",
+    "fuiName": "sort content ascending",
+    "className": "sort.content.ascending",
+    "unicode": "f160",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "sort-content-descending",
+    "fuiName": "sort content descending",
+    "className": "sort.content.descending",
+    "unicode": "f161",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "sort-descending",
+    "fuiName": "sort descending",
+    "className": "sort.descending",
+    "unicode": "f0dd",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "sort-numeric-ascending",
+    "fuiName": "sort numeric ascending",
+    "className": "sort.numeric.ascending",
+    "unicode": "f162",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "sort-numeric-descending",
+    "fuiName": "sort numeric descending",
+    "className": "sort.numeric.descending",
+    "unicode": "f163",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "sound",
+    "fuiName": "sound",
+    "className": "sound",
+    "unicode": "f025",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "spy",
+    "fuiName": "spy",
+    "className": "spy",
+    "unicode": "f21b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "stripe-card",
+    "fuiName": "stripe card",
+    "className": "stripe.card",
+    "unicode": "f1f5",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "student",
+    "fuiName": "student",
+    "className": "student",
+    "unicode": "f19d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "talk",
+    "fuiName": "talk",
+    "className": "talk",
+    "unicode": "f27a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "communication"
+    ]
+  },
+  {
+    "faName": "target",
+    "fuiName": "target",
+    "className": "target",
+    "unicode": "f140",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "teletype",
+    "fuiName": "teletype",
+    "className": "teletype",
+    "unicode": "f1e4",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "television",
+    "fuiName": "television",
+    "className": "television",
+    "unicode": "f26c",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "text-cursor",
+    "fuiName": "text cursor",
+    "className": "text.cursor",
+    "unicode": "f246",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "text-telephone",
+    "fuiName": "text telephone",
+    "className": "text.telephone",
+    "unicode": "f1e4",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "theme-isle",
+    "fuiName": "theme isle",
+    "className": "theme.isle",
+    "unicode": "f2b2",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "theme",
+    "fuiName": "theme",
+    "className": "theme",
+    "unicode": "f043",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "thermometer",
+    "fuiName": "thermometer",
+    "className": "thermometer",
+    "unicode": "f2c7",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "thumb-tack",
+    "fuiName": "thumb tack",
+    "className": "thumb.tack",
+    "unicode": "f08d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "time",
+    "fuiName": "time",
+    "className": "time",
+    "unicode": "f017",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "date-time"
+    ]
+  },
+  {
+    "faName": "tm",
+    "fuiName": "tm",
+    "className": "tm",
+    "unicode": "f25c",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "business"
+    ]
+  },
+  {
+    "faName": "toggle-down",
+    "fuiName": "toggle down",
+    "className": "toggle.down",
+    "unicode": "f150",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "toggle-left",
+    "fuiName": "toggle left",
+    "className": "toggle.left",
+    "unicode": "f191",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "toggle-right",
+    "fuiName": "toggle right",
+    "className": "toggle.right",
+    "unicode": "f152",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "toggle-up",
+    "fuiName": "toggle up",
+    "className": "toggle.up",
+    "unicode": "f151",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "translate",
+    "fuiName": "translate",
+    "className": "translate",
+    "unicode": "f1ab",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "travel",
+    "fuiName": "travel",
+    "className": "travel",
+    "unicode": "f0b1",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "treatment",
+    "fuiName": "treatment",
+    "className": "treatment",
+    "unicode": "f0f1",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "health"
+    ]
+  },
+  {
+    "faName": "triangle-down",
+    "fuiName": "triangle down",
+    "className": "triangle.down",
+    "unicode": "f0d7",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "triangle-left",
+    "fuiName": "triangle left",
+    "className": "triangle.left",
+    "unicode": "f0d9",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "triangle-right",
+    "fuiName": "triangle right",
+    "className": "triangle.right",
+    "unicode": "f0da",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "triangle-up",
+    "fuiName": "triangle up",
+    "className": "triangle.up",
+    "unicode": "f0d8",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "try",
+    "fuiName": "try",
+    "className": "try",
+    "unicode": "f195",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "unhide",
+    "fuiName": "unhide",
+    "className": "unhide",
+    "unicode": "f06e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "unlinkify",
+    "fuiName": "unlinkify",
+    "className": "unlinkify",
+    "unicode": "f127",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "editors"
+    ]
+  },
+  {
+    "faName": "unmute",
+    "fuiName": "unmute",
+    "className": "unmute",
+    "unicode": "f130",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "usd",
+    "fuiName": "usd",
+    "className": "usd",
+    "unicode": "f155",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "user-cancel",
+    "fuiName": "user cancel",
+    "className": "user.cancel",
+    "unicode": "f235",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "user-close",
+    "fuiName": "user close",
+    "className": "user.close",
+    "unicode": "f235",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "user-delete",
+    "fuiName": "user delete",
+    "className": "user.delete",
+    "unicode": "f235",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "user-x",
+    "fuiName": "user x",
+    "className": "user.x",
+    "unicode": "f235",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "vcard",
+    "fuiName": "vcard",
+    "className": "vcard",
+    "unicode": "f2bb",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "users-people"
+    ]
+  },
+  {
+    "faName": "video-camera",
+    "fuiName": "video camera",
+    "className": "video.camera",
+    "unicode": "f03d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "audio-video"
+    ]
+  },
+  {
+    "faName": "video-play",
+    "fuiName": "video play",
+    "className": "video.play",
+    "unicode": "f144",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "audio-video"
+    ]
+  },
+  {
+    "faName": "visa-card",
+    "fuiName": "visa card",
+    "className": "visa.card",
+    "unicode": "f1f0",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "visa",
+    "fuiName": "visa",
+    "className": "visa",
+    "unicode": "f1f0",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "volume-control-phone",
+    "fuiName": "volume control phone",
+    "className": "volume.control.phone",
+    "unicode": "f2a0",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "wait",
+    "fuiName": "wait",
+    "className": "wait",
+    "unicode": "f017",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "date-time"
+    ]
+  },
+  {
+    "faName": "warning-circle",
+    "fuiName": "warning circle",
+    "className": "warning.circle",
+    "unicode": "f06a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "warning-sign",
+    "fuiName": "warning sign",
+    "className": "warning.sign",
+    "unicode": "f071",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "warning",
+    "fuiName": "warning",
+    "className": "warning",
+    "unicode": "f12a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "wechat",
+    "fuiName": "wechat",
+    "className": "wechat",
+    "unicode": "f1d7",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "wi-fi",
+    "fuiName": "wi fi",
+    "className": "wi.fi",
+    "unicode": "f1eb",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "wikipedia",
+    "fuiName": "wikipedia",
+    "className": "wikipedia",
+    "unicode": "f266",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "winner",
+    "fuiName": "winner",
+    "className": "winner",
+    "unicode": "f091",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "payments-shopping"
+    ]
+  },
+  {
+    "faName": "wizard",
+    "fuiName": "wizard",
+    "className": "wizard",
+    "unicode": "f0d0",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "woman",
+    "fuiName": "woman",
+    "className": "woman",
+    "unicode": "f221",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "gender"
+    ]
+  },
+  {
+    "faName": "won",
+    "fuiName": "won",
+    "className": "won",
+    "unicode": "f159",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "wordpress-beginner",
+    "fuiName": "wordpress beginner",
+    "className": "wordpress.beginner",
+    "unicode": "f297",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "wordpress-forms",
+    "fuiName": "wordpress forms",
+    "className": "wordpress.forms",
+    "unicode": "f298",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "world",
+    "fuiName": "world",
+    "className": "world",
+    "unicode": "f0ac",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "write-square",
+    "fuiName": "write square",
+    "className": "write.square",
+    "unicode": "f14b",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "x",
+    "fuiName": "x",
+    "className": "x",
+    "unicode": "f00d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "yc",
+    "fuiName": "yc",
+    "className": "yc",
+    "unicode": "f23b",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "ycombinator",
+    "fuiName": "ycombinator",
+    "className": "ycombinator",
+    "unicode": "f23b",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "yen",
+    "fuiName": "yen",
+    "className": "yen",
+    "unicode": "f157",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "currency"
+    ]
+  },
+  {
+    "faName": "zip",
+    "fuiName": "zip",
+    "className": "zip",
+    "unicode": "f187",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "zoom-in",
+    "fuiName": "zoom in",
+    "className": "zoom.in",
+    "unicode": "f00e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "zoom-out",
+    "fuiName": "zoom out",
+    "className": "zoom.out",
+    "unicode": "f010",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "zoom",
+    "fuiName": "zoom",
+    "className": "zoom",
+    "unicode": "f00e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "maps"
+    ]
+  },
+  {
+    "faName": "bitbucket-square",
+    "fuiName": "bitbucket square",
+    "className": "bitbucket.square",
+    "unicode": "f171",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "checkmark-box",
+    "fuiName": "checkmark box",
+    "className": "checkmark.box",
+    "unicode": "f14a",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "circle-thin",
+    "fuiName": "circle thin",
+    "className": "circle.thin",
+    "unicode": "f111",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "shapes"
+    ]
+  },
+  {
+    "faName": "cloud-download",
+    "fuiName": "cloud download",
+    "className": "cloud.download",
+    "unicode": "f381",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "cloud-upload",
+    "fuiName": "cloud upload",
+    "className": "cloud.upload",
+    "unicode": "f382",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "compose",
+    "fuiName": "compose",
+    "className": "compose",
+    "unicode": "f303",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "conversation",
+    "fuiName": "conversation",
+    "className": "conversation",
+    "unicode": "f086",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "communication"
+    ]
+  },
+  {
+    "faName": "credit-card-alternative",
+    "fuiName": "credit card alternative",
+    "className": "credit.card.alternative",
+    "unicode": "f09d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "payments-shopping"
+    ]
+  },
+  {
+    "faName": "currency",
+    "fuiName": "currency",
+    "className": "currency",
+    "unicode": "f3d1",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "dashboard",
+    "fuiName": "dashboard",
+    "className": "dashboard",
+    "unicode": "f3fd",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "diamond",
+    "fuiName": "diamond",
+    "className": "diamond",
+    "unicode": "f3a5",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "payments-shopping"
+    ]
+  },
+  {
+    "faName": "disk-outline",
+    "fuiName": "disk outline",
+    "className": "disk.outline",
+    "unicode": "f369",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "disk",
+    "fuiName": "disk",
+    "className": "disk",
+    "unicode": "f0a0",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "exchange",
+    "fuiName": "exchange",
+    "className": "exchange",
+    "unicode": "f362",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "external-share",
+    "fuiName": "external share",
+    "className": "external.share",
+    "unicode": "f14d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "external-square",
+    "fuiName": "external square",
+    "className": "external.square",
+    "unicode": "f360",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "external",
+    "fuiName": "external",
+    "className": "external",
+    "unicode": "f35d",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "facebook-official",
+    "fuiName": "facebook official",
+    "className": "facebook.official",
+    "unicode": "f082",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  },
+  {
+    "faName": "food",
+    "fuiName": "food",
+    "className": "food",
+    "unicode": "f2e7",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "heart-empty",
+    "fuiName": "heart empty",
+    "className": "heart.empty",
+    "unicode": "f004",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "shapes"
+    ]
+  },
+  {
+    "faName": "hourglass-zero",
+    "fuiName": "hourglass zero",
+    "className": "hourglass.zero",
+    "unicode": "f253",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "date-time"
+    ]
+  },
+  {
+    "faName": "level-down",
+    "fuiName": "level down",
+    "className": "level.down",
+    "unicode": "f3be",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "level-up",
+    "fuiName": "level up",
+    "className": "level.up",
+    "unicode": "f3bf",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "log-out",
+    "fuiName": "log out",
+    "className": "log.out",
+    "unicode": "f2f5",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "meanpath",
+    "fuiName": "meanpath",
+    "className": "meanpath",
+    "unicode": "f0c8",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "shapes"
+    ]
+  },
+  {
+    "faName": "money",
+    "fuiName": "money",
+    "className": "money",
+    "unicode": "f3d1",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "move",
+    "fuiName": "move",
+    "className": "move",
+    "unicode": "f0b2",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "pencil",
+    "fuiName": "pencil",
+    "className": "pencil",
+    "unicode": "f303",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "protect",
+    "fuiName": "protect",
+    "className": "protect",
+    "unicode": "f023",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "radio",
+    "fuiName": "radio",
+    "className": "radio",
+    "unicode": "f192",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "remove-bookmark",
+    "fuiName": "remove bookmark",
+    "className": "remove.bookmark",
+    "unicode": "f02e",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "resize-horizontal",
+    "fuiName": "resize horizontal",
+    "className": "resize.horizontal",
+    "unicode": "f337",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "resize-vertical",
+    "fuiName": "resize vertical",
+    "className": "resize.vertical",
+    "unicode": "f338",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "arrows"
+    ]
+  },
+  {
+    "faName": "sign-in",
+    "fuiName": "sign in",
+    "className": "sign.in",
+    "unicode": "f2f6",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "sign-out",
+    "fuiName": "sign out",
+    "className": "sign.out",
+    "unicode": "f2f5",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "status"
+    ]
+  },
+  {
+    "faName": "spoon",
+    "fuiName": "spoon",
+    "className": "spoon",
+    "unicode": "f2e5",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "star-empty",
+    "fuiName": "star empty",
+    "className": "star.empty",
+    "unicode": "f089",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "star-half-empty",
+    "fuiName": "star half empty",
+    "className": "star.half.empty",
+    "unicode": "f089",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "star-half-full",
+    "fuiName": "star half full",
+    "className": "star.half.full",
+    "unicode": "f089",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
+  },
+  {
+    "faName": "ticket",
+    "fuiName": "ticket",
+    "className": "ticket",
+    "unicode": "f3ff",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "objects"
+    ]
+  },
+  {
+    "faName": "times-rectangle",
+    "fuiName": "times rectangle",
+    "className": "times.rectangle",
+    "unicode": "f410",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "code"
+    ]
+  },
+  {
+    "faName": "write",
+    "fuiName": "write",
+    "className": "write",
+    "unicode": "f303",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "writing"
+    ]
+  },
+  {
+    "faName": "youtube-play",
+    "fuiName": "youtube play",
+    "className": "youtube.play",
+    "unicode": "f167",
+    "solid": false,
+    "outline": false,
+    "brand": true,
+    "categories": [
+      "brands"
+    ]
+  }
+]
