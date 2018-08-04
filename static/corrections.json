@@ -54,6 +54,10 @@
     "className": "android-tablet.alternate"
   },
   "mobile-android": {
+    "fuiName": "android-mobile",
+    "className": "android-mobile"
+  },
+  "mobile-android-alt": {
     "fuiName": "android-mobile alternate",
     "className": "android-mobile.alternate"
   }
