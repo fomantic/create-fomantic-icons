@@ -1,4 +1,4 @@
-# [Fomantic-UI](https://github.com/hammy2899/Fomantic-UI) Icon Generation Script
+# [Fomantic-UI](https://github.com/fomantic/Fomantic-UI) Icon Generation Script
 
 Generate the `icons.overrides` and `icon.html.eco` files for Fomantic-UI and Semantic-UI.
 
@@ -9,7 +9,7 @@ You can use this script to generate the icons for free and pro versions of [Font
 
 First clone the repository and install the npm dependencies.
 ```console
-$ git clone git@github.com:hammy2899/fomantic-ui-icon-script.git
+$ git clone git@github.com:fomantic/icon-script.git
 $ cd fomantic-ui-icon-script
 $ npm install 
 ```
