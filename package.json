@@ -1,5 +1,5 @@
 {
-  "name": "fomantic-ui-icon-script",
+  "name": "icon-script",
   "version": "0.1.0",
   "description": "Script to generate icon.overrides and icon.html.eco files for FUI",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hammy2899/fomantic-ui-icon-script.git"
+    "url": "git+ssh://git@github.com/fomantic/fomantic-ui-icon-script.git"
   },
   "keywords": [
     "fomantic-ui",
@@ -17,9 +17,9 @@
   "author": "hammy2899",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hammy2899/fomantic-ui-icon-script/issues"
+    "url": "https://github.com/fomantic/fomantic-ui-icon-script/issues"
   },
-  "homepage": "https://github.com/hammy2899/fomantic-ui-icon-script#readme",
+  "homepage": "https://github.com/fomantic/fomantic-ui-icon-script#readme",
   "dependencies": {
     "@hamistudios/crather": "^2.0.2",
     "@hamistudios/footstep": "^2.2.1",
