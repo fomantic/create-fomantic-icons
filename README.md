@@ -10,7 +10,7 @@ You can use this script to generate the icons for free and pro versions of [Font
 First clone the repository and install the npm dependencies.
 ```console
 $ git clone git@github.com:fomantic/icon-script.git
-$ cd fomantic-ui-icon-script
+$ cd icon-script
 $ npm install 
 ```
 
