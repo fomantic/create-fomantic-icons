@@ -60,5 +60,9 @@
   "mobile-android-alt": {
     "fuiName": "android-mobile alternate",
     "className": "android-mobile.alternate"
+  },
+  "the-red-yeti": {
+    "fuiName": "red yeti",
+    "className": "redyeti"
   }
 }
