@@ -1,6 +1,6 @@
 {
   "name": "icon-script",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "description": "Script to generate icon.overrides and icon.html.eco files for FUI",
   "main": "index.js",
   "scripts": {
