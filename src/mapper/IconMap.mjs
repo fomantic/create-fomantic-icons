@@ -11,6 +11,11 @@ function map(iconMetadata, categoryData) {
   
   iconKeys.forEach((faName) => {
     let icon = iconMetadata[faName];
+	
+	if (icon['private'] !== undefined && icon['private'] === true) {
+	  return;
+	}
+	
     let isSolid = icon['styles'].includes('solid');
     let isOutline = icon['styles'].includes('regular');
     let isBrand = icon['styles'].includes('brands');
