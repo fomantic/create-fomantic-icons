@@ -64,5 +64,9 @@
   "the-red-yeti": {
     "fuiName": "redyeti",
     "className": "redyeti"
+  },
+  "th-large": {
+    "fuiName": "th larger",
+    "className": "th.larger"
   }
 }
