@@ -107,6 +107,8 @@ fs.readdir('./', (err, files) => {
             rename(file, 'outline-icons');
           } else if (file.startsWith('fa-solid')) { // solid
             rename(file, 'icons');
+          } else if (file.startsWith('fa-light')) { // light
+            rename(file, 'thin-icons');
           }
         });
         
@@ -139,6 +141,7 @@ fs.readdir('./', (err, files) => {
           icon.solid,
           icon.outline,
           icon.brand,
+          icon.thin,
           icon.categories,
         );
       });
@@ -150,6 +153,8 @@ fs.readdir('./', (err, files) => {
         outlineAliases: [],
         brandsDefinitions: [],
         brandAliases: [],
+        thinDefinitions: [],
+        thinAliases: [],
       };
       
       icons.forEach((icon) => {
@@ -164,6 +169,10 @@ fs.readdir('./', (err, files) => {
         if (icon.isBrand()) {
           lists.brandsDefinitions.push(icon);
         }
+
+        if (icon.isThin()) {
+          lists.thinDefinitions.push(icon);
+        }
       });
       
       aliases.forEach((icon) => {
@@ -177,6 +186,10 @@ fs.readdir('./', (err, files) => {
         
         if (icon.isBrand()) {
           lists.brandAliases.push(icon);
+        }
+
+        if (icon.isThin()) {
+          lists.thinAliases.push(icon);
         }
       });
   
@@ -193,6 +206,7 @@ fs.readdir('./', (err, files) => {
         .info(`  Solid:   ${addTotal(lists.solidDefinitions.length + lists.solidAliases.length)}`)
         .info(`  Outline: ${addTotal(lists.outlineDefinitions.length + lists.outlineAliases.length)}`)
         .info(`  Brands:  ${addTotal(lists.brandsDefinitions.length + lists.brandAliases.length)}`)
+        .info(`  Thin:    ${addTotal(lists.thinDefinitions.length + lists.thinAliases.length)}`)
         .info(`           ${totalIcons}`)
       ;
       
@@ -234,6 +248,22 @@ fs.readdir('./', (err, files) => {
             }).join('\n  '),
           },
         },
+        thin: {
+          font: lists.thinDefinitions.map((icon) => {
+            return `i.icon.${icon.getClassName()}`;
+          }).join(',\n  '),
+          definitions: lists.thinDefinitions.map((icon) => {
+            return `i.icon.${icon.getClassName()}:before { content: "\\${icon.getUnicode()}"; }`;
+          }).join('\n  '),
+          aliases: {
+            font: lists.thinAliases.map((icon) => {
+              return `i.icon.${icon.getClassName()}`;
+            }).join(',\n  '),
+            definitions: lists.thinAliases.map((icon) => {
+              return `i.icon.${icon.getClassName()}:before { content: "\\${icon.getUnicode()}"; }`;
+            }).join('\n  '),
+          },
+        },
       };
       
       createDistFile(
@@ -256,6 +286,14 @@ fs.readdir('./', (err, files) => {
               font: css.brand.aliases.font,
               definitions: css.brand.aliases.definitions,
             }
+          },
+          thin: {
+            font: css.thin.font,
+            definitions: css.thin.definitions,
+            aliases: {
+              font: css.thin.aliases.font,
+              definitions: css.thin.aliases.definitions,
+            },
           },
           version: version,
         },

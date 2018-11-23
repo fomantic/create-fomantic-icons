@@ -14,6 +14,7 @@ class Icon {
    * @param {boolean} isSolid Whether the icon is a solid icon
    * @param {boolean} isOutline Whether the icon is an outline icon
    * @param {boolean} isBrand Whether the icon is a brand icon
+   * @param {boolean} isThin Whether the icon is an thin icon
    * @param {string[]} categories The icon categories
    *
    * @returns {Icon}
@@ -26,6 +27,7 @@ class Icon {
     isSolid,
     isOutline,
     isBrand,
+    isThin,
     categories
   ) {
     this.faName = faName;
@@ -35,6 +37,7 @@ class Icon {
     this.solid = isSolid;
     this.outline = isOutline;
     this.brand = isBrand;
+    this.thin = isThin;
     this.categories = categories;
   }
   
@@ -99,6 +102,15 @@ class Icon {
    */
   isBrand() {
     return this.brand === true;
+  }
+  
+   /**
+   * Check whether the icon is an thin icon
+   *
+   * @return {boolean}
+   */
+  isThin() {
+    return this.thin === true;
   }
   
   /**

@@ -108,3 +108,34 @@ i.icon.sign.out:before { content: "\f2f5"; }
 
 }
 .loadBrandIcons();
+
+/*******************************
+         Light Icons
+*******************************/
+
+/* Light Icon */
+.loadLightIcons() when (@importLightIcons) {
+
+  /* Load & Define Icon Font */
+  @font-face {
+    font-family: @lightFontName;
+    src: @lightallbackSRC;
+    src: @lightSrc;
+    font-style: normal;
+    font-weight: @normal;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+  }
+
+  i.icon.thin {
+    font-family: @lightFontName;
+  }
+
+  /* Icon Definitions */
+  {{ thin.definitions }}
+
+  {{; thinAliases }}
+
+}
+.loadLightIcons();

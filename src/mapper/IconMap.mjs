@@ -19,6 +19,7 @@ function map(iconMetadata, categoryData) {
     let isSolid = icon['styles'].includes('solid');
     let isOutline = icon['styles'].includes('regular');
     let isBrand = icon['styles'].includes('brands');
+    let isThin = icon['styles'].includes('light');
     let categories = Find.categories(faName, categoryData);
     let iconInfo = {
       faName: faName,
@@ -42,6 +43,7 @@ function map(iconMetadata, categoryData) {
         true,  // solid
         false, // outline
         false, // brand
+        false, // thin
         iconInfo.categories
       ));
     }
@@ -55,6 +57,7 @@ function map(iconMetadata, categoryData) {
         false, // solid
         true,  // outline
         false, // brand
+        false, // thin
         iconInfo.categories
       ));
     }
@@ -68,10 +71,24 @@ function map(iconMetadata, categoryData) {
         false, // solid
         false, // outline
         true,  // brand
+        false, // thin
         [...categories, 'brands']
       ));
     }
-    
+
+    if (isThin) {
+      icons.push(new Icon(
+        iconInfo.faName,
+        `${iconInfo.fuiName} thin`,
+        `${iconInfo.className}.thin`,
+        iconInfo.unicode,
+        false, // solid
+        false,  // outline
+        false, // brand
+        true, // thin
+        iconInfo.categories
+      ));
+    }
   });
   
   // sort icon names A-Z

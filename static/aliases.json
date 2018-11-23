@@ -7,6 +7,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "chess"
     ]
@@ -19,6 +20,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -31,6 +33,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -43,6 +46,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -55,6 +59,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "status"
     ]
@@ -67,6 +72,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -79,6 +85,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -91,6 +98,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -103,6 +111,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -115,6 +124,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -127,6 +137,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -139,6 +150,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -151,6 +163,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -163,6 +176,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -175,6 +189,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -187,6 +202,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -199,6 +215,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -211,6 +228,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -223,6 +241,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -235,6 +254,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -247,6 +267,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -259,6 +280,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -271,6 +293,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -283,6 +306,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "communication"
     ]
@@ -295,6 +319,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "communication"
     ]
@@ -307,6 +332,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -319,6 +345,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -331,6 +358,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -343,6 +371,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "payments-shopping"
     ]
@@ -355,6 +384,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "business"
     ]
@@ -367,6 +397,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "business"
     ]
@@ -379,6 +410,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -391,6 +423,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -403,6 +436,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "communication"
     ]
@@ -415,6 +449,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "communication"
     ]
@@ -427,6 +462,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "communication"
     ]
@@ -439,6 +475,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -451,6 +488,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -463,6 +501,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -475,6 +514,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -487,6 +527,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -499,6 +540,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -511,6 +553,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -523,6 +566,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -535,6 +579,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -547,6 +592,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -559,6 +605,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -571,6 +618,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -583,6 +631,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -595,6 +644,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -607,6 +657,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -619,6 +670,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -631,6 +683,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -643,6 +696,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "editors"
     ]
@@ -655,6 +709,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -667,6 +722,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -679,6 +735,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -691,6 +748,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "vehicles"
     ]
@@ -703,6 +761,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "audio-video"
     ]
@@ -715,6 +774,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -727,6 +787,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "shapes"
     ]
@@ -739,6 +800,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -751,6 +813,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -763,6 +826,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "spinners"
     ]
@@ -775,6 +839,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -787,6 +852,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -799,6 +865,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "objects"
     ]
@@ -811,6 +878,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "communication"
     ]
@@ -823,6 +891,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "computers"
     ]
@@ -835,6 +904,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -847,6 +917,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -859,6 +930,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "accessibility"
     ]
@@ -871,6 +943,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -883,6 +956,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -895,6 +969,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -907,6 +982,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -919,6 +995,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -931,6 +1008,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -943,6 +1021,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -955,6 +1034,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "communication"
     ]
@@ -967,6 +1047,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -979,6 +1060,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -991,6 +1073,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -1003,6 +1086,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1015,6 +1099,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -1027,6 +1112,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -1039,6 +1125,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1051,6 +1138,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "vehicles"
     ]
@@ -1063,6 +1151,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1075,6 +1164,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -1087,6 +1177,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -1099,6 +1190,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -1111,6 +1203,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1123,6 +1216,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1135,6 +1229,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1147,6 +1242,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "shapes"
     ]
@@ -1159,6 +1255,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -1171,6 +1268,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1183,6 +1281,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -1195,6 +1294,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1207,6 +1307,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "objects"
     ]
@@ -1219,6 +1320,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1231,6 +1333,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "code"
     ]
@@ -1243,6 +1346,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1255,6 +1359,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1267,6 +1372,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -1279,6 +1385,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1291,6 +1398,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1303,6 +1411,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1315,6 +1424,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "hands"
     ]
@@ -1327,6 +1437,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1339,6 +1450,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -1351,6 +1463,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -1363,6 +1476,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -1375,6 +1489,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "hands"
     ]
@@ -1387,6 +1502,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "vehicles"
     ]
@@ -1399,6 +1515,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "accessibility"
     ]
@@ -1411,6 +1528,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -1423,6 +1541,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -1435,6 +1554,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -1447,6 +1567,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1459,6 +1580,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -1471,6 +1593,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "users-people"
     ]
@@ -1483,6 +1606,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1495,6 +1619,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1507,6 +1632,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "date-time"
     ]
@@ -1519,6 +1645,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "date-time"
     ]
@@ -1531,6 +1658,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "date-time"
     ]
@@ -1543,6 +1671,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1555,6 +1684,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -1567,6 +1697,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -1579,6 +1710,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -1591,6 +1723,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1603,6 +1736,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1615,6 +1749,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1627,6 +1762,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1639,6 +1775,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1651,6 +1788,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -1663,6 +1801,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -1675,6 +1814,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1687,6 +1827,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1699,6 +1840,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -1711,6 +1853,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1723,6 +1866,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "images"
     ]
@@ -1735,6 +1879,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "shapes"
     ]
@@ -1747,6 +1892,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "business"
     ]
@@ -1759,6 +1905,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1771,6 +1918,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -1783,6 +1931,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -1795,6 +1944,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -1807,6 +1957,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -1819,6 +1970,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -1831,6 +1983,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "communication"
     ]
@@ -1843,6 +1996,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -1855,6 +2009,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1867,6 +2022,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1879,6 +2035,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "shapes"
     ]
@@ -1891,6 +2048,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1903,6 +2061,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1915,6 +2074,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -1927,6 +2087,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1939,6 +2100,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1951,6 +2113,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1963,6 +2126,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "vehicles"
     ]
@@ -1975,6 +2139,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -1987,6 +2152,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -1999,6 +2165,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -2011,6 +2178,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -2023,6 +2191,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -2035,6 +2204,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -2047,6 +2217,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2059,6 +2230,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -2071,6 +2243,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -2083,6 +2256,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -2095,6 +2269,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "payments-shopping"
     ]
@@ -2107,6 +2282,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -2119,6 +2295,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -2131,6 +2308,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "payments-shopping"
     ]
@@ -2143,6 +2321,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -2155,6 +2334,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "business"
     ]
@@ -2167,6 +2347,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "business"
     ]
@@ -2179,6 +2360,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -2191,6 +2373,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -2203,6 +2386,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -2215,6 +2399,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -2227,6 +2412,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "shapes"
     ]
@@ -2239,6 +2425,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "hands"
     ]
@@ -2251,6 +2438,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "hands"
     ]
@@ -2263,6 +2451,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "hands"
     ]
@@ -2275,6 +2464,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "hands"
     ]
@@ -2287,6 +2477,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -2299,6 +2490,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -2311,6 +2503,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -2323,6 +2516,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "payments-shopping"
     ]
@@ -2335,6 +2529,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "business"
     ]
@@ -2347,6 +2542,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -2359,6 +2555,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "audio-video"
     ]
@@ -2371,6 +2568,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "spinners"
     ]
@@ -2383,6 +2581,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2395,6 +2594,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -2407,6 +2607,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -2419,6 +2620,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2431,6 +2633,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "interfaces"
     ]
@@ -2443,6 +2646,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -2455,6 +2659,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -2467,6 +2672,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -2479,6 +2685,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -2491,6 +2698,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -2503,6 +2711,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -2515,6 +2724,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2527,6 +2737,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -2539,6 +2750,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "spinners"
     ]
@@ -2551,6 +2763,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -2563,6 +2776,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -2575,6 +2789,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -2587,6 +2802,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "vehicles"
     ]
@@ -2599,6 +2815,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "vehicles"
     ]
@@ -2611,6 +2828,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "audio-video"
     ]
@@ -2623,6 +2841,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -2635,6 +2854,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2647,6 +2867,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "accessibility"
     ]
@@ -2659,6 +2880,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -2671,6 +2893,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2683,6 +2906,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "sports"
     ]
@@ -2695,6 +2919,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2707,6 +2932,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2719,6 +2945,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2731,6 +2958,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2743,6 +2971,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2755,6 +2984,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2767,6 +2997,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2779,6 +3010,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2791,6 +3023,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -2803,6 +3036,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -2815,6 +3049,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -2827,6 +3062,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -2839,6 +3075,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "communication"
     ]
@@ -2851,6 +3088,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -2863,6 +3101,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -2875,6 +3114,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -2887,6 +3127,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -2899,6 +3140,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -2911,6 +3153,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -2923,6 +3166,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -2935,6 +3179,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "status"
     ]
@@ -2947,6 +3192,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -2959,6 +3205,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "date-time"
     ]
@@ -2971,6 +3218,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "business"
     ]
@@ -2983,6 +3231,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -2995,6 +3244,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -3007,6 +3257,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -3019,6 +3270,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -3031,6 +3283,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -3043,6 +3296,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -3055,6 +3309,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "health"
     ]
@@ -3067,6 +3322,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -3079,6 +3335,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -3091,6 +3348,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -3103,6 +3361,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -3115,6 +3374,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -3127,6 +3387,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -3139,6 +3400,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "editors"
     ]
@@ -3151,6 +3413,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -3163,6 +3426,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -3175,6 +3439,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -3187,6 +3452,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -3199,6 +3465,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -3211,6 +3478,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -3223,6 +3491,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "users-people"
     ]
@@ -3235,6 +3504,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "audio-video"
     ]
@@ -3247,6 +3517,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "audio-video"
     ]
@@ -3259,6 +3530,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3271,6 +3543,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3283,6 +3556,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -3295,6 +3569,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "date-time"
     ]
@@ -3307,6 +3582,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -3319,6 +3595,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -3331,6 +3608,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -3343,6 +3621,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3355,6 +3634,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -3367,6 +3647,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3379,6 +3660,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "payments-shopping"
     ]
@@ -3391,6 +3673,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -3403,6 +3686,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "gender"
     ]
@@ -3415,6 +3699,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -3427,6 +3712,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3439,6 +3725,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3451,6 +3738,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -3463,6 +3751,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -3475,6 +3764,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -3487,6 +3777,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3499,6 +3790,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3511,6 +3803,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "currency"
     ]
@@ -3523,6 +3816,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -3535,6 +3829,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -3547,6 +3842,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -3559,6 +3855,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "maps"
     ]
@@ -3571,6 +3868,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3583,6 +3881,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -3595,6 +3894,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "shapes"
     ]
@@ -3607,6 +3907,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "interfaces"
     ]
@@ -3619,6 +3920,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "interfaces"
     ]
@@ -3631,6 +3933,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -3643,6 +3946,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "communication"
     ]
@@ -3655,6 +3959,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "payments-shopping"
     ]
@@ -3667,6 +3972,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -3679,6 +3985,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -3691,6 +3998,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "payments-shopping"
     ]
@@ -3703,6 +4011,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3715,6 +4024,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -3727,6 +4037,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "arrows"
     ]
@@ -3739,6 +4050,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -3751,6 +4063,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -3763,6 +4076,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -3775,6 +4089,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
@@ -3787,6 +4102,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -3799,6 +4115,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "shapes"
     ]
@@ -3811,6 +4128,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "date-time"
     ]
@@ -3823,6 +4141,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "arrows"
     ]
@@ -3835,6 +4154,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "arrows"
     ]
@@ -3847,6 +4167,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -3859,6 +4180,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "shapes"
     ]
@@ -3871,6 +4193,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -3883,6 +4206,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -3895,6 +4219,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "writing"
     ]
@@ -3907,6 +4232,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "status"
     ]
@@ -3919,6 +4245,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -3931,6 +4258,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -3943,6 +4271,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -3955,6 +4284,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "arrows"
     ]
@@ -3967,6 +4297,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "status"
     ]
@@ -3979,6 +4310,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "status"
     ]
@@ -3991,6 +4323,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "objects"
     ]
@@ -4003,6 +4336,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -4015,6 +4349,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -4027,6 +4362,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "interfaces"
     ]
@@ -4039,6 +4375,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": true,
     "categories": [
       "objects"
     ]
@@ -4051,6 +4388,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "code"
     ]
@@ -4063,6 +4401,7 @@
     "solid": true,
     "outline": false,
     "brand": false,
+    "thin": false,
     "categories": [
       "writing"
     ]
@@ -4075,6 +4414,7 @@
     "solid": false,
     "outline": false,
     "brand": true,
+    "thin": false,
     "categories": [
       "brands"
     ]
