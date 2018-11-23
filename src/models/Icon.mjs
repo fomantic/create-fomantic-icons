@@ -14,7 +14,7 @@ class Icon {
    * @param {boolean} isSolid Whether the icon is a solid icon
    * @param {boolean} isOutline Whether the icon is an outline icon
    * @param {boolean} isBrand Whether the icon is a brand icon
-   * @param {boolean} isThin Whether the icon is an thin icon
+   * @param {boolean} isThin Whether the icon is a light icon
    * @param {string[]} categories The icon categories
    *
    * @returns {Icon}
@@ -105,7 +105,7 @@ class Icon {
   }
   
    /**
-   * Check whether the icon is an thin icon
+   * Check whether the icon is a light icon
    *
    * @return {boolean}
    */
