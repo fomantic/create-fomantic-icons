@@ -15,7 +15,7 @@ class Icon {
    * @param {boolean} isOutline Whether the icon is an outline icon
    * @param {boolean} isBrand Whether the icon is a brand icon
    * @param {string[]} categories The icon categories
-   * @param {string[]} searchTerms The terms/aliases usefule for icon search
+   * @param {string[]} searchTerms The keywords fo for icon alias search
    *
    * @returns {Icon}
    */
