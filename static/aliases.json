@@ -4078,5 +4078,17 @@
     "categories": [
       "brands"
     ]
+  },
+  {
+    "faName": "bars",
+    "fuiName": "hamburger",
+    "className": "hamburger",
+    "unicode": "f0c9",
+    "solid": true,
+    "outline": false,
+    "brand": false,
+    "categories": [
+      "interfaces"
+    ]
   }
 ]
