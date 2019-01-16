@@ -21,12 +21,14 @@ function map(iconMetadata, categoryData) {
     let isBrand = icon['styles'].includes('brands');
     let isThin = icon['styles'].includes('light');
     let categories = Find.categories(faName, categoryData);
+    let searchTerms = icon['search']['terms'] || [];
     let iconInfo = {
       faName: faName,
       fuiName: Convert.fuiName(faName),
       className: Convert.fuiClassName(faName),
       unicode: icon['unicode'],
-      categories: categories
+      categories: categories,
+      searchTerms: searchTerms
     };
     
     iconInfo = assign(iconInfo, Corrections[faName] || {});
@@ -44,7 +46,8 @@ function map(iconMetadata, categoryData) {
         false, // outline
         false, // brand
         false, // thin
-        iconInfo.categories
+        iconInfo.categories,
+        iconInfo.searchTerms
       ));
     }
     
@@ -58,7 +61,8 @@ function map(iconMetadata, categoryData) {
         true,  // outline
         false, // brand
         false, // thin
-        iconInfo.categories
+        iconInfo.categories,
+        iconInfo.searchTerms
       ));
     }
     
@@ -72,7 +76,8 @@ function map(iconMetadata, categoryData) {
         false, // outline
         true,  // brand
         false, // thin
-        [...categories, 'brands']
+        [...categories, 'brands'],
+        iconInfo.searchTerms
       ));
     }
 

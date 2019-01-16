@@ -16,6 +16,7 @@ class Icon {
    * @param {boolean} isBrand Whether the icon is a brand icon
    * @param {boolean} isThin Whether the icon is a light icon
    * @param {string[]} categories The icon categories
+   * @param {string[]} searchTerms The keywords fo for icon alias search
    *
    * @returns {Icon}
    */
@@ -28,7 +29,8 @@ class Icon {
     isOutline,
     isBrand,
     isThin,
-    categories
+    categories,
+    searchTerms
   ) {
     this.faName = faName;
     this.fuiName = fuiName;
@@ -39,6 +41,7 @@ class Icon {
     this.brand = isBrand;
     this.thin = isThin;
     this.categories = categories;
+    this.searchTerms = searchTerms;
   }
   
   /**
@@ -120,6 +123,14 @@ class Icon {
    */
   getCategories() {
     return this.categories;
+  }
+
+  /**
+   * Get the search terms
+   * @returns {string}
+   */
+  getSearchTerms() {
+    return this.searchTerms;
   }
 }
 

@@ -143,6 +143,7 @@ fs.readdir('./', (err, files) => {
           icon.brand,
           icon.thin,
           icon.categories,
+          [],
         );
       });
       
@@ -310,7 +311,7 @@ fs.readdir('./', (err, files) => {
       
       let categoryHTML = categories.map((category) => {
         let displayHTML = category.getIcons().map((icon) => {
-          return `<div class="column"><i class="${icon.getFUIName()} icon"></i>${icon.getFUIName()}</div>`;
+          return `<div class="column"><i class="${icon.getFUIName()} icon" data-search-terms="${icon.getSearchTerms().join(', ')}"></i>${icon.getFUIName()}</div>`;
         }).join('\n        ');
         
         let codeHTML = category.getIcons().map((icon) => {
