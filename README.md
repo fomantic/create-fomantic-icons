@@ -1,49 +1,89 @@
-# [Fomantic-UI](https://github.com/fomantic/Fomantic-UI) Icon Generation Script
+# [Fomantic-UI](https://github.com/fomantic/Fomantic-UI) Icon CLI Tool
 
-Generate the `icons.overrides` and `icon.html.eco` files for Fomantic-UI and Semantic-UI.
+Generate the `icon.overrides` and `icon.html.eco` files for Fomantic-UI (or Semantic-UI).
 
 You can use this script to generate the icons for free and pro versions of [FontAwesome](https://fontawesome.com).
 
+## Requirements
+ - [nodejs](https://nodejs.org)
+ - [npm](https://npmjs.com)
+ - or [yarn](https://yarnpkg.com)
 
 ## Usage
 
-First clone the repository and install the npm dependencies.
+#### npm
 ```console
-$ git clone git@github.com:fomantic/icon-script.git
-$ cd icon-script
-$ npm install 
+$ npx create-fomantic-icons
 ```
 
-Now download the latest version of FontAwesome from their website [fontawesome.com](https://fontawesome.com) (if you have a pro license you can use the pro version).
-
-Once you have downloaded the latest `.zip` file extract it to the root directory of the repository. You should end up with a structure similar to the following.
-```text
-fontawesome-free-x.x.x-web.zip
-fontawesome-free-x.x.x-web/
-node_modules/
-src/
-static/
-templates/
-index.mjs
-config.json
+#### yarn
+```console
+$ yarn create fomantic-icons
 ```
 
-Once the FontAwesome `.zip` is extracted you can now generate the icon files, simply run `npm start` to start the generation.
+Once downloaded you will be prompt with a few questions which will allow you to generate the specific icon set you want.
+
+Select which FontAweome icon set you want
+```console
+Which icons set would you like to generate?
+  > FontAwesome Free
+    FontAwesome Pro
+```
+> NOTE: You need a license to generate the icons from FontAweome Pro
+
+
+Next select which version you want to use
+```console
+Which version of FontAwesome Free should we download?
+  > 5.8.1
+    5.8.0
+    5.7.2
+    5.7.1
+    5.7.0
+```
+
+
+Now you need to specify where to save your icons
+```console
+Where would you like the dist saved? [C:\Users\Username\Documents\fui-icons]
+```
+> NOTE: The default location is `{pwd}/fui-icons`. When you specify your own location it is relative from your current pwd.
+> For example if I enter `new-icons` my icons will be placed in `C:\Users\Username\Documents\new-icons`.
+
+
+Once you have answered all the prompts the icon set you picked will be downloaded from GitHub and will be parsed. 
+Once it is downloaded and parsed it will build the required files for the a FUI (or SUI) theme and the docs page in the location
+you specified.
+```console
+i asset doesn't exist locally, starting download
+√ downloaded (fontawesome-free-5.8.1-web.zip)
+√ asset saved (C:\Users\Username\AppData\Local\Temp\fui-icon-script\fontawesome-free-5.8.1-web.zip)
+√ asset extracted (C:\Users\Username\AppData\Local\Temp\fui-icon-script\fontawesome-free-5.8.1-web)
+√ icons & categories parsed
+
+  Results:
+    Solid:   936
+    Outline: 151
+    Thin:    0
+    Brand:   426
+             1513
+
+√ build all dist files
+  Files saved to C:\Users\Username\Documents\new-icons
+```
+> NOTE: If the script detects you have already downloaded the icon set it will skip the download and use the local files.
+
+## Remove downloaded files
+
+If you want to delete the downloaded files its really simple.
+
+#### npm
+```console
+$ npx create-fomantic-icons --clean
+```
+
+#### yarn
 
 ```console
-$ npm start
+$ yarn create fomantic-icons --clean
 ```
-
-Once the script has finished running you will see a new directory called `dist/` was created. This is where the `icon.overrides` and `icon.html.eco` files are created. These files are created in a directory structure the same as their main repositories, this can help transport them to the correct place.
-
-```text
-dist/
-  server/
-  src/
-```
-
-The `dist/server/` directory contains the `icon.html.eco` file used for the docs page. The `dist/src/` directory is the Fomantic-UI src code file. There is also another file created inside `dist/` called `icon-map.json` this is a simple JSON file containing a map of all the icons generated from the metadata. The font files are also inside `dist/src/` ready to drop into the FUI src with the correct names.
-
-## Customization
-
-To customize the script you can modify the files inside `templates/`, `static/` and the `config.json` file. These files can help you create custom output. The templates use [Crather](https://github.com/HamiStudios/crather) which is a simple render engine which is used to simply add the icon variables into the template files.

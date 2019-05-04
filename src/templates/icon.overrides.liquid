@@ -1,0 +1,164 @@
+/*
+* Font Awesome {{ version }} by @fontawesome - https://fontawesome.com - @fontawesome
+* License - https://fontawesome.com/license (Icons: CC BY 4.0 License, Fonts: SIL OFL 1.1 License, CSS: MIT License)
+*/
+
+/*******************************
+
+Semantic-UI integration of font-awesome :
+
+///class names are separated
+i.icon.circle => i.icon.circle
+i.icon.circle-o => i.icon.circle.outline
+
+//abbreviation are replaced by full letters:
+i.icon.ellipsis-h => i.icon.ellipsis.horizontal
+i.icon.ellipsis-v => i.icon.ellipsis.vertical
+.alpha => .i.icon.alphabet
+.asc => .i.icon.ascending
+.desc => .i.icon.descending
+.alt =>.alternate
+
+ASCII order is conserved for easier maintenance.
+
+Icons that only have one style 'outline', 'square' etc do not require this class
+for instance `lemon icon` not `lemon outline icon` since there is only one lemon
+
+*******************************/
+
+
+/*******************************
+             Icons
+*******************************/
+
+/* Deprecated *In/Out Naming Conflict) */
+i.icon.linkedin.in:before { content: "\f0e1"; }
+i.icon.zoom.in:before { content: "\f00e"; }
+i.icon.zoom.out:before { content: "\f010"; }
+i.icon.sign.in:before { content: "\f2f6"; }
+i.icon.in.cart:before { content: "\f218"; }
+i.icon.log.out:before { content: "\f2f5"; }
+i.icon.sign.out:before { content: "\f2f5"; }
+
+
+{% if icons.solid.icons.length > 0 -%}
+/*******************************
+          Solid Icons
+*******************************/
+
+/* Icons */
+{% for icon in icons.solid.icons -%}
+  i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
+{% endfor %}
+{% if icons.solid.aliases.length > 0 -%}
+/* Aliases */
+{% for icon in icons.solid.aliases -%}
+  i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
+{% endfor %}
+{%- endif %}{%- endif %}
+
+{%- if icons.outline.icons.length > 0 %}
+/*******************************
+         Outline Icons
+*******************************/
+
+/* Outline Icon */
+.loadOutlineIcons() when (@importOutlineIcons) {
+  /* Load & Define Icon Font */
+  @font-face {
+    font-family: @outlineFontName;
+    src: @outlineFallbackSRC;
+    src: @outlineSrc;
+    font-style: normal;
+    font-weight: @normal;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+  }
+
+  i.icon.outline {
+    font-family: @outlineFontName;
+  }
+
+  /* Icons */
+  {% for icon in icons.outline.icons -%}
+    i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
+  {% endfor %}
+
+  {% if icons.outline.aliases.length > 0 -%}
+  /* Aliases */
+  {% for icon in icons.outline.aliases -%}
+    i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
+  {% endfor %}{%- endif %}
+}
+.loadOutlineIcons();
+{%- endif %}
+
+{% if icons.thin.icons.length > 0 -%}
+/*******************************
+           Thin Icons
+*******************************/
+
+/* Thin Icon */
+.loadThinIcons() when (@importThinIcons) {
+  /* Load & Define Icon Font */
+  @font-face {
+    font-family: @thinFontName;
+    src: @thinFallbackSRC;
+    src: @thinSrc;
+    font-style: normal;
+    font-weight: @normal;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+  }
+
+  i.icon.thin {
+    font-family: @thinFontName;
+  }
+
+  /* Icons */
+  {% for icon in icons.thin.icons -%}
+    i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
+  {% endfor %}
+
+  {% if icons.thin.aliases.length > 0 -%}
+  /* Aliases */
+  {% for icon in icons.thin.aliases -%}
+    i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
+  {% endfor %}{%- endif %}
+}
+.loadThinIcons();
+{%- endif %}
+
+{% if icons.brand.icons.length > 0 -%}
+/*******************************
+          Brand Icons
+*******************************/
+
+.loadBrandIcons() when (@importBrandIcons) {
+  /* Load & Define Brand Font */
+  @font-face {
+    font-family: @brandFontName;
+    src: @brandFallbackSRC;
+    src: @brandSrc;
+    font-style: normal;
+    font-weight: @normal;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+  }
+
+  /* Icons */
+  {% for icon in icons.brand.icons -%}
+    i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; font-family: @brandFontName; }
+  {% endfor %}
+
+  {% if icons.brand.aliases.length > 0 -%}
+  /* Aliases */
+  {% for icon in icons.brand.aliases -%}
+    i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; font-family: @brandFontName; }
+  {% endfor %}{%- endif %}
+}
+.loadBrandIcons();
+{%- endif %}

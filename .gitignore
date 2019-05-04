@@ -1,7 +1,6 @@
 # Project
 node_modules/
-dist/
-fontawesome*
+fui-icons
 
 # OS or Editor folders
 .DS_Store

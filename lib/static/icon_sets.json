@@ -1,0 +1,27 @@
+[
+    {
+        "name": "FontAwesome Free",
+        "repo": "FortAwesome/Font-Awesome",
+        "requiresAuth": false,
+        "assetMatch": "fontawesome-free-\\d+\\.\\d+\\.\\d+-web\\.zip",
+        "parser": "FontAwesome",
+        "types": [
+            "solid",
+            "outline",
+            "brand"
+        ]
+    },
+    {
+        "name": "FontAwesome Pro",
+        "repo": "FortAwesome/Font-Awesome-Pro",
+        "requiresAuth": true,
+        "assetMatch": "fontawesome-pro-\\d+\\.\\d+\\.\\d+-web\\.zip",
+        "parser": "FontAwesome",
+        "types": [
+            "solid",
+            "outline",
+            "light",
+            "brand"
+        ]
+    }
+]
