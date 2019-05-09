@@ -1,6 +1,6 @@
 {
   "name": "create-fomantic-icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple CLI to generate the icon.overrides and icon.html.eco files for FUI",
   "author": "Sean Hamilton <sean@hamistudios.com>",
   "license": "MIT",
