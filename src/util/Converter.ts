@@ -1,6 +1,20 @@
 export default class Converter {
+  private static CLASSNAME_REPLACEMENTS: { [key: string]: string; } = {
+    0: 'zero',
+    1: 'one',
+    2: 'two',
+    3: 'three',
+    4: 'four',
+    5: 'five',
+    6: 'six',
+    7: 'seven',
+    8: 'eight',
+    9: 'nine',
+  };
+
   public static iconClassName(name: string): string {
     return name
+      .toLowerCase()
       .replace(/-alt$/, '-alternate')
       .replace(/-alt-/, '-alternate-')
       .replace(/-h$/, '-horizontal')
@@ -14,7 +28,16 @@ export default class Converter {
       .replace(/-desc$/, '-descending')
       .replace(/-desc-/, '-descending-')
       .replace(/-/g, '.')
-      .replace(/\s/g, '.');
+      .replace(/\s/g, '.')
+      .split('.')
+      .map((entity: string) => {
+        const replacementKeys = Object.keys(Converter.CLASSNAME_REPLACEMENTS);
+
+        return replacementKeys.includes(entity)
+          ? Converter.CLASSNAME_REPLACEMENTS[entity]
+          : entity;
+      })
+      .join('.');
   }
 
   public static iconName(name: string): string {
