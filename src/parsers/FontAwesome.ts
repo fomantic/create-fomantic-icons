@@ -23,6 +23,9 @@ import IconType from '../enums/IconType';
 // static
 import aliases from '../static/aliases.json';
 
+// limit compilation to a list of included icons
+import includedIcons from '../static/included_icons.json';
+
 export interface IconMeta {
   search: {
     terms: string[];
@@ -97,7 +100,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
         iconNames.forEach((iconName) => {
           const iconMeta: IconMeta = iconMetadata[iconName];
 
-          if (!iconMeta.private) {
+          if (!iconMeta.private && (includedIcons.length === 0 || includedIcons.includes(iconName))) {
             // solid
             if (iconMeta.styles.includes('solid')) {
               icons.push(new Icon({
