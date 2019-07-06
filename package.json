@@ -14,6 +14,7 @@
     "cli"
   ],
   "scripts": {
+    "start": "./bin/run",
     "build": "tsc"
   },
   "bin": "./bin/run",
