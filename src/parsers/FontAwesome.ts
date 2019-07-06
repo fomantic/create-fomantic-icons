@@ -26,7 +26,8 @@ import aliases from '../static/aliases.json';
 export interface IconMeta {
   search: {
     terms: string[];
-  }
+  };
+  terms?: string[];
   styles: string[];
   unicode: string;
   private: boolean;
@@ -98,13 +99,17 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
           const iconMeta: IconMeta = iconMetadata[iconName];
 
           if (!iconMeta.private) {
+            const searchTerms: string[] = iconMeta.search
+              ? (iconMeta.search.terms || [])
+              : (iconMeta.terms || []);
+
             // solid
             if (iconMeta.styles.includes('solid')) {
               icons.push(new Icon({
                 name: iconName,
                 type: IconType.SOLID,
                 unicode: iconMeta.unicode,
-                searchTerms: iconMeta.search.terms,
+                searchTerms,
               }));
             }
 
@@ -114,7 +119,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
                 name: iconName,
                 type: IconType.OUTLINE,
                 unicode: iconMeta.unicode,
-                searchTerms: iconMeta.search.terms,
+                searchTerms,
               }));
             }
 
@@ -124,7 +129,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
                 name: iconName,
                 type: IconType.THIN,
                 unicode: iconMeta.unicode,
-                searchTerms: iconMeta.search.terms,
+                searchTerms,
               }));
             }
 
@@ -134,7 +139,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
                 name: iconName,
                 type: IconType.BRAND,
                 unicode: iconMeta.unicode,
-                searchTerms: iconMeta.search.terms,
+                searchTerms,
               }));
             }
           }
