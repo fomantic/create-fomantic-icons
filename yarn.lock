@@ -846,9 +846,9 @@ levn@^0.3.0, levn@~0.3.0:
     type-check "~0.3.2"
 
 liquidjs@^8.2.1:
-  version "8.4.0"
-  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-8.4.0.tgz#8b17a2dad7f1e9b7167ed27c4b0434c8a53c5d30"
-  integrity sha512-Dug7E9/DbcxbBGdLXpuhlWR+SLnFbxrG+4ziQILHaFiLEmSJDRz84u//jnYiLvGn7LmVaCRV4S7lUp+396MGbA==
+  version "8.4.1"
+  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-8.4.1.tgz#f5a3db07292a1fa3651b893fb3ed341f2111c592"
+  integrity sha512-bCGx4AEgCCyaBoX0Rvbj9n1jWhC6gihAx/IULHFfYbR+ear3P2Yk3yeqJThZ8RdL9iOCYZX1I7v13gyV/P/SZA==
 
 listenercount@~1.0.1:
   version "1.0.1"
