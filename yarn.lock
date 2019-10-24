@@ -48,9 +48,9 @@
   integrity sha512-Uy0PN4R5vgBUXFoJrKryf5aTk3kJ8Rv3PdlHjl6UaX+Cqp1QE0yPQ68MPXGrZOfG7gZVNDIJZYyot0B9ubXUrQ==
 
 "@types/node@^11.13.4":
-  version "11.13.20"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.20.tgz#da42fe93d6599f80b35ffeb5006f4c31f40d89ea"
-  integrity sha512-JE0UpLWZTV1sGcaj0hN+Q0760OEjpgyFJ06DOMVW6qKBducKdJQaIw0TGL6ccj7VXRduIOHLWQi+tHwulZJHVQ==
+  version "11.13.23"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.23.tgz#ae1b045769aff61d40c7c093310ef1d1deb4a0df"
+  integrity sha512-33WJe2YTK7DT6ClAkPqK1fzF2u/YvXTf1e7beFqIxcSKhLSimQvRSGPhN7gmqQ1GQ8LdzBLlxBIcc7TW5gSRkg==
 
 "@types/signale@^1.2.1":
   version "1.2.1"
