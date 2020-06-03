@@ -54,6 +54,10 @@ export default class Icon {
       name += '-thin';
     }
 
+    if (this.type === IconType.DUOTONE) {
+      name += '-duotone';
+    }
+
     return this.hasCorrection('name')
       ? this.correction('name')
       : Converter.iconName(name);
@@ -69,6 +73,12 @@ export default class Icon {
     return this.hasCorrection('unicode')
       ? this.correction('unicode')
       : `\\${this.data.unicode}`;
+  }
+
+  get secondaryUnicode(): string {
+    return this.hasCorrection('unicode')
+      ? this.correction('unicode')
+      : `\\10${this.data.unicode}`;
   }
 
   get type(): IconType {

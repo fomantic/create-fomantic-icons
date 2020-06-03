@@ -56,6 +56,10 @@ export interface ParseResults {
       icons: Icon[];
       aliases: object[];
     }
+    duotone: {
+      icons: Icon[];
+      aliases: object[];
+    }
   };
   categories: Category[];
   fontAssetsDirectory: string;
@@ -142,6 +146,17 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
                 searchTerms,
               }));
             }
+
+            // duotone
+            if (iconMeta.styles.includes('duotone')) {
+              icons.push(new Icon({
+                name: iconName,
+                type: IconType.DUOTONE,
+                unicode: iconMeta.unicode,
+                searchTerms,
+              }));
+            }
+            
           }
         });
 
@@ -196,6 +211,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
                 outline: icons.filter(i => i.type === IconType.OUTLINE),
                 thin: icons.filter(i => i.type === IconType.THIN),
                 brand: icons.filter(i => i.type === IconType.BRAND),
+                duotone: icons.filter(i => i.type === IconType.DUOTONE),
               },
               categories,
             };
@@ -205,10 +221,11 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
               outline: outlineIcons,
               thin: thinIcons,
               brand: brandIcons,
+              duotone: duotoneIcons,
             } = parseResults.icons;
 
             const totalIcons = solidIcons.length + outlineIcons.length
-              + thinIcons.length + brandIcons.length;
+              + thinIcons.length + brandIcons.length + duotoneIcons.length;
 
             parseSpinner.succeed('icons & categories parsed');
             Logger.log();
@@ -217,6 +234,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
             Logger.log(`    Outline: ${chalk.cyan(String(outlineIcons.length))}`);
             Logger.log(`    Thin:    ${chalk.cyan(String(thinIcons.length))}`);
             Logger.log(`    Brand:   ${chalk.cyan(String(brandIcons.length))}`);
+            Logger.log(`    Duotone: ${chalk.cyan(String(duotoneIcons.length))}`);
             Logger.log(`             ${chalk.cyan(String(totalIcons))}`);
 
             resolve({
@@ -241,6 +259,11 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
                   aliases: aliases.filter(alias => alias.type === 'brand')
                     .sort(sortAz),
                 },
+                duotone: {
+                  icons: duotoneIcons,
+                  aliases: aliases.filter(alias => alias.type === 'duotone')
+                    .sort(sortAz),
+                },
               },
               categories,
               fontAssetsDirectory: resolvePath(
@@ -253,6 +276,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
                 'fa-regular-400': 'outline-icons',
                 'fa-light-300': 'thin-icons',
                 'fa-brands-400': 'brand-icons',
+                'fa-duotone-900': 'duotone-icons',
               },
             });
           } else {
