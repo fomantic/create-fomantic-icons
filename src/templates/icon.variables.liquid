@@ -61,6 +61,19 @@
 @brandFallbackSRC: url("@{fontPath}/@{brandFontName}.eot");
 {%- endif %}
 
+{% if icons.duotone.icons.length > 0 -%}
+/* Duotone Icons */
+@importDuotoneIcons: true;
+@duotoneFontName: 'duotone-icons';
+@duotoneSrc:
+  url("@{fontPath}/@{duotoneFontName}.eot?#iefix") format('embedded-opentype'),
+  url("@{fontPath}/@{duotoneFontName}.woff2") format('woff2'),
+  url("@{fontPath}/@{duotoneFontName}.woff") format('woff'),
+  url("@{fontPath}/@{duotoneFontName}.ttf") format('truetype'),
+  url("@{fontPath}/@{duotoneFontName}.svg#icons") format('svg')
+;
+@duotoneFallbackSRC: url("@{fontPath}/@{duotoneFontName}.eot");
+{%- endif %}
 
 /*--------------
    Definition

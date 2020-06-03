@@ -163,3 +163,69 @@ i.icon.sign.out:before { content: "\f2f5"; }
 }
 .loadBrandIcons();
 {%- endif %}
+
+{% if icons.duotone.icons.length > 0 -%}
+/*******************************
+           Duotone Icons
+*******************************/
+
+/* Duotone Icon */
+.loadDuotoneIcons() when (@importDuotoneIcons) {
+  /* Load & Define Icon Font */
+  @font-face {
+    font-family: @duotoneFontName;
+    src: @duotoneFallbackSRC;
+    src: @duotoneSrc;
+    font-style: normal;
+    font-weight: @normal;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+  }
+
+  /* Step 1: Common Duotone Properties: All required to make icons render reliably */
+  i.icon.duotone {
+    font-family: @duotoneFontName;
+    position: relative;
+    padding-left: 1.25em; /* make space for the width of the absolutely positioned icon */
+  }
+
+  /* Step 2: Set the font-family and font-weight for this style */
+  i.icon.duotone::before,
+  i.icon.duotone::after {
+    /* position both layers of the icon to the left, set our fixed-width width, horizontally center layers, and then vertically align them so they flex with different line heights */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.25em;
+    text-align: center;
+  }
+
+  /* Step 3: Set the default opacity levels and colors for each layer */
+  i.icon.duotone::before {
+    color: var(--fa-primary-color, inherit);
+    opacity: 1;
+    opacity: var(--fa-primary-opacity, 1.0);
+  }
+
+  i.icon.duotone::after {
+    color: var(--fa-secondary-color, inherit);
+    opacity: var(--fa-secondary-opacity, 0.4);
+  }
+
+  /* Icons */
+  {% for icon in icons.duotone.icons -%}
+    i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
+    i.icon.{{ icon.className }}:after { content: "{{ icon.secondaryUnicode }}"; }
+  {% endfor %}
+
+  {% if icons.duotone.aliases.length > 0 -%}
+  /* Aliases */
+  {% for icon in icons.duotone.aliases -%}
+    i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
+    i.icon.{{ icon.className }}:after { content: "{{ icon.secondaryUnicode }}"; }
+  {% endfor %}{%- endif %}
+}
+.loadDuotoneIcons();
+{%- endif %}
