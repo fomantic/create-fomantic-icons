@@ -1,3 +1,6 @@
+import * as numWords from 'num-words';
+
+
 export default class Converter {
   private static CLASSNAME_REPLACEMENTS: { [key: string]: string; } = {
     0: 'zero',
@@ -34,7 +37,7 @@ export default class Converter {
       .split('.')
       .map((entity: string) => {
         return Converter.NUMERIC_ONLY.test(entity)
-          ? entity.split('').map(n => Converter.CLASSNAME_REPLACEMENTS[n]).join('')
+          ? numWords(entity)
           : entity;
       })
       .join('.');
