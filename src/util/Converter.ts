@@ -12,6 +12,8 @@ export default class Converter {
     9: 'nine',
   };
 
+  private static NUMERIC_ONLY = /^\d+$/;
+
   public static iconClassName(name: string): string {
     return name
       .toLowerCase()
@@ -31,10 +33,8 @@ export default class Converter {
       .replace(/\s/g, '.')
       .split('.')
       .map((entity: string) => {
-        const replacementKeys = Object.keys(Converter.CLASSNAME_REPLACEMENTS);
-
-        return replacementKeys.includes(entity)
-          ? Converter.CLASSNAME_REPLACEMENTS[entity]
+        return Converter.NUMERIC_ONLY.test(entity)
+          ? entity.split('').map(n => Converter.CLASSNAME_REPLACEMENTS[n]).join('')
           : entity;
       })
       .join('.');
