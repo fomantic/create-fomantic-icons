@@ -31,7 +31,7 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 /*******************************
              Icons
 *******************************/
-
+& when(@variationIconDeprecated) {
 /* Deprecated *In/Out Naming Conflict) */
 i.icon.linkedin.in:before { content: "\f0e1"; }
 i.icon.zoom.in:before { content: "\f00e"; }
@@ -40,9 +40,10 @@ i.icon.sign.in:before { content: "\f2f6"; }
 i.icon.in.cart:before { content: "\f218"; }
 i.icon.log.out:before { content: "\f2f5"; }
 i.icon.sign.out:before { content: "\f2f5"; }
-
+}
 
 {% if icons.solid.icons.length > 0 -%}
+& when(@variationIconSolid) {
 /*******************************
           Solid Icons
 *******************************/
@@ -51,30 +52,35 @@ i.icon.sign.out:before { content: "\f2f5"; }
 {% for icon in icons.solid.icons -%}
   i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
 {% endfor %}
+}
 {% if icons.solid.aliases.length > 0 -%}
+& when(@variationIconAliases) {
 /* Aliases */
 {% for icon in icons.solid.aliases -%}
   i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
 {% endfor %}
+}
 {%- endif %}{%- endif %}
 
 {%- if icons.outline.icons.length > 0 %}
+& when (@variationIconOutline) {
 /*******************************
          Outline Icons
 *******************************/
 
 /* Outline Icon */
-.loadOutlineIcons() when (@importOutlineIcons) {
-  /* Load & Define Icon Font */
-  @font-face {
-    font-family: @outlineFontName;
-    src: @outlineFallbackSRC;
-    src: @outlineSrc;
-    font-style: normal;
-    font-weight: @normal;
-    font-variant: normal;
-    text-decoration: inherit;
-    text-transform: none;
+  & when (@importOutlineIcons) {
+    /* Load & Define Icon Font */
+    @font-face {
+      font-family: @outlineFontName;
+      src: @outlineFallbackSRC;
+      src: @outlineSrc;
+      font-style: normal;
+      font-weight: @normal;
+      font-variant: normal;
+      text-decoration: inherit;
+      text-transform: none;
+    }
   }
 
   i.icon.outline {
@@ -87,31 +93,35 @@ i.icon.sign.out:before { content: "\f2f5"; }
   {% endfor %}
 
   {% if icons.outline.aliases.length > 0 -%}
+  & when(@variationIconAliases) {
   /* Aliases */
   {% for icon in icons.outline.aliases -%}
     i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
-  {% endfor %}{%- endif %}
+  {% endfor %}
+  }
+  {%- endif %}
 }
-.loadOutlineIcons();
 {%- endif %}
 
 {% if icons.thin.icons.length > 0 -%}
+& when (@variationIconThin) {
 /*******************************
            Thin Icons
 *******************************/
 
 /* Thin Icon */
-.loadThinIcons() when (@importThinIcons) {
-  /* Load & Define Icon Font */
-  @font-face {
-    font-family: @thinFontName;
-    src: @thinFallbackSRC;
-    src: @thinSrc;
-    font-style: normal;
-    font-weight: @normal;
-    font-variant: normal;
-    text-decoration: inherit;
-    text-transform: none;
+  & when (@importThinIcons) {
+    /* Load & Define Icon Font */
+    @font-face {
+      font-family: @thinFontName;
+      src: @thinFallbackSRC;
+      src: @thinSrc;
+      font-style: normal;
+      font-weight: @normal;
+      font-variant: normal;
+      text-decoration: inherit;
+      text-transform: none;
+    }
   }
 
   i.icon.thin {
@@ -124,30 +134,35 @@ i.icon.sign.out:before { content: "\f2f5"; }
   {% endfor %}
 
   {% if icons.thin.aliases.length > 0 -%}
+  & when(@variationIconAliases) {
   /* Aliases */
   {% for icon in icons.thin.aliases -%}
     i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; }
-  {% endfor %}{%- endif %}
+  {% endfor %}
+  }
+  {%- endif %}
 }
-.loadThinIcons();
+
 {%- endif %}
 
 {% if icons.brand.icons.length > 0 -%}
+& when(@variationIconBrand) {
 /*******************************
           Brand Icons
 *******************************/
 
-.loadBrandIcons() when (@importBrandIcons) {
-  /* Load & Define Brand Font */
-  @font-face {
-    font-family: @brandFontName;
-    src: @brandFallbackSRC;
-    src: @brandSrc;
-    font-style: normal;
-    font-weight: @normal;
-    font-variant: normal;
-    text-decoration: inherit;
-    text-transform: none;
+  & when (@importBrandIcons) {
+    /* Load & Define Brand Font */
+    @font-face {
+      font-family: @brandFontName;
+      src: @brandFallbackSRC;
+      src: @brandSrc;
+      font-style: normal;
+      font-weight: @normal;
+      font-variant: normal;
+      text-decoration: inherit;
+      text-transform: none;
+    }
   }
 
   /* Icons */
@@ -156,10 +171,12 @@ i.icon.sign.out:before { content: "\f2f5"; }
   {% endfor %}
 
   {% if icons.brand.aliases.length > 0 -%}
+  & when(@variationIconAliases) {
   /* Aliases */
   {% for icon in icons.brand.aliases -%}
     i.icon.{{ icon.className }}:before { content: "{{ icon.unicode }}"; font-family: @brandFontName; }
-  {% endfor %}{%- endif %}
+  {% endfor %}
+  }
+  {%- endif %}
 }
-.loadBrandIcons();
 {%- endif %}
