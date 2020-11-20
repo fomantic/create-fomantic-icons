@@ -1044,9 +1044,9 @@ normalize-package-data@^2.3.2:
     validate-npm-package-license "^3.0.1"
 
 num-words@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/num-words/-/num-words-1.2.0.tgz#3cf6be9dd48e4458a012d7dffd2745413ee6ac04"
-  integrity sha512-soYtxI7QNVCg0vot1OYNlYmo5ylEKU1qgmgmNCuozsz8SDY1DppnyGAvyxPQ8yPnB59P/LeLTFdzrx497hCT5g==
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/num-words/-/num-words-1.2.2.tgz#3e19672955cd7b604c217f3b1f5ae043bb994834"
+  integrity sha512-9OrwYwBDosGA46MBeRSioU+9qpqWDDWKvl7xfIuJh1J02zw9trnYHQE+HA8KEfoUqTqK6fGAGf0LSwpZ7HrXKA==
 
 object-inspect@^1.7.0:
   version "1.7.0"
