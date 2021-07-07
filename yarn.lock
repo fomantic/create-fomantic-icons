@@ -58,9 +58,9 @@
   integrity sha512-1RWYiq+5UfozGsU6MwJyFX6BtktcT10XRjvcAQmskCtMcW3tPske88lM/nHv7BQG1w9KBXI1zPGuu5PnNCX14g==
 
 "@types/signale@^1.2.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@types/signale/-/signale-1.4.1.tgz#6137a6fd7960b48703dd2793c5b795480368b246"
-  integrity sha512-05d9fUDqRnt36rizLgo38SbPTrkMzdhXpvSHSAhxzokgIUPGNUoXHV0zYjPpTd4IryDADJ0mGHpfJ/Yhjyh9JQ==
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@types/signale/-/signale-1.4.2.tgz#6fc36d038297fa4c1d9aa2b5c2ec80195d4c5d2f"
+  integrity sha512-cIqvDXQmLD5UNgtYhHvTt4dEyR+FXuCwoqQbz7mZaS7pGyJvpUFDAoMbgwymptqUXH3eL8vBcNU+dBiyauaA6Q==
   dependencies:
     "@types/node" "*"
 
