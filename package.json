@@ -1,6 +1,6 @@
 {
   "name": "create-fomantic-icons",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A simple CLI to generate the icon.overrides and icon.html.eco files for FUI",
   "author": "Sean Hamilton <sean@hamistudios.com>",
   "license": "MIT",
@@ -14,6 +14,7 @@
     "cli"
   ],
   "scripts": {
+    "start": "./bin/run",
     "build": "tsc"
   },
   "bin": "./bin/run",
@@ -25,15 +26,16 @@
     "url": "https://github.com/fomantic/create-fomantic-icons/issues"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chalk": "^2.4.2",
     "fs-extra": "^7.0.1",
     "js-yaml": "^3.13.1",
     "liquidjs": "^8.2.1",
+    "num-words": "^1.2.0",
     "ora": "^3.4.0",
     "qoa": "^0.2.0",
     "signale": "^1.4.0",
-    "unzipper": "^0.9.11"
+    "unzipper": "^0.10.1"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",

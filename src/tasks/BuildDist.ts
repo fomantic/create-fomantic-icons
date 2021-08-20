@@ -19,7 +19,7 @@ export default function run(results: PromptResults, parseResults: ParseResults):
       .start('building dist');
 
     const engine = new Liquid({
-      root: resolvePath(__dirname, '../../src/ templates'),
+      root: resolvePath(__dirname, '../../src/templates'),
       extname: '.liquid',
     });
 
