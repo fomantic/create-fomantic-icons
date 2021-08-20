@@ -57,5 +57,9 @@
     "the-red-yeti": {
         "name": "redyeti",
         "className": "redyeti"
+    },
+    "chart-line": {
+        "name": "chartline",
+        "className": "chartline"
     }
 }

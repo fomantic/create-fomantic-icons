@@ -1015,9 +1015,9 @@
         "type": "solid"
     },
     {
-        "rawName": "line-graph",
-        "name": "line graph",
-        "className": "line.graph",
+        "rawName": "linegraph",
+        "name": "linegraph",
+        "className": "linegraph",
         "unicode": "\\f201",
         "type": "solid"
     },
