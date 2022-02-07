@@ -2387,3 +2387,2392 @@
         "type": "solid"
     }
 ]
+[
+    {
+        "rawName": "chess-rock",
+        "name": "chess rock",
+        "className": "chess.rock",
+        "unicode": "\\f447",
+        "type": "solid"
+    },
+    {
+        "rawName": "ordered-list",
+        "name": "ordered list",
+        "className": "ordered.list",
+        "unicode": "\\f0cb",
+        "type": "solid"
+    },
+    {
+        "rawName": "unordered-list",
+        "name": "unordered list",
+        "className": "unordered.list",
+        "unicode": "\\f0ca",
+        "type": "solid"
+    },
+    {
+        "rawName": "user-doctor",
+        "name": "user doctor",
+        "className": "user.doctor",
+        "unicode": "\\f0f0",
+        "type": "solid"
+    },
+    {
+        "rawName": "shield",
+        "name": "shield",
+        "className": "shield",
+        "unicode": "\\f3ed",
+        "type": "solid"
+    },
+    {
+        "rawName": "puzzle",
+        "name": "puzzle",
+        "className": "puzzle",
+        "unicode": "\\f12e",
+        "type": "solid"
+    },
+    {
+        "rawName": "credit-card-amazon-pay",
+        "name": "credit card amazon pay",
+        "className": "credit.card.amazon.pay",
+        "unicode": "\\f42d",
+        "type": "brand"
+    },
+    {
+        "rawName": "credit-card-american-express",
+        "name": "credit card american express",
+        "className": "credit.card.american.express",
+        "unicode": "\\f1f3",
+        "type": "brand"
+    },
+    {
+        "rawName": "credit-card-diners-club",
+        "name": "credit card diners club",
+        "className": "credit.card.diners.club",
+        "unicode": "\\f24c",
+        "type": "brand"
+    },
+    {
+        "rawName": "credit-card-discover",
+        "name": "credit card discover",
+        "className": "credit.card.discover",
+        "unicode": "\\f1f2",
+        "type": "brand"
+    },
+    {
+        "rawName": "credit-card-jcb",
+        "name": "credit card jcb",
+        "className": "credit.card.jcb",
+        "unicode": "\\f24b",
+        "type": "brand"
+    },
+    {
+        "rawName": "credit-card-mastercard",
+        "name": "credit card mastercard",
+        "className": "credit.card.mastercard",
+        "unicode": "\\f1f1",
+        "type": "brand"
+    },
+    {
+        "rawName": "credit-card-paypal",
+        "name": "credit card paypal",
+        "className": "credit.card.paypal",
+        "unicode": "\\f1f4",
+        "type": "brand"
+    },
+    {
+        "rawName": "credit-card-stripe",
+        "name": "credit card stripe",
+        "className": "credit.card.stripe",
+        "unicode": "\\f1f5",
+        "type": "brand"
+    },
+    {
+        "rawName": "credit-card-visa",
+        "name": "credit card visa",
+        "className": "credit.card.visa",
+        "unicode": "\\f1f0",
+        "type": "brand"
+    },
+    {
+        "rawName": "add-circle",
+        "name": "add circle",
+        "className": "add.circle",
+        "unicode": "\\f055",
+        "type": "solid"
+    },
+    {
+        "rawName": "add-square",
+        "name": "add square",
+        "className": "add.square",
+        "unicode": "\\f0fe",
+        "type": "solid"
+    },
+    {
+        "rawName": "add-to-calendar",
+        "name": "add to calendar",
+        "className": "add.to.calendar",
+        "unicode": "\\f271",
+        "type": "solid"
+    },
+    {
+        "rawName": "add-to-cart",
+        "name": "add to cart",
+        "className": "add.to.cart",
+        "unicode": "\\f217",
+        "type": "solid"
+    },
+    {
+        "rawName": "add-user",
+        "name": "add user",
+        "className": "add.user",
+        "unicode": "\\f234",
+        "type": "solid"
+    },
+    {
+        "rawName": "add",
+        "name": "add",
+        "className": "add",
+        "unicode": "\\f067",
+        "type": "solid"
+    },
+    {
+        "rawName": "alarm-mute",
+        "name": "alarm mute",
+        "className": "alarm.mute",
+        "unicode": "\\f1f6",
+        "type": "solid"
+    },
+    {
+        "rawName": "alarm",
+        "name": "alarm",
+        "className": "alarm",
+        "unicode": "\\f0f3",
+        "type": "solid"
+    },
+    {
+        "rawName": "ald",
+        "name": "ald",
+        "className": "ald",
+        "unicode": "\\f2a2",
+        "type": "solid"
+    },
+    {
+        "rawName": "als",
+        "name": "als",
+        "className": "als",
+        "unicode": "\\f2a2",
+        "type": "solid"
+    },
+    {
+        "rawName": "american-express-card",
+        "name": "american express card",
+        "className": "american.express.card",
+        "unicode": "\\f1f3",
+        "type": "brand"
+    },
+    {
+        "rawName": "american-express",
+        "name": "american express",
+        "className": "american.express",
+        "unicode": "\\f1f3",
+        "type": "brand"
+    },
+    {
+        "rawName": "amex",
+        "name": "amex",
+        "className": "amex",
+        "unicode": "\\f1f3",
+        "type": "brand"
+    },
+    {
+        "rawName": "announcement",
+        "name": "announcement",
+        "className": "announcement",
+        "unicode": "\\f0a1",
+        "type": "solid"
+    },
+    {
+        "rawName": "area-chart",
+        "name": "area chart",
+        "className": "area.chart",
+        "unicode": "\\f1fe",
+        "type": "solid"
+    },
+    {
+        "rawName": "area-graph",
+        "name": "area graph",
+        "className": "area.graph",
+        "unicode": "\\f1fe",
+        "type": "solid"
+    },
+    {
+        "rawName": "arrow-down-cart",
+        "name": "arrow down cart",
+        "className": "arrow.down.cart",
+        "unicode": "\\f218",
+        "type": "solid"
+    },
+    {
+        "rawName": "asexual",
+        "name": "asexual",
+        "className": "asexual",
+        "unicode": "\\f22d",
+        "type": "solid"
+    },
+    {
+        "rawName": "asl-interpreting",
+        "name": "asl interpreting",
+        "className": "asl.interpreting",
+        "unicode": "\\f2a3",
+        "type": "solid"
+    },
+    {
+        "rawName": "asl",
+        "name": "asl",
+        "className": "asl",
+        "unicode": "\\f2a3",
+        "type": "solid"
+    },
+    {
+        "rawName": "assistive-listening-devices",
+        "name": "assistive listening devices",
+        "className": "assistive.listening.devices",
+        "unicode": "\\f2a2",
+        "type": "solid"
+    },
+    {
+        "rawName": "attach",
+        "name": "attach",
+        "className": "attach",
+        "unicode": "\\f0c6",
+        "type": "solid"
+    },
+    {
+        "rawName": "attention",
+        "name": "attention",
+        "className": "attention",
+        "unicode": "\\f06a",
+        "type": "solid"
+    },
+    {
+        "rawName": "balance",
+        "name": "balance",
+        "className": "balance",
+        "unicode": "\\f24e",
+        "type": "solid"
+    },
+    {
+        "rawName": "bar",
+        "name": "bar",
+        "className": "bar",
+        "unicode": "\\f0fc",
+        "type": "solid"
+    },
+    {
+        "rawName": "bathtub",
+        "name": "bathtub",
+        "className": "bathtub",
+        "unicode": "\\f2cd",
+        "type": "solid"
+    },
+    {
+        "rawName": "battery-four",
+        "name": "battery four",
+        "className": "battery.four",
+        "unicode": "\\f240",
+        "type": "solid"
+    },
+    {
+        "rawName": "battery-high",
+        "name": "battery high",
+        "className": "battery.high",
+        "unicode": "\\f241",
+        "type": "solid"
+    },
+    {
+        "rawName": "battery-low",
+        "name": "battery low",
+        "className": "battery.low",
+        "unicode": "\\f243",
+        "type": "solid"
+    },
+    {
+        "rawName": "battery-medium",
+        "name": "battery medium",
+        "className": "battery.medium",
+        "unicode": "\\f242",
+        "type": "solid"
+    },
+    {
+        "rawName": "battery-one",
+        "name": "battery one",
+        "className": "battery.one",
+        "unicode": "\\f243",
+        "type": "solid"
+    },
+    {
+        "rawName": "battery-three",
+        "name": "battery three",
+        "className": "battery.three",
+        "unicode": "\\f241",
+        "type": "solid"
+    },
+    {
+        "rawName": "battery-two",
+        "name": "battery two",
+        "className": "battery.two",
+        "unicode": "\\f242",
+        "type": "solid"
+    },
+    {
+        "rawName": "battery-zero",
+        "name": "battery zero",
+        "className": "battery.zero",
+        "unicode": "\\f244",
+        "type": "solid"
+    },
+    {
+        "rawName": "birthday",
+        "name": "birthday",
+        "className": "birthday",
+        "unicode": "\\f1fd",
+        "type": "solid"
+    },
+    {
+        "rawName": "block-layout",
+        "name": "block layout",
+        "className": "block.layout",
+        "unicode": "\\f009",
+        "type": "solid"
+    },
+    {
+        "rawName": "bluetooth-alternative",
+        "name": "bluetooth alternative",
+        "className": "bluetooth.alternative",
+        "unicode": "\\f294",
+        "type": "brand"
+    },
+    {
+        "rawName": "broken-chain",
+        "name": "broken chain",
+        "className": "broken.chain",
+        "unicode": "\\f127",
+        "type": "solid"
+    },
+    {
+        "rawName": "browser",
+        "name": "browser",
+        "className": "browser",
+        "unicode": "\\f022",
+        "type": "solid"
+    },
+    {
+        "rawName": "call-square",
+        "name": "call square",
+        "className": "call.square",
+        "unicode": "\\f098",
+        "type": "solid"
+    },
+    {
+        "rawName": "call",
+        "name": "call",
+        "className": "call",
+        "unicode": "\\f095",
+        "type": "solid"
+    },
+    {
+        "rawName": "cancel",
+        "name": "cancel",
+        "className": "cancel",
+        "unicode": "\\f00d",
+        "type": "solid"
+    },
+    {
+        "rawName": "cart",
+        "name": "cart",
+        "className": "cart",
+        "unicode": "\\f07a",
+        "type": "solid"
+    },
+    {
+        "rawName": "cc",
+        "name": "cc",
+        "className": "cc",
+        "unicode": "\\f20a",
+        "type": "solid"
+    },
+    {
+        "rawName": "chain",
+        "name": "chain",
+        "className": "chain",
+        "unicode": "\\f0c1",
+        "type": "solid"
+    },
+    {
+        "rawName": "chat",
+        "name": "chat",
+        "className": "chat",
+        "unicode": "\\f075",
+        "type": "solid"
+    },
+    {
+        "rawName": "checked-calendar",
+        "name": "checked calendar",
+        "className": "checked.calendar",
+        "unicode": "\\f274",
+        "type": "solid"
+    },
+    {
+        "rawName": "checkmark",
+        "name": "checkmark",
+        "className": "checkmark",
+        "unicode": "\\f00c",
+        "type": "solid"
+    },
+    {
+        "rawName": "circle-notched",
+        "name": "circle notched",
+        "className": "circle.notched",
+        "unicode": "\\f1ce",
+        "type": "solid"
+    },
+    {
+        "rawName": "close",
+        "name": "close",
+        "className": "close",
+        "unicode": "\\f00d",
+        "type": "solid"
+    },
+    {
+        "rawName": "cny",
+        "name": "cny",
+        "className": "cny",
+        "unicode": "\\f157",
+        "type": "solid"
+    },
+    {
+        "rawName": "cocktail",
+        "name": "cocktail",
+        "className": "cocktail",
+        "unicode": "\\f000",
+        "type": "solid"
+    },
+    {
+        "rawName": "commenting",
+        "name": "commenting",
+        "className": "commenting",
+        "unicode": "\\f27a",
+        "type": "solid"
+    },
+    {
+        "rawName": "computer",
+        "name": "computer",
+        "className": "computer",
+        "unicode": "\\f108",
+        "type": "solid"
+    },
+    {
+        "rawName": "configure",
+        "name": "configure",
+        "className": "configure",
+        "unicode": "\\f0ad",
+        "type": "solid"
+    },
+    {
+        "rawName": "content",
+        "name": "content",
+        "className": "content",
+        "unicode": "\\f0c9",
+        "type": "solid"
+    },
+    {
+        "rawName": "deafness",
+        "name": "deafness",
+        "className": "deafness",
+        "unicode": "\\f2a4",
+        "type": "solid"
+    },
+    {
+        "rawName": "delete-calendar",
+        "name": "delete calendar",
+        "className": "delete.calendar",
+        "unicode": "\\f273",
+        "type": "solid"
+    },
+    {
+        "rawName": "delete",
+        "name": "delete",
+        "className": "delete",
+        "unicode": "\\f00d",
+        "type": "solid"
+    },
+    {
+        "rawName": "detective",
+        "name": "detective",
+        "className": "detective",
+        "unicode": "\\f21b",
+        "type": "solid"
+    },
+    {
+        "rawName": "diners-club-card",
+        "name": "diners club card",
+        "className": "diners.club.card",
+        "unicode": "\\f24c",
+        "type": "brand"
+    },
+    {
+        "rawName": "diners-club",
+        "name": "diners club",
+        "className": "diners.club",
+        "unicode": "\\f24c",
+        "type": "brand"
+    },
+    {
+        "rawName": "discover-card",
+        "name": "discover card",
+        "className": "discover.card",
+        "unicode": "\\f1f2",
+        "type": "brand"
+    },
+    {
+        "rawName": "discover",
+        "name": "discover",
+        "className": "discover",
+        "unicode": "\\f1f2",
+        "type": "brand"
+    },
+    {
+        "rawName": "discussions",
+        "name": "discussions",
+        "className": "discussions",
+        "unicode": "\\f086",
+        "type": "solid"
+    },
+    {
+        "rawName": "doctor",
+        "name": "doctor",
+        "className": "doctor",
+        "unicode": "\\f0f0",
+        "type": "solid"
+    },
+    {
+        "rawName": "dollar",
+        "name": "dollar",
+        "className": "dollar",
+        "unicode": "\\f155",
+        "type": "solid"
+    },
+    {
+        "rawName": "dont",
+        "name": "dont",
+        "className": "dont",
+        "unicode": "\\f05e",
+        "type": "solid"
+    },
+    {
+        "rawName": "dribble",
+        "name": "dribble",
+        "className": "dribble",
+        "unicode": "\\f17d",
+        "type": "brand"
+    },
+    {
+        "rawName": "drivers-license",
+        "name": "drivers license",
+        "className": "drivers.license",
+        "unicode": "\\f2c2",
+        "type": "solid"
+    },
+    {
+        "rawName": "dropdown",
+        "name": "dropdown",
+        "className": "dropdown",
+        "unicode": "\\f0d7",
+        "type": "solid"
+    },
+    {
+        "rawName": "eercast",
+        "name": "eercast",
+        "className": "eercast",
+        "unicode": "\\f2da",
+        "type": "brand"
+    },
+    {
+        "rawName": "emergency",
+        "name": "emergency",
+        "className": "emergency",
+        "unicode": "\\f0f9",
+        "type": "solid"
+    },
+    {
+        "rawName": "envira-gallery",
+        "name": "envira gallery",
+        "className": "envira.gallery",
+        "unicode": "\\f299",
+        "type": "brand"
+    },
+    {
+        "rawName": "erase",
+        "name": "erase",
+        "className": "erase",
+        "unicode": "\\f12d",
+        "type": "solid"
+    },
+    {
+        "rawName": "eur",
+        "name": "eur",
+        "className": "eur",
+        "unicode": "\\f153",
+        "type": "solid"
+    },
+    {
+        "rawName": "euro",
+        "name": "euro",
+        "className": "euro",
+        "unicode": "\\f153",
+        "type": "solid"
+    },
+    {
+        "rawName": "eyedropper",
+        "name": "eyedropper",
+        "className": "eyedropper",
+        "unicode": "\\f1fb",
+        "type": "solid"
+    },
+    {
+        "rawName": "fa",
+        "name": "fa",
+        "className": "fa",
+        "unicode": "\\f2b4",
+        "type": "brand"
+    },
+    {
+        "rawName": "factory",
+        "name": "factory",
+        "className": "factory",
+        "unicode": "\\f275",
+        "type": "solid"
+    },
+    {
+        "rawName": "favorite",
+        "name": "favorite",
+        "className": "favorite",
+        "unicode": "\\f005",
+        "type": "solid"
+    },
+    {
+        "rawName": "feed",
+        "name": "feed",
+        "className": "feed",
+        "unicode": "\\f09e",
+        "type": "solid"
+    },
+    {
+        "rawName": "female-homosexual",
+        "name": "female homosexual",
+        "className": "female.homosexual",
+        "unicode": "\\f226",
+        "type": "solid"
+    },
+    {
+        "rawName": "file-text",
+        "name": "file text",
+        "className": "file.text",
+        "unicode": "\\f15c",
+        "type": "solid"
+    },
+    {
+        "rawName": "find",
+        "name": "find",
+        "className": "find",
+        "unicode": "\\f1e5",
+        "type": "solid"
+    },
+    {
+        "rawName": "first-aid",
+        "name": "first aid",
+        "className": "first.aid",
+        "unicode": "\\f0fa",
+        "type": "solid"
+    },
+    {
+        "rawName": "five-hundred-pixels",
+        "name": "five hundred pixels",
+        "className": "five.hundred.pixels",
+        "unicode": "\\f26e",
+        "type": "brand"
+    },
+    {
+        "rawName": "fork",
+        "name": "fork",
+        "className": "fork",
+        "unicode": "\\f126",
+        "type": "solid"
+    },
+    {
+        "rawName": "game",
+        "name": "game",
+        "className": "game",
+        "unicode": "\\f11b",
+        "type": "solid"
+    },
+    {
+        "rawName": "gay",
+        "name": "gay",
+        "className": "gay",
+        "unicode": "\\f227",
+        "type": "solid"
+    },
+    {
+        "rawName": "gbp",
+        "name": "gbp",
+        "className": "gbp",
+        "unicode": "\\f154",
+        "type": "solid"
+    },
+    {
+        "rawName": "gittip",
+        "name": "gittip",
+        "className": "gittip",
+        "unicode": "\\f184",
+        "type": "brand"
+    },
+    {
+        "rawName": "google-plus-circle",
+        "name": "google plus circle",
+        "className": "google.plus.circle",
+        "unicode": "\\f2b3",
+        "type": "brand"
+    },
+    {
+        "rawName": "google-plus-official",
+        "name": "google plus official",
+        "className": "google.plus.official",
+        "unicode": "\\f2b3",
+        "type": "brand"
+    },
+    {
+        "rawName": "grab",
+        "name": "grab",
+        "className": "grab",
+        "unicode": "\\f255",
+        "type": "solid"
+    },
+    {
+        "rawName": "graduation",
+        "name": "graduation",
+        "className": "graduation",
+        "unicode": "\\f19d",
+        "type": "solid"
+    },
+    {
+        "rawName": "grid-layout",
+        "name": "grid layout",
+        "className": "grid.layout",
+        "unicode": "\\f00a",
+        "type": "solid"
+    },
+    {
+        "rawName": "group",
+        "name": "group",
+        "className": "group",
+        "unicode": "\\f0c0",
+        "type": "solid"
+    },
+    {
+        "rawName": "h",
+        "name": "h",
+        "className": "h",
+        "unicode": "\\f0fd",
+        "type": "solid"
+    },
+    {
+        "rawName": "hand-victory",
+        "name": "hand victory",
+        "className": "hand.victory",
+        "unicode": "\\f25b",
+        "type": "solid"
+    },
+    {
+        "rawName": "handicap",
+        "name": "handicap",
+        "className": "handicap",
+        "unicode": "\\f193",
+        "type": "solid"
+    },
+    {
+        "rawName": "hard-of-hearing",
+        "name": "hard of hearing",
+        "className": "hard.of.hearing",
+        "unicode": "\\f2a4",
+        "type": "solid"
+    },
+    {
+        "rawName": "header",
+        "name": "header",
+        "className": "header",
+        "unicode": "\\f1dc",
+        "type": "solid"
+    },
+    {
+        "rawName": "help-circle",
+        "name": "help circle",
+        "className": "help.circle",
+        "unicode": "\\f059",
+        "type": "solid"
+    },
+    {
+        "rawName": "help",
+        "name": "help",
+        "className": "help",
+        "unicode": "\\f128",
+        "type": "solid"
+    },
+    {
+        "rawName": "heterosexual",
+        "name": "heterosexual",
+        "className": "heterosexual",
+        "unicode": "\\f228",
+        "type": "solid"
+    },
+    {
+        "rawName": "hide",
+        "name": "hide",
+        "className": "hide",
+        "unicode": "\\f070",
+        "type": "solid"
+    },
+    {
+        "rawName": "hotel",
+        "name": "hotel",
+        "className": "hotel",
+        "unicode": "\\f236",
+        "type": "solid"
+    },
+    {
+        "rawName": "hourglass-four",
+        "name": "hourglass four",
+        "className": "hourglass.four",
+        "unicode": "\\f254",
+        "type": "solid"
+    },
+    {
+        "rawName": "hourglass-full",
+        "name": "hourglass full",
+        "className": "hourglass.full",
+        "unicode": "\\f254",
+        "type": "solid"
+    },
+    {
+        "rawName": "hourglass-one",
+        "name": "hourglass one",
+        "className": "hourglass.one",
+        "unicode": "\\f251",
+        "type": "solid"
+    },
+    {
+        "rawName": "hourglass-three",
+        "name": "hourglass three",
+        "className": "hourglass.three",
+        "unicode": "\\f253",
+        "type": "solid"
+    },
+    {
+        "rawName": "hourglass-two",
+        "name": "hourglass two",
+        "className": "hourglass.two",
+        "unicode": "\\f252",
+        "type": "solid"
+    },
+    {
+        "rawName": "idea",
+        "name": "idea",
+        "className": "idea",
+        "unicode": "\\f0eb",
+        "type": "solid"
+    },
+    {
+        "rawName": "ils",
+        "name": "ils",
+        "className": "ils",
+        "unicode": "\\f20b",
+        "type": "solid"
+    },
+    {
+        "rawName": "in-cart",
+        "name": "in cart",
+        "className": "in.cart",
+        "unicode": "\\f218",
+        "type": "solid"
+    },
+    {
+        "rawName": "inr",
+        "name": "inr",
+        "className": "inr",
+        "unicode": "\\f156",
+        "type": "solid"
+    },
+    {
+        "rawName": "intergender",
+        "name": "intergender",
+        "className": "intergender",
+        "unicode": "\\f224",
+        "type": "solid"
+    },
+    {
+        "rawName": "intersex",
+        "name": "intersex",
+        "className": "intersex",
+        "unicode": "\\f224",
+        "type": "solid"
+    },
+    {
+        "rawName": "japan-credit-bureau-card",
+        "name": "japan credit bureau card",
+        "className": "japan.credit.bureau.card",
+        "unicode": "\\f24b",
+        "type": "brand"
+    },
+    {
+        "rawName": "japan-credit-bureau",
+        "name": "japan credit bureau",
+        "className": "japan.credit.bureau",
+        "unicode": "\\f24b",
+        "type": "brand"
+    },
+    {
+        "rawName": "jcb",
+        "name": "jcb",
+        "className": "jcb",
+        "unicode": "\\f24b",
+        "type": "brand"
+    },
+    {
+        "rawName": "jpy",
+        "name": "jpy",
+        "className": "jpy",
+        "unicode": "\\f157",
+        "type": "solid"
+    },
+    {
+        "rawName": "krw",
+        "name": "krw",
+        "className": "krw",
+        "unicode": "\\f159",
+        "type": "solid"
+    },
+    {
+        "rawName": "lab",
+        "name": "lab",
+        "className": "lab",
+        "unicode": "\\f0c3",
+        "type": "solid"
+    },
+    {
+        "rawName": "law",
+        "name": "law",
+        "className": "law",
+        "unicode": "\\f24e",
+        "type": "solid"
+    },
+    {
+        "rawName": "legal",
+        "name": "legal",
+        "className": "legal",
+        "unicode": "\\f0e3",
+        "type": "solid"
+    },
+    {
+        "rawName": "lesbian",
+        "name": "lesbian",
+        "className": "lesbian",
+        "unicode": "\\f226",
+        "type": "solid"
+    },
+    {
+        "rawName": "lightning",
+        "name": "lightning",
+        "className": "lightning",
+        "unicode": "\\f0e7",
+        "type": "solid"
+    },
+    {
+        "rawName": "like",
+        "name": "like",
+        "className": "like",
+        "unicode": "\\f004",
+        "type": "solid"
+    },
+    {
+        "rawName": "linegraph",
+        "name": "linegraph",
+        "className": "linegraph",
+        "unicode": "\\f201",
+        "type": "solid"
+    },
+    {
+        "rawName": "linkedin-square",
+        "name": "linkedin square",
+        "className": "linkedin.square",
+        "unicode": "\\f08c",
+        "type": "brand"
+    },
+    {
+        "rawName": "linkify",
+        "name": "linkify",
+        "className": "linkify",
+        "unicode": "\\f0c1",
+        "type": "solid"
+    },
+    {
+        "rawName": "lira",
+        "name": "lira",
+        "className": "lira",
+        "unicode": "\\f195",
+        "type": "solid"
+    },
+    {
+        "rawName": "list-layout",
+        "name": "list layout",
+        "className": "list.layout",
+        "unicode": "\\f00b",
+        "type": "solid"
+    },
+    {
+        "rawName": "magnify",
+        "name": "magnify",
+        "className": "magnify",
+        "unicode": "\\f00e",
+        "type": "solid"
+    },
+    {
+        "rawName": "mail-forward",
+        "name": "mail forward",
+        "className": "mail.forward",
+        "unicode": "\\f064",
+        "type": "solid"
+    },
+    {
+        "rawName": "mail-square",
+        "name": "mail square",
+        "className": "mail.square",
+        "unicode": "\\f199",
+        "type": "solid"
+    },
+    {
+        "rawName": "mail",
+        "name": "mail",
+        "className": "mail",
+        "unicode": "\\f0e0",
+        "type": "solid"
+    },
+    {
+        "rawName": "male-homosexual",
+        "name": "male homosexual",
+        "className": "male.homosexual",
+        "unicode": "\\f227",
+        "type": "solid"
+    },
+    {
+        "rawName": "man",
+        "name": "man",
+        "className": "man",
+        "unicode": "\\f222",
+        "type": "solid"
+    },
+    {
+        "rawName": "marker",
+        "name": "marker",
+        "className": "marker",
+        "unicode": "\\f041",
+        "type": "solid"
+    },
+    {
+        "rawName": "mars-alternate",
+        "name": "mars alternate",
+        "className": "mars.alternate",
+        "unicode": "\\f229",
+        "type": "solid"
+    },
+    {
+        "rawName": "mars-horizontal",
+        "name": "mars horizontal",
+        "className": "mars.horizontal",
+        "unicode": "\\f22b",
+        "type": "solid"
+    },
+    {
+        "rawName": "mars-vertical",
+        "name": "mars vertical",
+        "className": "mars.vertical",
+        "unicode": "\\f22a",
+        "type": "solid"
+    },
+    {
+        "rawName": "mastercard-card",
+        "name": "mastercard card",
+        "className": "mastercard.card",
+        "unicode": "\\f1f1",
+        "type": "brand"
+    },
+    {
+        "rawName": "mastercard",
+        "name": "mastercard",
+        "className": "mastercard",
+        "unicode": "\\f1f1",
+        "type": "brand"
+    },
+    {
+        "rawName": "microsoft-edge",
+        "name": "microsoft edge",
+        "className": "microsoft.edge",
+        "unicode": "\\f282",
+        "type": "brand"
+    },
+    {
+        "rawName": "military",
+        "name": "military",
+        "className": "military",
+        "unicode": "\\f0fb",
+        "type": "solid"
+    },
+    {
+        "rawName": "ms-edge",
+        "name": "ms edge",
+        "className": "ms.edge",
+        "unicode": "\\f282",
+        "type": "brand"
+    },
+    {
+        "rawName": "mute",
+        "name": "mute",
+        "className": "mute",
+        "unicode": "\\f131",
+        "type": "solid"
+    },
+    {
+        "rawName": "new-pied-piper",
+        "name": "new pied piper",
+        "className": "new.pied.piper",
+        "unicode": "\\f2ae",
+        "type": "brand"
+    },
+    {
+        "rawName": "non-binary-transgender",
+        "name": "non binary transgender",
+        "className": "non.binary.transgender",
+        "unicode": "\\f223",
+        "type": "solid"
+    },
+    {
+        "rawName": "numbered-list",
+        "name": "numbered list",
+        "className": "numbered.list",
+        "unicode": "\\f0cb",
+        "type": "solid"
+    },
+    {
+        "rawName": "optinmonster",
+        "name": "optinmonster",
+        "className": "optinmonster",
+        "unicode": "\\f23c",
+        "type": "brand"
+    },
+    {
+        "rawName": "options",
+        "name": "options",
+        "className": "options",
+        "unicode": "\\f1de",
+        "type": "solid"
+    },
+    {
+        "rawName": "other-gender-horizontal",
+        "name": "other gender horizontal",
+        "className": "other.gender.horizontal",
+        "unicode": "\\f22b",
+        "type": "solid"
+    },
+    {
+        "rawName": "other-gender-vertical",
+        "name": "other gender vertical",
+        "className": "other.gender.vertical",
+        "unicode": "\\f22a",
+        "type": "solid"
+    },
+    {
+        "rawName": "other-gender",
+        "name": "other gender",
+        "className": "other.gender",
+        "unicode": "\\f229",
+        "type": "solid"
+    },
+    {
+        "rawName": "payment",
+        "name": "payment",
+        "className": "payment",
+        "unicode": "\\f09d",
+        "type": "solid"
+    },
+    {
+        "rawName": "paypal-card",
+        "name": "paypal card",
+        "className": "paypal.card",
+        "unicode": "\\f1f4",
+        "type": "brand"
+    },
+    {
+        "rawName": "pencil-square",
+        "name": "pencil square",
+        "className": "pencil.square",
+        "unicode": "\\f14b",
+        "type": "solid"
+    },
+    {
+        "rawName": "photo",
+        "name": "photo",
+        "className": "photo",
+        "unicode": "\\f030",
+        "type": "solid"
+    },
+    {
+        "rawName": "picture",
+        "name": "picture",
+        "className": "picture",
+        "unicode": "\\f03e",
+        "type": "solid"
+    },
+    {
+        "rawName": "pie-chart",
+        "name": "pie chart",
+        "className": "pie.chart",
+        "unicode": "\\f200",
+        "type": "solid"
+    },
+    {
+        "rawName": "pie-graph",
+        "name": "pie graph",
+        "className": "pie.graph",
+        "unicode": "\\f200",
+        "type": "solid"
+    },
+    {
+        "rawName": "pied-piper-hat",
+        "name": "pied piper hat",
+        "className": "pied.piper.hat",
+        "unicode": "\\f2ae",
+        "type": "brand"
+    },
+    {
+        "rawName": "pin",
+        "name": "pin",
+        "className": "pin",
+        "unicode": "\\f08d",
+        "type": "solid"
+    },
+    {
+        "rawName": "plus-cart",
+        "name": "plus cart",
+        "className": "plus.cart",
+        "unicode": "\\f217",
+        "type": "solid"
+    },
+    {
+        "rawName": "pocket",
+        "name": "pocket",
+        "className": "pocket",
+        "unicode": "\\f265",
+        "type": "brand"
+    },
+    {
+        "rawName": "point",
+        "name": "point",
+        "className": "point",
+        "unicode": "\\f041",
+        "type": "solid"
+    },
+    {
+        "rawName": "pointing-down",
+        "name": "pointing down",
+        "className": "pointing.down",
+        "unicode": "\\f0a7",
+        "type": "solid"
+    },
+    {
+        "rawName": "pointing-left",
+        "name": "pointing left",
+        "className": "pointing.left",
+        "unicode": "\\f0a5",
+        "type": "solid"
+    },
+    {
+        "rawName": "pointing-right",
+        "name": "pointing right",
+        "className": "pointing.right",
+        "unicode": "\\f0a4",
+        "type": "solid"
+    },
+    {
+        "rawName": "pointing-up",
+        "name": "pointing up",
+        "className": "pointing.up",
+        "unicode": "\\f0a6",
+        "type": "solid"
+    },
+    {
+        "rawName": "pound",
+        "name": "pound",
+        "className": "pound",
+        "unicode": "\\f154",
+        "type": "solid"
+    },
+    {
+        "rawName": "power-cord",
+        "name": "power cord",
+        "className": "power.cord",
+        "unicode": "\\f1e6",
+        "type": "solid"
+    },
+    {
+        "rawName": "power",
+        "name": "power",
+        "className": "power",
+        "unicode": "\\f011",
+        "type": "solid"
+    },
+    {
+        "rawName": "privacy",
+        "name": "privacy",
+        "className": "privacy",
+        "unicode": "\\f084",
+        "type": "solid"
+    },
+    {
+        "rawName": "r-circle",
+        "name": "r circle",
+        "className": "r.circle",
+        "unicode": "\\f25d",
+        "type": "solid"
+    },
+    {
+        "rawName": "rain",
+        "name": "rain",
+        "className": "rain",
+        "unicode": "\\f0e9",
+        "type": "solid"
+    },
+    {
+        "rawName": "record",
+        "name": "record",
+        "className": "record",
+        "unicode": "\\f03d",
+        "type": "solid"
+    },
+    {
+        "rawName": "refresh",
+        "name": "refresh",
+        "className": "refresh",
+        "unicode": "\\f021",
+        "type": "solid"
+    },
+    {
+        "rawName": "remove-circle",
+        "name": "remove circle",
+        "className": "remove.circle",
+        "unicode": "\\f057",
+        "type": "solid"
+    },
+    {
+        "rawName": "remove-from-calendar",
+        "name": "remove from calendar",
+        "className": "remove.from.calendar",
+        "unicode": "\\f272",
+        "type": "solid"
+    },
+    {
+        "rawName": "remove-user",
+        "name": "remove user",
+        "className": "remove.user",
+        "unicode": "\\f235",
+        "type": "solid"
+    },
+    {
+        "rawName": "remove",
+        "name": "remove",
+        "className": "remove",
+        "unicode": "\\f00d",
+        "type": "solid"
+    },
+    {
+        "rawName": "repeat",
+        "name": "repeat",
+        "className": "repeat",
+        "unicode": "\\f01e",
+        "type": "solid"
+    },
+    {
+        "rawName": "rmb",
+        "name": "rmb",
+        "className": "rmb",
+        "unicode": "\\f157",
+        "type": "solid"
+    },
+    {
+        "rawName": "rouble",
+        "name": "rouble",
+        "className": "rouble",
+        "unicode": "\\f158",
+        "type": "solid"
+    },
+    {
+        "rawName": "rub",
+        "name": "rub",
+        "className": "rub",
+        "unicode": "\\f158",
+        "type": "solid"
+    },
+    {
+        "rawName": "ruble",
+        "name": "ruble",
+        "className": "ruble",
+        "unicode": "\\f158",
+        "type": "solid"
+    },
+    {
+        "rawName": "rupee",
+        "name": "rupee",
+        "className": "rupee",
+        "unicode": "\\f156",
+        "type": "solid"
+    },
+    {
+        "rawName": "s15",
+        "name": "s15",
+        "className": "s15",
+        "unicode": "\\f2cd",
+        "type": "solid"
+    },
+    {
+        "rawName": "selected-radio",
+        "name": "selected radio",
+        "className": "selected.radio",
+        "unicode": "\\f192",
+        "type": "solid"
+    },
+    {
+        "rawName": "send",
+        "name": "send",
+        "className": "send",
+        "unicode": "\\f1d8",
+        "type": "solid"
+    },
+    {
+        "rawName": "setting",
+        "name": "setting",
+        "className": "setting",
+        "unicode": "\\f013",
+        "type": "solid"
+    },
+    {
+        "rawName": "settings",
+        "name": "settings",
+        "className": "settings",
+        "unicode": "\\f085",
+        "type": "solid"
+    },
+    {
+        "rawName": "shekel",
+        "name": "shekel",
+        "className": "shekel",
+        "unicode": "\\f20b",
+        "type": "solid"
+    },
+    {
+        "rawName": "sheqel",
+        "name": "sheqel",
+        "className": "sheqel",
+        "unicode": "\\f20b",
+        "type": "solid"
+    },
+    {
+        "rawName": "shipping",
+        "name": "shipping",
+        "className": "shipping",
+        "unicode": "\\f0d1",
+        "type": "solid"
+    },
+    {
+        "rawName": "shop",
+        "name": "shop",
+        "className": "shop",
+        "unicode": "\\f07a",
+        "type": "solid"
+    },
+    {
+        "rawName": "shuffle",
+        "name": "shuffle",
+        "className": "shuffle",
+        "unicode": "\\f074",
+        "type": "solid"
+    },
+    {
+        "rawName": "shutdown",
+        "name": "shutdown",
+        "className": "shutdown",
+        "unicode": "\\f011",
+        "type": "solid"
+    },
+    {
+        "rawName": "sidebar",
+        "name": "sidebar",
+        "className": "sidebar",
+        "unicode": "\\f0c9",
+        "type": "solid"
+    },
+    {
+        "rawName": "signing",
+        "name": "signing",
+        "className": "signing",
+        "unicode": "\\f2a7",
+        "type": "solid"
+    },
+    {
+        "rawName": "signup",
+        "name": "signup",
+        "className": "signup",
+        "unicode": "\\f044",
+        "type": "solid"
+    },
+    {
+        "rawName": "sliders",
+        "name": "sliders",
+        "className": "sliders",
+        "unicode": "\\f1de",
+        "type": "solid"
+    },
+    {
+        "rawName": "soccer",
+        "name": "soccer",
+        "className": "soccer",
+        "unicode": "\\f1e3",
+        "type": "solid"
+    },
+    {
+        "rawName": "sort-alphabet-ascending",
+        "name": "sort alphabet ascending",
+        "className": "sort.alphabet.ascending",
+        "unicode": "\\f15d",
+        "type": "solid"
+    },
+    {
+        "rawName": "sort-alphabet-descending",
+        "name": "sort alphabet descending",
+        "className": "sort.alphabet.descending",
+        "unicode": "\\f15e",
+        "type": "solid"
+    },
+    {
+        "rawName": "sort-ascending",
+        "name": "sort ascending",
+        "className": "sort.ascending",
+        "unicode": "\\f0de",
+        "type": "solid"
+    },
+    {
+        "rawName": "sort-content-ascending",
+        "name": "sort content ascending",
+        "className": "sort.content.ascending",
+        "unicode": "\\f160",
+        "type": "solid"
+    },
+    {
+        "rawName": "sort-content-descending",
+        "name": "sort content descending",
+        "className": "sort.content.descending",
+        "unicode": "\\f161",
+        "type": "solid"
+    },
+    {
+        "rawName": "sort-descending",
+        "name": "sort descending",
+        "className": "sort.descending",
+        "unicode": "\\f0dd",
+        "type": "solid"
+    },
+    {
+        "rawName": "sort-numeric-ascending",
+        "name": "sort numeric ascending",
+        "className": "sort.numeric.ascending",
+        "unicode": "\\f162",
+        "type": "solid"
+    },
+    {
+        "rawName": "sort-numeric-descending",
+        "name": "sort numeric descending",
+        "className": "sort.numeric.descending",
+        "unicode": "\\f163",
+        "type": "solid"
+    },
+    {
+        "rawName": "sound",
+        "name": "sound",
+        "className": "sound",
+        "unicode": "\\f025",
+        "type": "solid"
+    },
+    {
+        "rawName": "spy",
+        "name": "spy",
+        "className": "spy",
+        "unicode": "\\f21b",
+        "type": "solid"
+    },
+    {
+        "rawName": "stripe-card",
+        "name": "stripe card",
+        "className": "stripe.card",
+        "unicode": "\\f1f5",
+        "type": "brand"
+    },
+    {
+        "rawName": "student",
+        "name": "student",
+        "className": "student",
+        "unicode": "\\f19d",
+        "type": "solid"
+    },
+    {
+        "rawName": "talk",
+        "name": "talk",
+        "className": "talk",
+        "unicode": "\\f27a",
+        "type": "solid"
+    },
+    {
+        "rawName": "target",
+        "name": "target",
+        "className": "target",
+        "unicode": "\\f140",
+        "type": "solid"
+    },
+    {
+        "rawName": "teletype",
+        "name": "teletype",
+        "className": "teletype",
+        "unicode": "\\f1e4",
+        "type": "solid"
+    },
+    {
+        "rawName": "television",
+        "name": "television",
+        "className": "television",
+        "unicode": "\\f26c",
+        "type": "solid"
+    },
+    {
+        "rawName": "text-cursor",
+        "name": "text cursor",
+        "className": "text.cursor",
+        "unicode": "\\f246",
+        "type": "solid"
+    },
+    {
+        "rawName": "text-telephone",
+        "name": "text telephone",
+        "className": "text.telephone",
+        "unicode": "\\f1e4",
+        "type": "solid"
+    },
+    {
+        "rawName": "theme-isle",
+        "name": "theme isle",
+        "className": "theme.isle",
+        "unicode": "\\f2b2",
+        "type": "brand"
+    },
+    {
+        "rawName": "theme",
+        "name": "theme",
+        "className": "theme",
+        "unicode": "\\f043",
+        "type": "solid"
+    },
+    {
+        "rawName": "thermometer",
+        "name": "thermometer",
+        "className": "thermometer",
+        "unicode": "\\f2c7",
+        "type": "solid"
+    },
+    {
+        "rawName": "thumb-tack",
+        "name": "thumb tack",
+        "className": "thumb.tack",
+        "unicode": "\\f08d",
+        "type": "solid"
+    },
+    {
+        "rawName": "time",
+        "name": "time",
+        "className": "time",
+        "unicode": "\\f017",
+        "type": "solid"
+    },
+    {
+        "rawName": "tm",
+        "name": "tm",
+        "className": "tm",
+        "unicode": "\\f25c",
+        "type": "solid"
+    },
+    {
+        "rawName": "toggle-down",
+        "name": "toggle down",
+        "className": "toggle.down",
+        "unicode": "\\f150",
+        "type": "solid"
+    },
+    {
+        "rawName": "toggle-left",
+        "name": "toggle left",
+        "className": "toggle.left",
+        "unicode": "\\f191",
+        "type": "solid"
+    },
+    {
+        "rawName": "toggle-right",
+        "name": "toggle right",
+        "className": "toggle.right",
+        "unicode": "\\f152",
+        "type": "solid"
+    },
+    {
+        "rawName": "toggle-up",
+        "name": "toggle up",
+        "className": "toggle.up",
+        "unicode": "\\f151",
+        "type": "solid"
+    },
+    {
+        "rawName": "translate",
+        "name": "translate",
+        "className": "translate",
+        "unicode": "\\f1ab",
+        "type": "solid"
+    },
+    {
+        "rawName": "travel",
+        "name": "travel",
+        "className": "travel",
+        "unicode": "\\f0b1",
+        "type": "solid"
+    },
+    {
+        "rawName": "treatment",
+        "name": "treatment",
+        "className": "treatment",
+        "unicode": "\\f0f1",
+        "type": "solid"
+    },
+    {
+        "rawName": "triangle-down",
+        "name": "triangle down",
+        "className": "triangle.down",
+        "unicode": "\\f0d7",
+        "type": "solid"
+    },
+    {
+        "rawName": "triangle-left",
+        "name": "triangle left",
+        "className": "triangle.left",
+        "unicode": "\\f0d9",
+        "type": "solid"
+    },
+    {
+        "rawName": "triangle-right",
+        "name": "triangle right",
+        "className": "triangle.right",
+        "unicode": "\\f0da",
+        "type": "solid"
+    },
+    {
+        "rawName": "triangle-up",
+        "name": "triangle up",
+        "className": "triangle.up",
+        "unicode": "\\f0d8",
+        "type": "solid"
+    },
+    {
+        "rawName": "try",
+        "name": "try",
+        "className": "try",
+        "unicode": "\\f195",
+        "type": "solid"
+    },
+    {
+        "rawName": "unhide",
+        "name": "unhide",
+        "className": "unhide",
+        "unicode": "\\f06e",
+        "type": "solid"
+    },
+    {
+        "rawName": "unlinkify",
+        "name": "unlinkify",
+        "className": "unlinkify",
+        "unicode": "\\f127",
+        "type": "solid"
+    },
+    {
+        "rawName": "unmute",
+        "name": "unmute",
+        "className": "unmute",
+        "unicode": "\\f130",
+        "type": "solid"
+    },
+    {
+        "rawName": "usd",
+        "name": "usd",
+        "className": "usd",
+        "unicode": "\\f155",
+        "type": "solid"
+    },
+    {
+        "rawName": "user-cancel",
+        "name": "user cancel",
+        "className": "user.cancel",
+        "unicode": "\\f235",
+        "type": "solid"
+    },
+    {
+        "rawName": "user-close",
+        "name": "user close",
+        "className": "user.close",
+        "unicode": "\\f235",
+        "type": "solid"
+    },
+    {
+        "rawName": "user-delete",
+        "name": "user delete",
+        "className": "user.delete",
+        "unicode": "\\f235",
+        "type": "solid"
+    },
+    {
+        "rawName": "user-x",
+        "name": "user x",
+        "className": "user.x",
+        "unicode": "\\f235",
+        "type": "solid"
+    },
+    {
+        "rawName": "vcard",
+        "name": "vcard",
+        "className": "vcard",
+        "unicode": "\\f2bb",
+        "type": "solid"
+    },
+    {
+        "rawName": "video-camera",
+        "name": "video camera",
+        "className": "video.camera",
+        "unicode": "\\f03d",
+        "type": "solid"
+    },
+    {
+        "rawName": "video-play",
+        "name": "video play",
+        "className": "video.play",
+        "unicode": "\\f144",
+        "type": "solid"
+    },
+    {
+        "rawName": "visa-card",
+        "name": "visa card",
+        "className": "visa.card",
+        "unicode": "\\f1f0",
+        "type": "brand"
+    },
+    {
+        "rawName": "visa",
+        "name": "visa",
+        "className": "visa",
+        "unicode": "\\f1f0",
+        "type": "brand"
+    },
+    {
+        "rawName": "volume-control-phone",
+        "name": "volume control phone",
+        "className": "volume.control.phone",
+        "unicode": "\\f2a0",
+        "type": "solid"
+    },
+    {
+        "rawName": "wait",
+        "name": "wait",
+        "className": "wait",
+        "unicode": "\\f017",
+        "type": "solid"
+    },
+    {
+        "rawName": "warning-circle",
+        "name": "warning circle",
+        "className": "warning.circle",
+        "unicode": "\\f06a",
+        "type": "solid"
+    },
+    {
+        "rawName": "warning-sign",
+        "name": "warning sign",
+        "className": "warning.sign",
+        "unicode": "\\f071",
+        "type": "solid"
+    },
+    {
+        "rawName": "warning",
+        "name": "warning",
+        "className": "warning",
+        "unicode": "\\f12a",
+        "type": "solid"
+    },
+    {
+        "rawName": "wechat",
+        "name": "wechat",
+        "className": "wechat",
+        "unicode": "\\f1d7",
+        "type": "brand"
+    },
+    {
+        "rawName": "wi-fi",
+        "name": "wi fi",
+        "className": "wi.fi",
+        "unicode": "\\f1eb",
+        "type": "solid"
+    },
+    {
+        "rawName": "wikipedia",
+        "name": "wikipedia",
+        "className": "wikipedia",
+        "unicode": "\\f266",
+        "type": "brand"
+    },
+    {
+        "rawName": "winner",
+        "name": "winner",
+        "className": "winner",
+        "unicode": "\\f091",
+        "type": "solid"
+    },
+    {
+        "rawName": "wizard",
+        "name": "wizard",
+        "className": "wizard",
+        "unicode": "\\f0d0",
+        "type": "solid"
+    },
+    {
+        "rawName": "woman",
+        "name": "woman",
+        "className": "woman",
+        "unicode": "\\f221",
+        "type": "solid"
+    },
+    {
+        "rawName": "won",
+        "name": "won",
+        "className": "won",
+        "unicode": "\\f159",
+        "type": "solid"
+    },
+    {
+        "rawName": "wordpress-beginner",
+        "name": "wordpress beginner",
+        "className": "wordpress.beginner",
+        "unicode": "\\f297",
+        "type": "brand"
+    },
+    {
+        "rawName": "wordpress-forms",
+        "name": "wordpress forms",
+        "className": "wordpress.forms",
+        "unicode": "\\f298",
+        "type": "brand"
+    },
+    {
+        "rawName": "world",
+        "name": "world",
+        "className": "world",
+        "unicode": "\\f0ac",
+        "type": "solid"
+    },
+    {
+        "rawName": "write-square",
+        "name": "write square",
+        "className": "write.square",
+        "unicode": "\\f14b",
+        "type": "solid"
+    },
+    {
+        "rawName": "x",
+        "name": "x",
+        "className": "x",
+        "unicode": "\\f00d",
+        "type": "solid"
+    },
+    {
+        "rawName": "yc",
+        "name": "yc",
+        "className": "yc",
+        "unicode": "\\f23b",
+        "type": "brand"
+    },
+    {
+        "rawName": "ycombinator",
+        "name": "ycombinator",
+        "className": "ycombinator",
+        "unicode": "\\f23b",
+        "type": "brand"
+    },
+    {
+        "rawName": "yen",
+        "name": "yen",
+        "className": "yen",
+        "unicode": "\\f157",
+        "type": "solid"
+    },
+    {
+        "rawName": "zip",
+        "name": "zip",
+        "className": "zip",
+        "unicode": "\\f187",
+        "type": "solid"
+    },
+    {
+        "rawName": "zoom-in",
+        "name": "zoom in",
+        "className": "zoom.in",
+        "unicode": "\\f00e",
+        "type": "solid"
+    },
+    {
+        "rawName": "zoom-out",
+        "name": "zoom out",
+        "className": "zoom.out",
+        "unicode": "\\f010",
+        "type": "solid"
+    },
+    {
+        "rawName": "zoom",
+        "name": "zoom",
+        "className": "zoom",
+        "unicode": "\\f00e",
+        "type": "solid"
+    },
+    {
+        "rawName": "bitbucket-square",
+        "name": "bitbucket square",
+        "className": "bitbucket.square",
+        "unicode": "\\f171",
+        "type": "brand"
+    },
+    {
+        "rawName": "checkmark-box",
+        "name": "checkmark box",
+        "className": "checkmark.box",
+        "unicode": "\\f14a",
+        "type": "solid"
+    },
+    {
+        "rawName": "circle-thin",
+        "name": "circle thin",
+        "className": "circle.thin",
+        "unicode": "\\f111",
+        "type": "solid"
+    },
+    {
+        "rawName": "cloud-download",
+        "name": "cloud download",
+        "className": "cloud.download",
+        "unicode": "\\f381",
+        "type": "solid"
+    },
+    {
+        "rawName": "cloud-upload",
+        "name": "cloud upload",
+        "className": "cloud.upload",
+        "unicode": "\\f382",
+        "type": "solid"
+    },
+    {
+        "rawName": "compose",
+        "name": "compose",
+        "className": "compose",
+        "unicode": "\\f303",
+        "type": "solid"
+    },
+    {
+        "rawName": "conversation",
+        "name": "conversation",
+        "className": "conversation",
+        "unicode": "\\f086",
+        "type": "solid"
+    },
+    {
+        "rawName": "credit-card-alternative",
+        "name": "credit card alternative",
+        "className": "credit.card.alternative",
+        "unicode": "\\f09d",
+        "type": "solid"
+    },
+    {
+        "rawName": "currency",
+        "name": "currency",
+        "className": "currency",
+        "unicode": "\\f3d1",
+        "type": "solid"
+    },
+    {
+        "rawName": "dashboard",
+        "name": "dashboard",
+        "className": "dashboard",
+        "unicode": "\\f3fd",
+        "type": "solid"
+    },
+    {
+        "rawName": "diamond",
+        "name": "diamond",
+        "className": "diamond",
+        "unicode": "\\f3a5",
+        "type": "solid"
+    },
+    {
+        "rawName": "disk-outline",
+        "name": "disk outline",
+        "className": "disk.outline",
+        "unicode": "\\f369",
+        "type": "brand"
+    },
+    {
+        "rawName": "disk",
+        "name": "disk",
+        "className": "disk",
+        "unicode": "\\f0a0",
+        "type": "solid"
+    },
+    {
+        "rawName": "exchange",
+        "name": "exchange",
+        "className": "exchange",
+        "unicode": "\\f362",
+        "type": "solid"
+    },
+    {
+        "rawName": "external-share",
+        "name": "external share",
+        "className": "external.share",
+        "unicode": "\\f14d",
+        "type": "solid"
+    },
+    {
+        "rawName": "external-square",
+        "name": "external square",
+        "className": "external.square",
+        "unicode": "\\f360",
+        "type": "solid"
+    },
+    {
+        "rawName": "external",
+        "name": "external",
+        "className": "external",
+        "unicode": "\\f35d",
+        "type": "solid"
+    },
+    {
+        "rawName": "facebook-official",
+        "name": "facebook official",
+        "className": "facebook.official",
+        "unicode": "\\f082",
+        "type": "brand"
+    },
+    {
+        "rawName": "food",
+        "name": "food",
+        "className": "food",
+        "unicode": "\\f2e7",
+        "type": "solid"
+    },
+    {
+        "rawName": "heart-empty",
+        "name": "heart empty",
+        "className": "heart.empty",
+        "unicode": "\\f004",
+        "type": "solid"
+    },
+    {
+        "rawName": "hourglass-zero",
+        "name": "hourglass zero",
+        "className": "hourglass.zero",
+        "unicode": "\\f253",
+        "type": "solid"
+    },
+    {
+        "rawName": "level-down",
+        "name": "level down",
+        "className": "level.down",
+        "unicode": "\\f3be",
+        "type": "solid"
+    },
+    {
+        "rawName": "level-up",
+        "name": "level up",
+        "className": "level.up",
+        "unicode": "\\f3bf",
+        "type": "solid"
+    },
+    {
+        "rawName": "log-out",
+        "name": "log out",
+        "className": "log.out",
+        "unicode": "\\f2f5",
+        "type": "solid"
+    },
+    {
+        "rawName": "meanpath",
+        "name": "meanpath",
+        "className": "meanpath",
+        "unicode": "\\f0c8",
+        "type": "solid"
+    },
+    {
+        "rawName": "money",
+        "name": "money",
+        "className": "money",
+        "unicode": "\\f3d1",
+        "type": "solid"
+    },
+    {
+        "rawName": "move",
+        "name": "move",
+        "className": "move",
+        "unicode": "\\f0b2",
+        "type": "solid"
+    },
+    {
+        "rawName": "pencil",
+        "name": "pencil",
+        "className": "pencil",
+        "unicode": "\\f303",
+        "type": "solid"
+    },
+    {
+        "rawName": "protect",
+        "name": "protect",
+        "className": "protect",
+        "unicode": "\\f023",
+        "type": "solid"
+    },
+    {
+        "rawName": "radio",
+        "name": "radio",
+        "className": "radio",
+        "unicode": "\\f192",
+        "type": "solid"
+    },
+    {
+        "rawName": "remove-bookmark",
+        "name": "remove bookmark",
+        "className": "remove.bookmark",
+        "unicode": "\\f02e",
+        "type": "solid"
+    },
+    {
+        "rawName": "resize-horizontal",
+        "name": "resize horizontal",
+        "className": "resize.horizontal",
+        "unicode": "\\f337",
+        "type": "solid"
+    },
+    {
+        "rawName": "resize-vertical",
+        "name": "resize vertical",
+        "className": "resize.vertical",
+        "unicode": "\\f338",
+        "type": "solid"
+    },
+    {
+        "rawName": "sign-in",
+        "name": "sign in",
+        "className": "sign.in",
+        "unicode": "\\f2f6",
+        "type": "solid"
+    },
+    {
+        "rawName": "sign-out",
+        "name": "sign out",
+        "className": "sign.out",
+        "unicode": "\\f2f5",
+        "type": "solid"
+    },
+    {
+        "rawName": "spoon",
+        "name": "spoon",
+        "className": "spoon",
+        "unicode": "\\f2e5",
+        "type": "solid"
+    },
+    {
+        "rawName": "star-empty",
+        "name": "star empty",
+        "className": "star.empty",
+        "unicode": "\\f005",
+        "type": "solid"
+    },
+    {
+        "rawName": "star-half-empty",
+        "name": "star half empty",
+        "className": "star.half.empty",
+        "unicode": "\\f089",
+        "type": "solid"
+    },
+    {
+        "rawName": "star-half-full",
+        "name": "star half full",
+        "className": "star.half.full",
+        "unicode": "\\f089",
+        "type": "solid"
+    },
+    {
+        "rawName": "ticket",
+        "name": "ticket",
+        "className": "ticket",
+        "unicode": "\\f3ff",
+        "type": "solid"
+    },
+    {
+        "rawName": "times-rectangle",
+        "name": "times rectangle",
+        "className": "times.rectangle",
+        "unicode": "\\f410",
+        "type": "solid"
+    },
+    {
+        "rawName": "write",
+        "name": "write",
+        "className": "write",
+        "unicode": "\\f303",
+        "type": "solid"
+    },
+    {
+        "rawName": "youtube-play",
+        "name": "youtube play",
+        "className": "youtube.play",
+        "unicode": "\\f167",
+        "type": "brand"
+    },
+    {
+        "rawName": "bars",
+        "name": "hamburger",
+        "className": "hamburger",
+        "unicode": "\\f0c9",
+        "type": "solid"
+    }
+]

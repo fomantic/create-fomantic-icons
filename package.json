@@ -26,11 +26,12 @@
     "url": "https://github.com/fomantic/create-fomantic-icons/issues"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chalk": "^2.4.2",
     "fs-extra": "^7.0.1",
     "js-yaml": "^3.13.1",
     "liquidjs": "^8.2.1",
+    "num-words": "^1.2.0",
     "ora": "^3.4.0",
     "qoa": "^0.2.0",
     "signale": "^1.4.0",

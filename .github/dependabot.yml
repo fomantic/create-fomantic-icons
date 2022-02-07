@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "06:00"
+  open-pull-requests-limit: 99
+  target-branch: develop
+  versioning-strategy: lockfile-only
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - 11.15.51

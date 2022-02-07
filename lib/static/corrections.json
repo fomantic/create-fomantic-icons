@@ -59,3 +59,68 @@
         "className": "redyeti"
     }
 }
+{
+    "accessible-icon": {
+        "name": "accessible",
+        "className": "accessible"
+    },
+    "500px": {
+        "className": "\\35 00px"
+    },
+    "vimeo-v": {
+        "name": "vimeo v",
+        "className": "vimeo.v"
+    },
+    "red-river": {
+        "name": "redriver",
+        "className": "redriver"
+    },
+    "external-link-alt": {
+        "name": "external alternate",
+        "className": "external.alternate"
+    },
+    "link": {
+        "name": "linkify",
+        "className": "linkify"
+    },
+    "line": {
+        "name": "linechat",
+        "className": "linechat"
+    },
+    "apple-alt": {
+        "name": "fruit-apple",
+        "className": "fruit-apple"
+    },
+    "less": {
+        "name": "lesscss",
+        "className": "lesscss"
+    },
+    "truck-loading": {
+        "name": "truck packing",
+        "className": "truck.packing"
+    },
+    "tablet-android": {
+        "name": "android-tablet",
+        "className": "android-tablet"
+    },
+    "tablet-android-alt": {
+        "name": "android-tablet alternate",
+        "className": "android-tablet.alternate"
+    },
+    "mobile-android": {
+        "name": "android-mobile",
+        "className": "android-mobile"
+    },
+    "mobile-android-alt": {
+        "name": "android-mobile alternate",
+        "className": "android-mobile.alternate"
+    },
+    "the-red-yeti": {
+        "name": "redyeti",
+        "className": "redyeti"
+    },
+    "chart-line": {
+        "name": "chartline",
+        "className": "chartline"
+    }
+}
