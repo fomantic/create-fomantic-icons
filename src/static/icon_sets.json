@@ -15,7 +15,7 @@
     "name": "FontAwesome 6+ Free",
     "repo": "FortAwesome/Font-Awesome",
     "requiresAuth": false,
-    "assetMatch": "fontawesome-free-([6789]|\\d{2})\\.\\d+\\.\\d+-web\\.zip",
+    "assetMatch": "fontawesome-free-(?:[6789]|\\d{2})\\.\\d+\\.\\d+-web\\.zip",
     "parser": "FontAwesome",
     "types": [
       "solid",
