@@ -3,7 +3,7 @@ import { resolve as resolvePath } from 'path';
 
 // npm
 import * as fse from 'fs-extra';
-import { safeLoad as parseYAML } from 'js-yaml';
+import { load as parseYAML } from 'js-yaml';
 import chalk from 'chalk';
 
 // tasks
@@ -72,6 +72,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
       .start('parsing icons');
 
     const fontAwesomeDirectoryName = results.iconSet.name.toLowerCase()
+      .replace(/\d+\+* /g, '')
       .replace(/\s/g, '-');
     const fontAwesomeDirectory = `${fontAwesomeDirectoryName}-${asset.version}-web`;
 
@@ -158,9 +159,11 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
         fse.readFile(categoriesFilePath, (categoriesErr, categoriesData) => {
           if (!categoriesErr) {
             const categoriesMetadata = parseYAML(categoriesData.toString());
+            // @ts-ignore
             const categoryNames = Object.keys(categoriesMetadata);
 
             categoryNames.forEach((categoryName) => {
+              // @ts-ignore
               const categoryMeta: CategoryMeta = categoriesMetadata[categoryName];
 
               const categoryIcons: Icon[] = [];
