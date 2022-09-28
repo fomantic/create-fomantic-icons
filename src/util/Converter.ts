@@ -1,5 +1,5 @@
 // @ts-ignore
-import * as numWords from 'num-words';
+import numWords from 'num-words';
 
 
 export default class Converter {

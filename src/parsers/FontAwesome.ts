@@ -72,6 +72,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
       .start('parsing icons');
 
     const fontAwesomeDirectoryName = results.iconSet.name.toLowerCase()
+      .replace(/\d+\+* /g, '')
       .replace(/\s/g, '-');
     const fontAwesomeDirectory = `${fontAwesomeDirectoryName}-${asset.version}-web`;
 
