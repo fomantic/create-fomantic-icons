@@ -120,7 +120,7 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 };
 
 @icon-outline-map: {
-{% for icon in icons.thin.icons -%}
+{% for icon in icons.outline.icons -%}
   {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
 {% endfor -%}
 };
