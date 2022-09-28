@@ -107,7 +107,7 @@ export function selectIconSetVersion(iconSet: IconSet, accessToken?: string): Pr
   return new Promise((resolve) => {
     axios
       .get(
-        `https://api.github.com/repos/${iconSet.repo}/releases?page=1&per_page=5`,
+        `https://api.github.com/repos/${iconSet.repo}/releases?page=1&per_page=50`,
         axiosConfig,
       )
       .then(({ status, data }) => {
@@ -126,7 +126,9 @@ export function selectIconSetVersion(iconSet: IconSet, accessToken?: string): Pr
                   const regex = new RegExp(iconSet.assetMatch);
                   return regex.test(a.name);
                 })[0];
-
+              if(versions.length >= 10) {
+                  return;
+              }
               versions.push({
                 name: asset.name,
                 id: asset.id,
