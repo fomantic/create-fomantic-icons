@@ -68,7 +68,7 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
   };
 {%- endif %}
 {% if icons.thin.icons.length > 0 -%}
-  @outline: {
+  @thin: {
     font-family: @thinFontName;
     src: url("@{fontPath}/@{thinFontName}.woff2") format('woff2')
     if(@supportIE, e(',') url("@{fontPath}/@{thinFontName}.woff") format('woff'));
@@ -80,7 +80,7 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
   };
 {%- endif %}
 {% if icons.brand.icons.length > 0 -%}
-  @outline: {
+  @brand: {
     font-family: @brandFontName;
     src: url("@{fontPath}/@{brandFontName}.woff2") format('woff2')
     if(@supportIE, e(',') url("@{fontPath}/@{brandFontName}.woff") format('woff'));
