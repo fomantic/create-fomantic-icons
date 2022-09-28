@@ -1,6 +1,6 @@
 # [Fomantic-UI](https://github.com/fomantic/Fomantic-UI) Icon CLI Tool
 
-Generate the `icon.overrides` and `icon.html.eco` files for Fomantic-UI (or Semantic-UI).
+Generate the `icon.variables` and `icon.html.eco` files for Fomantic-UI (or Semantic-UI).
 
 You can use this script to generate the icons for free and pro versions of [FontAwesome](https://fontawesome.com).
 
