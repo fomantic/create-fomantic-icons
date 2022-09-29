@@ -1,16 +1,9 @@
+// @ts-ignore
+import numWords from 'num-words';
+
+
 export default class Converter {
-  private static CLASSNAME_REPLACEMENTS: { [key: string]: string; } = {
-    0: 'zero',
-    1: 'one',
-    2: 'two',
-    3: 'three',
-    4: 'four',
-    5: 'five',
-    6: 'six',
-    7: 'seven',
-    8: 'eight',
-    9: 'nine',
-  };
+  private static NUMERIC_ONLY = /^\d+$/;
 
   public static iconClassName(name: string): string {
     return name
@@ -31,10 +24,8 @@ export default class Converter {
       .replace(/\s/g, '.')
       .split('.')
       .map((entity: string) => {
-        const replacementKeys = Object.keys(Converter.CLASSNAME_REPLACEMENTS);
-
-        return replacementKeys.includes(entity)
-          ? Converter.CLASSNAME_REPLACEMENTS[entity]
+        return Converter.NUMERIC_ONLY.test(entity)
+          ? numWords(entity)
           : entity;
       })
       .join('.');

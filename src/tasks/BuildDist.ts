@@ -2,7 +2,7 @@
 import { resolve as resolvePath } from 'path';
 
 // npm
-import Liquid from 'liquidjs';
+import {Liquid} from 'liquidjs';
 import * as fse from 'fs-extra';
 
 // tasks

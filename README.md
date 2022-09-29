@@ -1,6 +1,6 @@
 # [Fomantic-UI](https://github.com/fomantic/Fomantic-UI) Icon CLI Tool
 
-Generate the `icon.overrides` and `icon.html.eco` files for Fomantic-UI (or Semantic-UI).
+Generate the `icon.overrides` and `icon.html.eco` files for Fomantic-UI up to 2.8.x (or Semantic-UI).
 
 You can use this script to generate the icons for free and pro versions of [FontAwesome](https://fontawesome.com).
 
@@ -26,15 +26,16 @@ Once downloaded you will be prompt with a few questions which will allow you to 
 Select which FontAweome icon set you want
 ```console
 Which icons set would you like to generate?
-  > FontAwesome Free
+  > FontAwesome 5 Free
+    FontAwesome 6+ Free  
     FontAwesome Pro
 ```
-> NOTE: You need a license to generate the icons from FontAweome Pro
+> NOTE: You need a license to generate the icons from FontAwesome Pro
 
 
 Next select which version you want to use
 ```console
-Which version of FontAwesome Free should we download?
+Which version of FontAwesome 5 Free should we download?
   > 5.8.1
     5.8.0
     5.7.2
