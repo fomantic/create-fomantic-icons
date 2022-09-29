@@ -1,6 +1,6 @@
 {
   "name": "create-fomantic-icons",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A simple CLI to generate the icon.variables and icon.html.eco files for FUI",
   "author": "Sean Hamilton <sean@hamistudios.com>",
   "license": "MIT",
