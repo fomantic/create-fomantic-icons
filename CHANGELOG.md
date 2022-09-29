@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] 2022-09-28
+
+This is the last minor version working with FUI < 2.9.0 and SUI 2.4.x
+
+### Changed
+- Ability to choose between FA 5 and FA 6+ for version preselection
+- Increased number of choosable versions
+
+### Fixed
+- Match FUI 2.8.x
+- Numbers > 9 were not converted into textual presentations
+- Compilation errors
+
 ## [1.0.4] 2019-07-06
 ### Fixed
 - Fixed issue in FA 5.9 causing the script to exit because the search terms where undefined (Fixes #16)
