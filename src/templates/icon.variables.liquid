@@ -1,3 +1,32 @@
+/*
+* Font Awesome {{ version }} by @fontawesome [https://fontawesome.com]
+* License - https://fontawesome.com/license (Icons: CC BY 4.0 License, Fonts: SIL OFL 1.1 License, CSS: MIT License)
+*/
+
+/*******************************
+
+Fomantic-UI integration of FontAwesome :
+
+// class names are separated
+i.icon.angle-left  =>  i.icon.angle.left
+
+// variations are extracted
+i.icon.circle      =>  i.icon.circle
+i.icon.circle-o    =>  i.icon.circle.outline
+
+// abbreviation are replaced by full words
+i.icon.*-h         =>  i.icon.*.horizontal
+i.icon.*-v         =>  i.icon.*.vertical
+i.icon.alpha       =>  i.icon.alphabet
+i.icon.asc         =>  i.icon.ascending
+i.icon.desc        =>  i.icon.descending
+i.icon.alt         =>  i.icon.alternate
+
+
+Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
+
+*******************************/
+
 /*******************************
              Icon
 *******************************/
@@ -6,61 +35,122 @@
    Font Files
 ---------------*/
 
-{% if icons.solid.icons.length > 0 -%}
 /* Solid Icons */
 @importIcons: true;
 @fontName: 'icons';
-@src:
-  url("@{fontPath}/@{fontName}.eot?#iefix") format('embedded-opentype'),
-  url("@{fontPath}/@{fontName}.woff2") format('woff2'),
-  url("@{fontPath}/@{fontName}.woff") format('woff'),
-  url("@{fontPath}/@{fontName}.ttf") format('truetype'),
-  url("@{fontPath}/@{fontName}.svg#icons") format('svg')
-;
-@fallbackSRC: url("@{fontPath}/@{fontName}.eot");
-{%- endif %}
-
-{% if icons.outline.icons.length > 0 -%}
-/* Outline Icons */
-@importOutlineIcons: true;
 @outlineFontName: 'outline-icons';
-@outlineSrc:
-  url("@{fontPath}/@{outlineFontName}.eot?#iefix") format('embedded-opentype'),
-  url("@{fontPath}/@{outlineFontName}.woff2") format('woff2'),
-  url("@{fontPath}/@{outlineFontName}.woff") format('woff'),
-  url("@{fontPath}/@{outlineFontName}.ttf") format('truetype'),
-  url("@{fontPath}/@{outlineFontName}.svg#icons") format('svg')
-;
-@outlineFallbackSRC: url("@{fontPath}/@{outlineFontName}.eot");
-{%- endif %}
-
-{% if icons.thin.icons.length > 0 -%}
-/* Thin Icons */
-@importThinIcons: true;
 @thinFontName: 'thin-icons';
-@thinSrc:
-  url("@{fontPath}/@{thinFontName}.eot?#iefix") format('embedded-opentype'),
-  url("@{fontPath}/@{thinFontName}.woff2") format('woff2'),
-  url("@{fontPath}/@{thinFontName}.woff") format('woff'),
-  url("@{fontPath}/@{thinFontName}.ttf") format('truetype'),
-  url("@{fontPath}/@{thinFontName}.svg#icons") format('svg')
-;
-@thinFallbackSRC: url("@{fontPath}/@{thinFontName}.eot");
-{%- endif %}
-
-{% if icons.brand.icons.length > 0 -%}
-/* Brand Icons */
-@importBrandIcons: true;
 @brandFontName: 'brand-icons';
-@brandSrc:
-  url("@{fontPath}/@{brandFontName}.eot?#iefix") format('embedded-opentype'),
-  url("@{fontPath}/@{brandFontName}.woff2") format('woff2'),
-  url("@{fontPath}/@{brandFontName}.woff") format('woff'),
-  url("@{fontPath}/@{brandFontName}.ttf") format('truetype'),
-  url("@{fontPath}/@{brandFontName}.svg#icons") format('svg')
-;
-@brandFallbackSRC: url("@{fontPath}/@{brandFontName}.eot");
+
+@fonts: {
+{% if icons.solid.icons.length > 0 -%}
+  @solid: {
+    font-family: @fontName;
+    src: url("@{fontPath}/@{fontName}.woff2") format('woff2')
+    if(@supportIE, e(',') url("@{fontPath}/@{fontName}.woff") format('woff'));
+    font-style     : normal;
+    font-weight    : @normal;
+    font-variant   : normal;
+    text-decoration: inherit;
+    text-transform : none;
+  };
 {%- endif %}
+{% if icons.outline.icons.length > 0 -%}
+  @outline: {
+    font-family: @outlineFontName;
+    src: url("@{fontPath}/@{outlineFontName}.woff2") format('woff2')
+    if(@supportIE, e(',') url("@{fontPath}/@{outlineFontName}.woff") format('woff'));
+    font-style     : normal;
+    font-weight    : @normal;
+    font-variant   : normal;
+    text-decoration: inherit;
+    text-transform : none;
+  };
+{%- endif %}
+{% if icons.thin.icons.length > 0 -%}
+  @thin: {
+    font-family: @thinFontName;
+    src: url("@{fontPath}/@{thinFontName}.woff2") format('woff2')
+    if(@supportIE, e(',') url("@{fontPath}/@{thinFontName}.woff") format('woff'));
+    font-style     : normal;
+    font-weight    : @normal;
+    font-variant   : normal;
+    text-decoration: inherit;
+    text-transform : none;
+  };
+{%- endif %}
+{% if icons.brand.icons.length > 0 -%}
+  @brand: {
+    font-family: @brandFontName;
+    src: url("@{fontPath}/@{brandFontName}.woff2") format('woff2')
+    if(@supportIE, e(',') url("@{fontPath}/@{brandFontName}.woff") format('woff'));
+    font-style     : normal;
+    font-weight    : @normal;
+    font-variant   : normal;
+    text-decoration: inherit;
+    text-transform : none;
+  };
+{%- endif %}
+};
+
+// Underscores in map keys will be replaced by dots to separate classnames at compile time
+
+/* Deprecated *In/Out Naming Conflict) */
+@icon-deprecated-map: {
+  linkedin_in:\f0e1;
+  zoom_in: \f00e;
+  zoom_out: \f010;
+  sign_in: \f2f6;
+  in_cart: \f218;
+  log_out: \f2f5;
+  sign_out: \f2f5;
+};
+
+/* Icons */
+@icon-map: {
+{% for icon in icons.solid.icons -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
+
+@icon-aliases-map: {
+{% for icon in icons.solid.aliases -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
+
+@icon-outline-map: {
+{% for icon in icons.outline.icons -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
+@icon-outline-aliases-map: {
+{% for icon in icons.outline.aliases -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
+
+@icon-thin-map: {
+{% for icon in icons.thin.icons -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
+@icon-thin-aliases-map: {
+{% for icon in icons.thin.aliases -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
+
+@icon-brand-map: {
+{% for icon in icons.brand.icons -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
+@icon-brand-aliases-map: {
+{% for icon in icons.brand.aliases -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
 
 
 /*--------------
