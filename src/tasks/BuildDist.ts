@@ -2,7 +2,7 @@
 import { resolve as resolvePath } from 'path';
 
 // npm
-import {Liquid} from 'liquidjs';
+import { Liquid } from 'liquidjs';
 import * as fse from 'fs-extra';
 
 // tasks
@@ -33,7 +33,7 @@ export default function run(results: PromptResults, parseResults: ParseResults):
     };
 
     const templateFileRenderFuncs = Object.keys(distFiles)
-      .map(filename => new Promise((resolveRender, rejectRender) => {
+      .map((filename) => new Promise<void>((resolveRender, rejectRender) => {
         engine.renderFile(`${filename}.liquid`, ctx)
           .then((renderResult) => {
             const fileOutputDirectory = resolvePath(results.distPath, distFiles[filename]);
@@ -51,7 +51,7 @@ export default function run(results: PromptResults, parseResults: ParseResults):
           .catch(rejectRender);
       }));
 
-    const copyAssetsFunc = new Promise((resolveAssetCopy, rejectAssetCopy) => {
+    const copyAssetsFunc = new Promise<void>((resolveAssetCopy, rejectAssetCopy) => {
       fse.readdir(parseResults.fontAssetsDirectory)
         .then((files) => {
           let copiedFiles = 0;

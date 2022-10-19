@@ -9,7 +9,7 @@ import * as fse from 'fs-extra';
 import Logger, { spinner } from '../util/Logger';
 
 export default function run() {
-  return new Promise((resolve) => {
+  return new Promise<void>((resolve) => {
     Logger.log();
 
     const cleanUpSpinner = spinner()

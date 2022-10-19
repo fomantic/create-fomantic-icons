@@ -86,6 +86,7 @@ export function askWhichIconSet(): Promise<IconSet> {
         menu: IconSets.map(s => s.name),
       })
       .then(({ iconSetName }: PromptAnswers) => {
+        // @ts-ignore
         resolve(IconSets.find(s => s.name === iconSetName));
       })
       .catch((err: Error) => {
@@ -126,8 +127,8 @@ export function selectIconSetVersion(iconSet: IconSet, accessToken?: string): Pr
                   const regex = new RegExp(iconSet.assetMatch);
                   return regex.test(a.name);
                 })[0];
-              if(versions.length >= 10) {
-                  return;
+              if (versions.length >= 10) {
+                return;
               }
               versions.push({
                 name: asset.name,
@@ -144,6 +145,7 @@ export function selectIconSetVersion(iconSet: IconSet, accessToken?: string): Pr
               menu: versions.map(v => v.version),
             })
             .then(({ setVersion }: PromptAnswers) => {
+              // @ts-ignore
               resolve(versions.find(v => v.version === setVersion));
             })
             .catch((err: Error) => {
