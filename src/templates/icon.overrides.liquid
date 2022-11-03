@@ -1,3 +1,33 @@
 /*******************************
-         Theme Overrides
+Theme Overrides
 *******************************/
+
+/* Step 1: Common Duotone Properties: All required to make icons render reliably */
+i.icon.duotone {
+  font-family: @duotoneFontName;
+  position: relative;
+  padding-left: 1em; /* make space for the width of the absolutely positioned icon */
+}
+
+/* Step 2: Set the font-family and font-weight for this style */
+i.icon.duotone::before,
+i.icon.duotone::after {
+  /* position both layers of the icon to the left, set our fixed-width width, horizontally center layers, and then vertically align them so they flex with different line heights */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+/* Step 3: Set the default opacity levels and colors for each layer */
+i.icon.duotone::before {
+  color: var(--fa-primary-color, inherit);
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1.0);
+}
+
+i.icon.duotone::after {
+  color: var(--fa-secondary-color, inherit);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
