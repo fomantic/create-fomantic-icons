@@ -1,18 +1,20 @@
 /*******************************
-Theme Overrides
+         Theme Overrides
 *******************************/
 
-/* Step 1: Common Duotone Properties: All required to make icons render reliably */
+/* Make duotone icons use the proper font */
 i.icon.duotone {
   font-family: @duotoneFontName;
-  position: relative;
-  padding-left: 1em; /* make space for the width of the absolutely positioned icon */
 }
 
-/* Step 2: Set the font-family and font-weight for this style */
-i.icon.duotone::before,
+/* Position both icon layers */
+i.icon.duotone {
+  /* To position the secondary layer on top of the first layer */
+  position: relative;
+}
+
 i.icon.duotone::after {
-  /* position both layers of the icon to the left, set our fixed-width width, horizontally center layers, and then vertically align them so they flex with different line heights */
+  /* Position secondary layer to the left, centered horizontally and aligned vertically to flex with different line heights */
   position: absolute;
   left: 0;
   top: 50%;
@@ -20,14 +22,125 @@ i.icon.duotone::after {
   text-align: center;
 }
 
-/* Step 3: Set the default opacity levels and colors for each layer */
+/* Set the default opacity levels and colors for each layer */
 i.icon.duotone::before {
-  color: var(--fa-primary-color, inherit);
-  opacity: 1;
-  opacity: var(--fa-primary-opacity, 1.0);
+  color: @duotonePrimaryColor;
+  opacity: @duotonePrimaryOpacity;
 }
 
 i.icon.duotone::after {
-  color: var(--fa-secondary-color, inherit);
-  opacity: var(--fa-secondary-opacity, 0.4);
+  color: @duotoneSecondaryColor;
+  opacity: @duotoneSecondaryOpacity;
+}
+
+
+/*
+ * Colors for duotone icons, in the form `primary-secondary`(e.g. `black-grey duotone icon`).
+ * Make sure to respect the `variation.variables` and `colors.less` file values when generating this
+ */
+
+/* Primary icon color */
+i.icon.duotone[class^="red-"]::before {
+  color: red;
+}
+
+i.icon.duotone[class^="orange-"]::before {
+  color: orange;
+}
+
+i.icon.duotone[class^="yellow-"]::before {
+  color: yellow;
+}
+
+i.icon.duotone[class^="olive-"]::before {
+  color: olive;
+}
+
+i.icon.duotone[class^="green-"]::before {
+  color: green;
+}
+
+i.icon.duotone[class^="teal-"]::before {
+  color: teal;
+}
+
+i.icon.duotone[class^="blue-"]::before {
+  color: blue;
+}
+
+i.icon.duotone[class^="violet-"]::before {
+  color: violet;
+}
+
+i.icon.duotone[class^="purple-"]::before {
+  color: purple;
+}
+
+i.icon.duotone[class^="pink-"]::before {
+  color: pink;
+}
+
+i.icon.duotone[class^="brown-"]::before {
+  color: brown;
+}
+
+i.icon.duotone[class^="grey-"]::before {
+  color: grey;
+}
+
+i.icon.duotone[class^="black-"]::before {
+  color: black;
+}
+
+i.icon.duotone[class^="red-"]::before {
+  color: red;
+}
+
+/* Secondary icon color */
+i.icon.duotone[class^="-orange"]::after {
+  color: orange;
+}
+
+i.icon.duotone[class^="-yellow"]::after {
+  color: yellow;
+}
+
+i.icon.duotone[class^="-olive"]::after {
+  color: olive;
+}
+
+i.icon.duotone[class^="-green"]::after {
+  color: green;
+}
+
+i.icon.duotone[class^="-teal"]::after {
+  color: teal;
+}
+
+i.icon.duotone[class^="-blue"]::after {
+  color: blue;
+}
+
+i.icon.duotone[class^="-violet"]::after {
+  color: violet;
+}
+
+i.icon.duotone[class^="-purple"]::after {
+  color: purple;
+}
+
+i.icon.duotone[class^="-pink"]::after {
+  color: pink;
+}
+
+i.icon.duotone[class^="-brown"]::after {
+  color: brown;
+}
+
+i.icon.duotone[class^="-grey"]::after {
+  color: grey;
+}
+
+i.icon.duotone[class^="-black"]::after {
+  color: black;
 }
