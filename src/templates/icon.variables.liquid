@@ -41,6 +41,7 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 @outlineFontName: 'outline-icons';
 @thinFontName: 'thin-icons';
 @brandFontName: 'brand-icons';
+@duotoneFontName: 'duotone-icons';
 
 @fonts: {
 {% if icons.solid.icons.length > 0 -%}
@@ -95,7 +96,22 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
     text-transform : none;
   };
 {%- endif %}
+{% if icons.duotone.icons.length > 0 -%}
+  @duotone: {
+  font-family: @duotoneFontName;
+  src: url("@{fontPath}/@{duotoneFontName}.woff2") format('woff2')
+  if(@supportIE, e(',') url("@{fontPath}/@{duotoneFontName}.woff") format('woff'));
+  font-style     : normal;
+  font-weight    : @normal;
+  font-display   : block;
+  font-variant   : normal;
+  text-decoration: inherit;
+  text-transform : none;
+  };
+{%- endif %}
+
 };
+
 
 // Underscores in map keys will be replaced by dots to separate classnames at compile time
 
@@ -153,6 +169,27 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 @icon-brand-aliases-map: {
 {% for icon in icons.brand.aliases -%}
   {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
+
+@icon-duotone-map: {
+{% for icon in icons.duotone.icons -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
+@icon-duotone-secondary-map: {
+{% for icon in icons.duotone.icons -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.secondaryUnicode }};
+{% endfor -%}
+};
+@icon-duotone-aliases-map: {
+{% for icon in icons.duotone.aliases -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.unicode }};
+{% endfor -%}
+};
+@icon-duotone-secondary-aliases-map: {
+{% for icon in icons.duotone.aliases -%}
+  {{ icon.className | replace: ".", "_" }}: {{ icon.secondaryUnicode }};
 {% endfor -%}
 };
 

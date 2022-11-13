@@ -3,6 +3,7 @@ enum IconType {
   OUTLINE = 'outline',
   THIN = 'thin',
   BRAND = 'brand',
+  DUOTONE = 'duotone',
 }
 
 export default IconType;
