@@ -183,7 +183,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
               const categoryIcons: Icon[] = [];
 
               categoryMeta.icons.forEach((iconName) => {
-                icons.filter(i => i.rawName === iconName)
+                icons.filter((i) => i.rawName === iconName)
                   .forEach((icon) => {
                     categoryIcons.push(icon);
                   });
@@ -203,7 +203,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
               name: 'brands',
               label: 'Brands',
               icons: icons
-                .filter(i => i.type === IconType.BRAND)
+                .filter((i) => i.type === IconType.BRAND)
                 .sort(sortAz),
             }));
 
@@ -211,17 +211,17 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
               name: 'duotone',
               label: 'Duotone',
               icons: icons
-                .filter(i => i.type === IconType.DUOTONE)
+                .filter((i) => i.type === IconType.DUOTONE)
                 .sort(sortAz),
             }));
 
             const parseResults = {
               icons: {
-                solid: icons.filter(i => i.type === IconType.SOLID),
-                outline: icons.filter(i => i.type === IconType.OUTLINE),
-                thin: icons.filter(i => i.type === IconType.THIN),
-                brand: icons.filter(i => i.type === IconType.BRAND),
-                duotone: icons.filter(i => i.type === IconType.DUOTONE),
+                solid: icons.filter((i) => i.type === IconType.SOLID),
+                outline: icons.filter((i) => i.type === IconType.OUTLINE),
+                thin: icons.filter((i) => i.type === IconType.THIN),
+                brand: icons.filter((i) => i.type === IconType.BRAND),
+                duotone: icons.filter((i) => i.type === IconType.DUOTONE),
               },
               categories,
             };
@@ -251,27 +251,27 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
               icons: {
                 solid: {
                   icons: solidIcons,
-                  aliases: aliases.filter(alias => alias.type === 'solid')
+                  aliases: aliases.filter((alias) => alias.type === 'solid')
                     .sort(sortAz),
                 },
                 outline: {
                   icons: outlineIcons,
-                  aliases: aliases.filter(alias => alias.type === 'outline')
+                  aliases: aliases.filter((alias) => alias.type === 'outline')
                     .sort(sortAz),
                 },
                 thin: {
                   icons: thinIcons,
-                  aliases: aliases.filter(alias => alias.type === 'thin')
+                  aliases: aliases.filter((alias) => alias.type === 'thin')
                     .sort(sortAz),
                 },
                 brand: {
                   icons: brandIcons,
-                  aliases: aliases.filter(alias => alias.type === 'brand')
+                  aliases: aliases.filter((alias) => alias.type === 'brand')
                     .sort(sortAz),
                 },
                 duotone: {
                   icons: duotoneIcons,
-                  aliases: aliases.filter(alias => alias.type === 'duotone')
+                  aliases: aliases.filter((alias) => alias.type === 'duotone')
                     .sort(sortAz),
                 },
               },
