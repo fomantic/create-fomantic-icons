@@ -1,7 +1,6 @@
 // @ts-ignore
 import numWords from 'num-words';
 
-
 export default class Converter {
   private static NUMERIC_ONLY = /^\d+$/;
 
@@ -23,11 +22,9 @@ export default class Converter {
       .replace(/-/g, '.')
       .replace(/\s/g, '.')
       .split('.')
-      .map((entity: string) => {
-        return Converter.NUMERIC_ONLY.test(entity)
-          ? numWords(entity)
-          : entity;
-      })
+      .map((entity: string) => (Converter.NUMERIC_ONLY.test(entity)
+        ? numWords(entity)
+        : entity))
       .join('.');
   }
 

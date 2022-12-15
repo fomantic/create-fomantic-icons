@@ -83,11 +83,11 @@ export function askWhichIconSet(): Promise<IconSet> {
       .interactive({
         handle: 'iconSetName',
         query: 'Which icons set would you like to generate?',
-        menu: IconSets.map(s => s.name),
+        menu: IconSets.map((s) => s.name),
       })
       .then(({ iconSetName }: PromptAnswers) => {
         // @ts-ignore
-        resolve(IconSets.find(s => s.name === iconSetName));
+        resolve(IconSets.find((s) => s.name === iconSetName));
       })
       .catch((err: Error) => {
         Logger.error(err);
@@ -142,11 +142,11 @@ export function selectIconSetVersion(iconSet: IconSet, accessToken?: string): Pr
             .interactive({
               handle: 'setVersion',
               query: `Which version of ${iconSet.name} should we download?`,
-              menu: versions.map(v => v.version),
+              menu: versions.map((v) => v.version),
             })
             .then(({ setVersion }: PromptAnswers) => {
               // @ts-ignore
-              resolve(versions.find(v => v.version === setVersion));
+              resolve(versions.find((v) => v.version === setVersion));
             })
             .catch((err: Error) => {
               Logger.error(err);
