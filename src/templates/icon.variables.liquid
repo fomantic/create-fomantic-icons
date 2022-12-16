@@ -37,18 +37,18 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 
 /* Solid Icons */
 @importIcons: true;
-@fontName: 'icons';
-@outlineFontName: 'outline-icons';
-@thinFontName: 'thin-icons';
-@brandFontName: 'brand-icons';
-@duotoneFontName: 'duotone-icons';
+@fontName: "icons";
+@outlineFontName: "outline-icons";
+@thinFontName: "thin-icons";
+@brandFontName: "brand-icons";
+@duotoneFontName: "duotone-icons";
 
 @fonts: {
 {% if icons.solid.icons.length > 0 -%}
     @solid: {
         font-family: @fontName;
-        src: url('@{fontPath}/@{fontName}.woff2') format('woff2')
-            if(@supportIE, e(',') url('@{fontPath}/@{fontName}.woff') format('woff'));
+        src: url("@{fontPath}/@{fontName}.woff2") format("woff2")
+            if(@supportIE, e(",") url("@{fontPath}/@{fontName}.woff") format("woff"));
         font-style: normal;
         font-weight: @normal;
         font-display: block;
@@ -60,8 +60,8 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 {% if icons.outline.icons.length > 0 -%}
     @outline: {
         font-family: @outlineFontName;
-        src: url('@{fontPath}/@{outlineFontName}.woff2') format('woff2')
-            if(@supportIE, e(',') url('@{fontPath}/@{outlineFontName}.woff') format('woff'));
+        src: url("@{fontPath}/@{outlineFontName}.woff2") format("woff2")
+            if(@supportIE, e(",") url("@{fontPath}/@{outlineFontName}.woff") format("woff"));
         font-style: normal;
         font-weight: @normal;
         font-display: block;
@@ -73,8 +73,8 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 {% if icons.thin.icons.length > 0 -%}
     @thin: {
         font-family: @thinFontName;
-        src: url('@{fontPath}/@{thinFontName}.woff2') format('woff2')
-            if(@supportIE, e(',') url('@{fontPath}/@{thinFontName}.woff') format('woff'));
+        src: url("@{fontPath}/@{thinFontName}.woff2") format("woff2")
+            if(@supportIE, e(",") url("@{fontPath}/@{thinFontName}.woff") format("woff"));
         font-style: normal;
         font-weight: @normal;
         font-display: block;
@@ -86,8 +86,8 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 {% if icons.brand.icons.length > 0 -%}
     @brand: {
         font-family: @brandFontName;
-        src: url('@{fontPath}/@{brandFontName}.woff2') format('woff2')
-            if(@supportIE, e(',') url('@{fontPath}/@{brandFontName}.woff') format('woff'));
+        src: url("@{fontPath}/@{brandFontName}.woff2") format("woff2")
+            if(@supportIE, e(",") url("@{fontPath}/@{brandFontName}.woff") format("woff"));
         font-style: normal;
         font-weight: @normal;
         font-display: block;
@@ -99,8 +99,8 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 {% if icons.duotone.icons.length > 0 -%}
     @duotone: {
         font-family: @duotoneFontName;
-        src: url('@{fontPath}/@{duotoneFontName}.woff2') format('woff2')
-            if(@supportIE, e(',') url('@{fontPath}/@{duotoneFontName}.woff') format('woff'));
+        src: url("@{fontPath}/@{duotoneFontName}.woff2") format("woff2")
+            if(@supportIE, e(",") url("@{fontPath}/@{duotoneFontName}.woff") format("woff"));
         font-style: normal;
         font-weight: @normal;
         font-display: block;
@@ -115,79 +115,79 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 
 /* Deprecated (In/Out Naming Conflict) */
 @icon-deprecated-map: {
-    linkedin_in: '\f0e1';
-    zoom_in: '\f00e';
-    zoom_out: '\f010';
-    sign_in: '\f2f6';
-    in_cart: '\f218';
-    log_out: '\f2f5';
-    sign_out: '\f2f5';
+    linkedin_in: "\f0e1";
+    zoom_in: "\f00e";
+    zoom_out: "\f010";
+    sign_in: "\f2f6";
+    in_cart: "\f218";
+    log_out: "\f2f5";
+    sign_out: "\f2f5";
 };
 
 /* Icons */
 @icon-map: {
 {% for icon in icons.solid.icons -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.unicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
 {% endfor -%}
 };
 
 @icon-aliases-map: {
 {% for icon in icons.solid.aliases -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.unicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
 {% endfor -%}
 };
 
 @icon-outline-map: {
 {% for icon in icons.outline.icons -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.unicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
 {% endfor -%}
 };
 @icon-outline-aliases-map: {
 {% for icon in icons.outline.aliases -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.unicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
 {% endfor -%}
 };
 
 @icon-thin-map: {
 {% for icon in icons.thin.icons -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.unicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
 {% endfor -%}
 };
 @icon-thin-aliases-map: {
 {% for icon in icons.thin.aliases -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.unicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
 {% endfor -%}
 };
 
 @icon-brand-map: {
 {% for icon in icons.brand.icons -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.unicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
 {% endfor -%}
 };
 @icon-brand-aliases-map: {
 {% for icon in icons.brand.aliases -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.unicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
 {% endfor -%}
 };
 
 @icon-duotone-map: {
 {% for icon in icons.duotone.icons -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.unicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
 {% endfor -%}
 };
 @icon-duotone-secondary-map: {
 {% for icon in icons.duotone.icons -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.secondaryUnicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.secondaryUnicode }}";
 {% endfor -%}
 };
 @icon-duotone-aliases-map: {
 {% for icon in icons.duotone.aliases -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.unicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
 {% endfor -%}
 };
 @icon-duotone-secondary-aliases-map: {
 {% for icon in icons.duotone.aliases -%}
-    {{ icon.className | replace: ".", "_" }}: '{{ icon.secondaryUnicode }}';
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.secondaryUnicode }}";
 {% endfor -%}
 };
 
