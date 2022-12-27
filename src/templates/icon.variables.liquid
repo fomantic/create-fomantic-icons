@@ -47,8 +47,7 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 {% if icons.solid.icons.length > 0 -%}
     @solid: {
         font-family: @fontName;
-        src: url("@{fontPath}/@{fontName}.woff2") format("woff2")
-            if(@supportIE, e(",") url("@{fontPath}/@{fontName}.woff") format("woff"));
+        src: url("@{fontPath}/@{fontName}.woff2") format("woff2") if(@supportIE, e(",") url("@{fontPath}/@{fontName}.woff") format("woff"));
         font-style: normal;
         font-weight: @normal;
         font-display: block;
@@ -60,8 +59,7 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 {% if icons.outline.icons.length > 0 -%}
     @outline: {
         font-family: @outlineFontName;
-        src: url("@{fontPath}/@{outlineFontName}.woff2") format("woff2")
-            if(@supportIE, e(",") url("@{fontPath}/@{outlineFontName}.woff") format("woff"));
+        src: url("@{fontPath}/@{outlineFontName}.woff2") format("woff2") if(@supportIE, e(",") url("@{fontPath}/@{outlineFontName}.woff") format("woff"));
         font-style: normal;
         font-weight: @normal;
         font-display: block;
@@ -73,8 +71,7 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 {% if icons.thin.icons.length > 0 -%}
     @thin: {
         font-family: @thinFontName;
-        src: url("@{fontPath}/@{thinFontName}.woff2") format("woff2")
-            if(@supportIE, e(",") url("@{fontPath}/@{thinFontName}.woff") format("woff"));
+        src: url("@{fontPath}/@{thinFontName}.woff2") format("woff2") if(@supportIE, e(",") url("@{fontPath}/@{thinFontName}.woff") format("woff"));
         font-style: normal;
         font-weight: @normal;
         font-display: block;
@@ -86,8 +83,7 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 {% if icons.brand.icons.length > 0 -%}
     @brand: {
         font-family: @brandFontName;
-        src: url("@{fontPath}/@{brandFontName}.woff2") format("woff2")
-            if(@supportIE, e(",") url("@{fontPath}/@{brandFontName}.woff") format("woff"));
+        src: url("@{fontPath}/@{brandFontName}.woff2") format("woff2") if(@supportIE, e(",") url("@{fontPath}/@{brandFontName}.woff") format("woff"));
         font-style: normal;
         font-weight: @normal;
         font-display: block;
@@ -99,8 +95,7 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 {% if icons.duotone.icons.length > 0 -%}
     @duotone: {
         font-family: @duotoneFontName;
-        src: url("@{fontPath}/@{duotoneFontName}.woff2") format("woff2")
-            if(@supportIE, e(",") url("@{fontPath}/@{duotoneFontName}.woff") format("woff"));
+        src: url("@{fontPath}/@{duotoneFontName}.woff2") format("woff2") if(@supportIE, e(",") url("@{fontPath}/@{duotoneFontName}.woff") format("woff"));
         font-style: normal;
         font-weight: @normal;
         font-display: block;
@@ -227,14 +222,12 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
     -@cornerIconStroke -@cornerIconStroke 0 @white,
     @cornerIconStroke -@cornerIconStroke 0 @white,
     -@cornerIconStroke  @cornerIconStroke 0 @white,
-    @cornerIconStroke  @cornerIconStroke 0 @white
-;
+    @cornerIconStroke  @cornerIconStroke 0 @white;
 @cornerIconInvertedShadow:
     -@cornerIconStroke -@cornerIconStroke 0 @black,
     @cornerIconStroke -@cornerIconStroke 0 @black,
     -@cornerIconStroke  @cornerIconStroke 0 @black,
-    @cornerIconStroke  @cornerIconStroke 0 @black
-;
+    @cornerIconStroke  @cornerIconStroke 0 @black;
 
 @cornerOffset: 0;
 @borderedGroupCornerOffset: 1.15em;
