@@ -21,6 +21,7 @@ export default function run(results: PromptResults, parseResults: ParseResults):
     const engine = new Liquid({
       root: resolvePath(__dirname, '../../src/templates'),
       extname: '.liquid',
+      ownPropertyOnly: false,
     });
 
     const ctx: { [key: string]: any } = parseResults;
