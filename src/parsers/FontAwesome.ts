@@ -181,6 +181,9 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
           return 0;
         };
 
+        // eslint-disable-next-line max-len
+        const deprecatedAliases = aliases.filter((alias) => deprecatedTester.test(alias.rawName)).sort(sortAz);
+
         icons = icons.sort(sortAz);
 
         parseSpinner.text = 'parsing categories';
@@ -230,12 +233,20 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
                 .sort(sortAz),
             }));
 
+            const deprecatedCategoryIcons = icons.filter((i) => i.type === IconType.DEPRECATED);
+            deprecatedAliases.forEach((alias) => {
+              deprecatedCategoryIcons.push(new Icon({
+                name: alias.name,
+                type: IconType.DEPRECATED,
+                unicode: alias.unicode,
+                searchTerms: [],
+              }));
+              deprecatedCategoryIcons.sort(sortAz);
+            });
             categories.push(new Category({
               name: 'deprecated',
               label: 'Deprecated',
-              icons: icons
-                .filter((i) => i.type === IconType.DEPRECATED)
-                .sort(sortAz),
+              icons: deprecatedCategoryIcons,
             }));
 
             const parseResults = {
@@ -258,9 +269,6 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
               duotone: duotoneIcons,
               deprecated: deprecatedIcons
             } = parseResults.icons;
-
-            // eslint-disable-next-line max-len
-            const deprecatedAliases = aliases.filter((alias) => deprecatedTester.test(alias.rawName)).sort(sortAz);
 
             const totalIcons = solidIcons.length + outlineIcons.length
               + thinIcons.length + brandIcons.length + duotoneIcons.length
