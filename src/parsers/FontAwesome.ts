@@ -60,6 +60,10 @@ export interface ParseResults {
       icons: Icon[];
       aliases: object[];
     }
+    deprecated: {
+      icons: Icon[];
+      aliases: object[];
+    }
   };
   categories: Category[];
   fontAssetsDirectory: string;
@@ -97,6 +101,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
       if (!iconsErr) {
         const iconMetadata = JSON.parse(iconsData.toString());
         const iconNames = Object.keys(iconMetadata);
+        const deprecatedTester: RegExp = /(^|-)(in|out)(-|$)/;
         let icons: Icon[] = [];
         let categories: Category[] = [];
 
@@ -108,54 +113,64 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
               ? (iconMeta.search.terms || [])
               : (iconMeta.terms || []);
 
-            // solid
-            if (iconMeta.styles.includes('solid')) {
+            // deprecated
+            if (deprecatedTester.test(iconName)) {
               icons.push(new Icon({
                 name: iconName,
-                type: IconType.SOLID,
+                type: IconType.DEPRECATED,
                 unicode: iconMeta.unicode,
                 searchTerms,
               }));
-            }
+            } else {
+              // solid
+              if (iconMeta.styles.includes('solid')) {
+                icons.push(new Icon({
+                  name: iconName,
+                  type: IconType.SOLID,
+                  unicode: iconMeta.unicode,
+                  searchTerms,
+                }));
+              }
 
-            // outline
-            if (iconMeta.styles.includes('regular')) {
-              icons.push(new Icon({
-                name: iconName,
-                type: IconType.OUTLINE,
-                unicode: iconMeta.unicode,
-                searchTerms,
-              }));
-            }
+              // outline
+              if (iconMeta.styles.includes('regular')) {
+                icons.push(new Icon({
+                  name: iconName,
+                  type: IconType.OUTLINE,
+                  unicode: iconMeta.unicode,
+                  searchTerms,
+                }));
+              }
 
-            // thin
-            if (iconMeta.styles.includes('light')) {
-              icons.push(new Icon({
-                name: iconName,
-                type: IconType.THIN,
-                unicode: iconMeta.unicode,
-                searchTerms,
-              }));
-            }
+              // thin
+              if (iconMeta.styles.includes('light')) {
+                icons.push(new Icon({
+                  name: iconName,
+                  type: IconType.THIN,
+                  unicode: iconMeta.unicode,
+                  searchTerms,
+                }));
+              }
 
-            // brand
-            if (iconMeta.styles.includes('brands')) {
-              icons.push(new Icon({
-                name: iconName,
-                type: IconType.BRAND,
-                unicode: iconMeta.unicode,
-                searchTerms,
-              }));
-            }
+              // brand
+              if (iconMeta.styles.includes('brands')) {
+                icons.push(new Icon({
+                  name: iconName,
+                  type: IconType.BRAND,
+                  unicode: iconMeta.unicode,
+                  searchTerms,
+                }));
+              }
 
-            // duotone
-            if (iconMeta.styles.includes('duotone')) {
-              icons.push(new Icon({
-                name: iconName,
-                type: IconType.DUOTONE,
-                unicode: iconMeta.unicode,
-                searchTerms,
-              }));
+              // duotone
+              if (iconMeta.styles.includes('duotone')) {
+                icons.push(new Icon({
+                  name: iconName,
+                  type: IconType.DUOTONE,
+                  unicode: iconMeta.unicode,
+                  searchTerms,
+                }));
+              }
             }
           }
         });
@@ -215,6 +230,14 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
                 .sort(sortAz),
             }));
 
+            categories.push(new Category({
+              name: 'deprecated',
+              label: 'Deprecated',
+              icons: icons
+                .filter((i) => i.type === IconType.DEPRECATED)
+                .sort(sortAz),
+            }));
+
             const parseResults = {
               icons: {
                 solid: icons.filter((i) => i.type === IconType.SOLID),
@@ -222,6 +245,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
                 thin: icons.filter((i) => i.type === IconType.THIN),
                 brand: icons.filter((i) => i.type === IconType.BRAND),
                 duotone: icons.filter((i) => i.type === IconType.DUOTONE),
+                deprecated: icons.filter((i) => i.type === IconType.DEPRECATED),
               },
               categories,
             };
@@ -231,48 +255,59 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
               outline: outlineIcons,
               thin: thinIcons,
               brand: brandIcons,
-              duotone: duotoneIcons
+              duotone: duotoneIcons,
+              deprecated: deprecatedIcons
             } = parseResults.icons;
 
+            // eslint-disable-next-line max-len
+            const deprecatedAliases = aliases.filter((alias) => deprecatedTester.test(alias.rawName)).sort(sortAz);
+
             const totalIcons = solidIcons.length + outlineIcons.length
-              + thinIcons.length + brandIcons.length + duotoneIcons.length;
+              + thinIcons.length + brandIcons.length + duotoneIcons.length
+              + deprecatedIcons.length + deprecatedAliases.length;
 
             parseSpinner.succeed('icons & categories parsed');
             Logger.log();
             Logger.log(chalk.cyan('  Results:'));
-            Logger.log(`    Solid:   ${chalk.cyan(String(solidIcons.length))}`);
-            Logger.log(`    Outline: ${chalk.cyan(String(outlineIcons.length))}`);
-            Logger.log(`    Thin:    ${chalk.cyan(String(thinIcons.length))}`);
-            Logger.log(`    Brand:   ${chalk.cyan(String(brandIcons.length))}`);
-            Logger.log(`    Duotone: ${chalk.cyan(String(duotoneIcons.length))}`);
-            Logger.log(`             ${chalk.cyan(String(totalIcons))}`);
+            Logger.log(`    Solid:      ${chalk.cyan(String(solidIcons.length))}`);
+            Logger.log(`    Outline:    ${chalk.cyan(String(outlineIcons.length))}`);
+            Logger.log(`    Thin:       ${chalk.cyan(String(thinIcons.length))}`);
+            Logger.log(`    Brand:      ${chalk.cyan(String(brandIcons.length))}`);
+            Logger.log(`    Duotone:    ${chalk.cyan(String(duotoneIcons.length))}`);
+            Logger.log(`    Deprecated: ${chalk.cyan(String(deprecatedIcons.length + deprecatedAliases.length))}`);
+            Logger.log(`    ----------------`);
+            Logger.log(`    TOTAL:      ${chalk.cyan(String(totalIcons))}`);
 
             resolve({
               icons: {
                 solid: {
                   icons: solidIcons,
-                  aliases: aliases.filter((alias) => alias.type === 'solid')
+                  aliases: aliases.filter((alias) => alias.type === 'solid' && !deprecatedTester.test(alias.rawName))
                     .sort(sortAz),
                 },
                 outline: {
                   icons: outlineIcons,
-                  aliases: aliases.filter((alias) => alias.type === 'outline')
+                  aliases: aliases.filter((alias) => alias.type === 'outline' && !deprecatedTester.test(alias.rawName))
                     .sort(sortAz),
                 },
                 thin: {
                   icons: thinIcons,
-                  aliases: aliases.filter((alias) => alias.type === 'thin')
+                  aliases: aliases.filter((alias) => alias.type === 'thin' && !deprecatedTester.test(alias.rawName))
                     .sort(sortAz),
                 },
                 brand: {
                   icons: brandIcons,
-                  aliases: aliases.filter((alias) => alias.type === 'brand')
+                  aliases: aliases.filter((alias) => alias.type === 'brand' && !deprecatedTester.test(alias.rawName))
                     .sort(sortAz),
                 },
                 duotone: {
                   icons: duotoneIcons,
-                  aliases: aliases.filter((alias) => alias.type === 'duotone')
+                  aliases: aliases.filter((alias) => alias.type === 'duotone' && !deprecatedTester.test(alias.rawName))
                     .sort(sortAz),
+                },
+                deprecated: {
+                  icons: deprecatedIcons,
+                  aliases: deprecatedAliases,
                 },
               },
               categories,
