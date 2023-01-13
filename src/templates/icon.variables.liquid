@@ -113,13 +113,12 @@ Icons are order A-Z in their group, Solid, Outline, Thin (Pro only) and Brand
 
 /* Deprecated (In/Out Naming Conflict) */
 @icon-deprecated-map: {
-    linkedin_in: "\f0e1";
-    zoom_in: "\f00e";
-    zoom_out: "\f010";
-    sign_in: "\f2f6";
-    in_cart: "\f218";
-    log_out: "\f2f5";
-    sign_out: "\f2f5";
+{% for icon in icons.deprecated.icons -%}
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
+{% endfor -%}
+{% for icon in icons.deprecated.aliases -%}
+    {{ icon.className | replace: ".", "_" }}: "{{ icon.unicode }}";
+{% endfor -%}
 };
 
 /* Icons */

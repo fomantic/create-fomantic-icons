@@ -73,5 +73,7 @@
     "weather": "Icons which represent the weather",
     "winter": "Icons which represent winter activities",
     "writing": "Icons can represent writing and editing",
-    "brands": "Icons can represent logos to common brands"
+    "brands": "Icons can represent logos to common brands",
+    "duotone": "Icons can be displayed in 2 colors",
+    "deprecated": "Deprecated icons won't work properly when used with transitions as they contain <code>in</code> or <code>out</code>"
 }

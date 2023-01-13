@@ -4,6 +4,7 @@ enum IconType {
   THIN = 'thin',
   BRAND = 'brand',
   DUOTONE = 'duotone',
+  DEPRECATED = 'deprecated',
 }
 
 export default IconType;
