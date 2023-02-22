@@ -1465,9 +1465,9 @@ nice-try@^1.0.4:
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
 num-words@^1.2.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/num-words/-/num-words-1.2.2.tgz#3e19672955cd7b604c217f3b1f5ae043bb994834"
-  integrity sha512-9OrwYwBDosGA46MBeRSioU+9qpqWDDWKvl7xfIuJh1J02zw9trnYHQE+HA8KEfoUqTqK6fGAGf0LSwpZ7HrXKA==
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/num-words/-/num-words-1.2.3.tgz#f6c33b7cdf14f1b0c4198d1ab7bcf9da9a17116d"
+  integrity sha512-tfKqF8sCX1sb2LjrZyrqNF7SDyDzxcyKtpNlRqqaOTImmqTEclGYEs17FtpbXsuuyJijwOWzuTy+DasYf/FvlA==
 
 object-inspect@^1.12.2, object-inspect@^1.9.0:
   version "1.12.2"
