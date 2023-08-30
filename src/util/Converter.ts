@@ -23,7 +23,7 @@ export default class Converter {
       .replace(/\s/g, '.')
       .split('.')
       .map((entity: string) => (Converter.NUMERIC_ONLY.test(entity)
-        ? numWords(entity)
+        ? numWords(parseInt(entity, 10))
         : entity))
       .join('.');
   }
