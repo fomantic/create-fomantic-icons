@@ -67,18 +67,23 @@ export default function run(results: PromptResults, parseResults: ParseResults):
           fse.mkdirp(distPath)
             .then(() => {
               files.forEach((file) => {
-                const filenameSplit = file.split('.');
-                const newFileName = `${parseResults.fontFileNames[filenameSplit[0]]}.${filenameSplit[1]}`;
-                const assetFilePath = resolvePath(
-                  parseResults.fontAssetsDirectory,
-                  file,
-                );
-                const assetDistPath = resolvePath(distPath, newFileName);
-                fse.copyFile(assetFilePath, assetDistPath)
-                  .then(() => {
-                    copied();
-                  })
-                  .catch(rejectAssetCopy);
+                const [fileName, fileExtension] = file.split('.');
+                let newFileName = parseResults.fontFileNames[fileName];
+                if (newFileName && fileExtension && fileExtension.toLowerCase().startsWith('woff')) {
+                  newFileName += `.${fileExtension}`;
+                  const assetFilePath = resolvePath(
+                    parseResults.fontAssetsDirectory,
+                    file,
+                  );
+                  const assetDistPath = resolvePath(distPath, newFileName);
+                  fse.copyFile(assetFilePath, assetDistPath)
+                    .then(() => {
+                      copied();
+                    })
+                    .catch(rejectAssetCopy);
+                } else {
+                  copied();
+                }
               });
             })
             .catch(rejectAssetCopy);
