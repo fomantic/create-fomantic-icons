@@ -4,14 +4,15 @@ import { tmpdir } from 'os';
 
 // npm
 import axios from 'axios';
+import * as fs from 'fs';
 import * as fse from 'fs-extra';
 import { Extract as extractZip } from 'unzipper';
 
 // tasks
-import { PromptResults, Asset } from './InitialPrompt';
+import { PromptResults, Asset } from './InitialPrompt.js';
 
 // utils
-import Logger, { spinner } from '../util/Logger';
+import Logger, { spinner } from '../util/Logger.js';
 
 export interface PathResults {
   assetFilePath: string;
@@ -26,7 +27,7 @@ export function extractAsset(asset: Asset, filePath: string): Promise<string> {
     const assetDirectory = resolvePath(tmpdir(), 'fui-icon-script', asset.name
       .split('.').slice(0, -1).join('.'));
 
-    const assetReadStream = fse.createReadStream(filePath);
+    const assetReadStream = fs.createReadStream(filePath);
 
     assetReadStream
       .pipe(extractZip({
@@ -48,13 +49,14 @@ export function extractAsset(asset: Asset, filePath: string): Promise<string> {
   });
 }
 
-export function saveAssetFile(asset: Asset, data: ArrayBuffer): Promise<string> {
+export function saveAssetFile(asset: Asset, data: ArrayBufferView): Promise<string> {
   return new Promise((resolve) => {
     const saveSpinner = spinner()
       .start(`saving asset (${asset.name})`);
 
     const filePath = resolvePath(tmpdir(), 'fui-icon-script', asset.name);
 
+    // @ts-ignore
     fse.outputFile(filePath, data, (saveErr) => {
       if (!saveErr) {
         saveSpinner.succeed(`asset saved (${filePath})`);
@@ -68,7 +70,7 @@ export function saveAssetFile(asset: Asset, data: ArrayBuffer): Promise<string> 
   });
 }
 
-export function downloadAsset(results: PromptResults): Promise<ArrayBuffer> {
+export function downloadAsset(results: PromptResults): Promise<ArrayBufferView> {
   return new Promise((resolve) => {
     const {
       asset,

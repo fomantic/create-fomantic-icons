@@ -1,11 +1,11 @@
 // utils
-import Converter from '../util/Converter';
+import Converter from '../util/Converter.js';
 
 // enums
-import IconType from '../enums/IconType';
+import IconType from '../enums/IconType.js';
 
 // static
-import corrections from '../static/corrections.json';
+import corrections from '../static/corrections.json' with { type: 'json' };
 
 export interface IconData {
   name: string;

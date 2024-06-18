@@ -1,5 +1,6 @@
 // npm
-import { Signale } from 'signale';
+import signale from 'signale';
+const { Signale } = signale;
 import ora, { Options as oraOptions } from 'ora';
 
 export const LoggerInstance = Signale;

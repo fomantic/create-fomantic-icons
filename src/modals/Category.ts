@@ -1,8 +1,8 @@
 // static
-import categories from '../static/categories.json';
+import categories from '../static/categories.json' with { type: 'json' };
 
 // modals
-import Icon from './Icon';
+import Icon from './Icon.js';
 
 export interface CategoryData {
   name: string;
