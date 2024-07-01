@@ -1,3 +1,5 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --no-warnings=ExperimentalWarning
 
-require('../lib/index.js').default();
+import run from "../lib/index.js";
+
+run();

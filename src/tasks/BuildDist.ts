@@ -3,14 +3,21 @@ import { resolve as resolvePath } from 'path';
 
 // npm
 import { Liquid } from 'liquidjs';
+import * as fs from 'fs';
 import * as fse from 'fs-extra';
 
 // tasks
-import { PromptResults } from './InitialPrompt';
-import { ParseResults } from '../parsers/FontAwesome';
+import { PromptResults } from './InitialPrompt.js';
+import { ParseResults } from '../parsers/FontAwesome.js';
 
 // utils
-import Logger, { spinner } from '../util/Logger';
+import Logger, { spinner } from '../util/Logger.js';
+
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+// eslint-disable-next-line @typescript-eslint/naming-convention
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default function run(results: PromptResults, parseResults: ParseResults): Promise<void> {
   return new Promise((resolve) => {
@@ -40,12 +47,15 @@ export default function run(results: PromptResults, parseResults: ParseResults):
             const fileOutputDirectory = resolvePath(results.distPath, distFiles[filename]);
             fse.mkdirp(fileOutputDirectory)
               .then(() => {
-                fse.writeFile(
+                fs.writeFile(
                   resolvePath(fileOutputDirectory, filename),
                   renderResult,
-                )
-                  .then(() => resolveRender())
-                  .catch(rejectRender);
+                  (err) => {
+                    if (err) {
+                      return rejectRender();
+                    }
+                    resolveRender();
+                  });
               })
               .catch(rejectRender);
           })
@@ -53,8 +63,11 @@ export default function run(results: PromptResults, parseResults: ParseResults):
       }));
 
     const copyAssetsFunc = new Promise<void>((resolveAssetCopy, rejectAssetCopy) => {
-      fse.readdir(parseResults.fontAssetsDirectory)
-        .then((files) => {
+      fs.readdir(parseResults.fontAssetsDirectory,
+        (err, files) => {
+          if (err) {
+            return rejectAssetCopy();
+          }
           let copiedFiles = 0;
           const copied = () => {
             copiedFiles += 1;
@@ -76,19 +89,20 @@ export default function run(results: PromptResults, parseResults: ParseResults):
                     file,
                   );
                   const assetDistPath = resolvePath(distPath, newFileName);
-                  fse.copyFile(assetFilePath, assetDistPath)
-                    .then(() => {
+                  fs.copyFile(assetFilePath, assetDistPath,
+                    (err2) => {
+                      if (err2) {
+                        return rejectAssetCopy();
+                      }
                       copied();
-                    })
-                    .catch(rejectAssetCopy);
+                    });
                 } else {
                   copied();
                 }
               });
             })
             .catch(rejectAssetCopy);
-        })
-        .catch(rejectAssetCopy);
+        });
     });
 
     fse.mkdirp(results.distPath)

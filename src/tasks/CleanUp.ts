@@ -6,7 +6,7 @@ import { tmpdir } from 'os';
 import * as fse from 'fs-extra';
 
 // utils
-import Logger, { spinner } from '../util/Logger';
+import Logger, { spinner } from '../util/Logger.js';
 
 export default function run() {
   return new Promise<void>((resolve) => {

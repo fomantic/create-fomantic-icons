@@ -2,26 +2,26 @@
 import { resolve as resolvePath } from 'path';
 
 // npm
-import * as fse from 'fs-extra';
+import * as fs from 'fs';
 import { load as parseYAML } from 'js-yaml';
 import chalk from 'chalk';
 
 // tasks
-import { PromptResults } from '../tasks/InitialPrompt';
-import { PathResults } from '../tasks/DownloadAsset';
+import { PromptResults } from '../tasks/InitialPrompt.js';
+import { PathResults } from '../tasks/DownloadAsset.js';
 
 // utils
-import Logger, { spinner } from '../util/Logger';
+import Logger, { spinner } from '../util/Logger.js';
 
 // modals
-import Icon from '../modals/Icon';
-import Category from '../modals/Category';
+import Icon from '../modals/Icon.js';
+import Category from '../modals/Category.js';
 
 // enums
-import IconType from '../enums/IconType';
+import IconType from '../enums/IconType.js';
 
 // static
-import aliases from '../static/aliases.json';
+import aliases from '../static/aliases.json' with { type: 'json' };
 
 export interface IconMeta {
   search: {
@@ -97,7 +97,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
       'categories.yml',
     );
 
-    fse.readFile(iconsMetadataFilePath, (iconsErr, iconsData) => {
+    fs.readFile(iconsMetadataFilePath, (iconsErr, iconsData) => {
       if (!iconsErr) {
         const iconMetadata = JSON.parse(iconsData.toString());
         const iconNames = Object.keys(iconMetadata);
@@ -188,7 +188,7 @@ export default function parse(results: PromptResults, paths: PathResults): Promi
 
         parseSpinner.text = 'parsing categories';
 
-        fse.readFile(categoriesFilePath, (categoriesErr, categoriesData) => {
+        fs.readFile(categoriesFilePath, (categoriesErr, categoriesData) => {
           if (!categoriesErr) {
             const categoriesMetadata = parseYAML(categoriesData.toString());
             // @ts-ignore

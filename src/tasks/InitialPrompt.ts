@@ -7,10 +7,10 @@ import chalk from 'chalk';
 import axios from 'axios';
 
 // utils
-import Logger from '../util/Logger';
+import Logger from '../util/Logger.js';
 
 // icon sets
-import IconSets from '../static/icon_sets.json';
+import IconSets from '../static/icon_sets.json' with { type: 'json' };
 
 export interface IconSet {
   name: string;
