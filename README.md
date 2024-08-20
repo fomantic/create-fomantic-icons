@@ -7,7 +7,7 @@ Generate the `icon.variables` and `icon.html.eco` files for Fomantic-UI 2.9.0+
 You can use this script to generate the icons for free and pro versions of [FontAwesome](https://fontawesome.com).
 
 ## Requirements
- - [nodejs](https://nodejs.org) >=14
+ - [nodejs](https://nodejs.org) >= 18.18.0
  - [npm](https://npmjs.com)
  - or [yarn](https://yarnpkg.com)
 
