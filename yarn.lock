@@ -1436,9 +1436,9 @@ levn@^0.4.1:
     type-check "~0.4.0"
 
 liquidjs@^10.14.0:
-  version "10.16.3"
-  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-10.16.3.tgz#b595c3c49f9350166c76f7a3a31caa76353a42b8"
-  integrity sha512-CbIeSH5zc7nVPFgexN1EQlAxAk2DAQDvIN8r40PHs/HxubhQyEoZS/CgKpd9ax9walAUqk+VpkSR1CfoFr4Nhw==
+  version "10.16.6"
+  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-10.16.6.tgz#fd0e276353970000cbadd4403fa8f5a1e39bab1f"
+  integrity sha512-nQJH9bOXs+NBD3fwgZi5QCnDwbzCkrGRYVWyaYA3P/MzGRUH13SS2BJJ+vyMdNg1uL1mnl7DXWWxx3wuZgVTGg==
   dependencies:
     commander "^10.0.0"
 
