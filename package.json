@@ -30,19 +30,18 @@
   },
   "type": "module",
   "dependencies": {
-    "axios": "^1.7.2",
-    "chalk": "^5.3.0",
-    "fs-extra": "^11.2.0",
+    "axios": "^1.11.0",
+    "chalk": "^5.5.0",
+    "fs-extra": "^11.3.1",
     "js-yaml": "^4.1.0",
-    "liquidjs": "^10.14.0",
+    "liquidjs": "^10.21.1",
     "num-words": "^1.2.3",
-    "ora": "^8.0.1",
+    "ora": "^8.2.0",
     "qoa": "^0.2.0",
     "signale": "^1.4.0",
-    "unzipper": "^0.10.14"
+    "unzipper": "^0.12.3"
   },
   "devDependencies": {
-    "@types/chalk": "^2.2.0",
     "@types/fs-extra": "^11.0.4",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^20.14.5",

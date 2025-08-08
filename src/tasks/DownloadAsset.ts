@@ -28,24 +28,26 @@ export function extractAsset(asset: Asset, filePath: string): Promise<string> {
       .split('.').slice(0, -1).join('.'));
 
     const assetReadStream = fs.createReadStream(filePath);
+    const extractStream = extractZip({
+      path: assetDirectory,
+    });
 
-    assetReadStream
-      .pipe(extractZip({
-        path: assetDirectory,
-      }));
-
-    assetReadStream
+    extractStream
       .once('error', (err) => {
         extractSpinner.stop();
         Logger.error(err);
         process.exit(1);
       });
 
-    assetReadStream
+    extractStream
       .once('close', () => {
         extractSpinner.succeed(`asset extracted (${assetDirectory})`);
         resolve(assetDirectory);
       });
+
+    assetReadStream
+      .pipe(extractStream);
+
   });
 }
 
