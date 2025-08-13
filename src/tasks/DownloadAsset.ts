@@ -28,25 +28,22 @@ export function extractAsset(asset: Asset, filePath: string): Promise<string> {
       .split('.').slice(0, -1).join('.'));
 
     const assetReadStream = fs.createReadStream(filePath);
-    const extractStream = extractZip({
-      path: assetDirectory,
-    });
 
-    extractStream
+    assetReadStream
+      .pipe(extractZip({
+        path: assetDirectory,
+      }))
+
       .once('error', (err) => {
         extractSpinner.stop();
         Logger.error(err);
         process.exit(1);
-      });
+      })
 
-    extractStream
-      .once('close', () => {
+      .on('close', () => {
         extractSpinner.succeed(`asset extracted (${assetDirectory})`);
         resolve(assetDirectory);
       });
-
-    assetReadStream
-      .pipe(extractStream);
 
   });
 }
@@ -157,7 +154,7 @@ export default function run(results: PromptResults): Promise<PathResults> {
     fse.pathExists(assetFilePath)
       .then((assetExists) => {
         if (assetExists) {
-          fse.pathExists(assetFilePath)
+          fse.pathExists(assetDirectoryPath)
             .then((directoryExists) => {
               if (directoryExists) {
                 assetCheckSpinner.succeed('asset already exists');
@@ -167,7 +164,7 @@ export default function run(results: PromptResults): Promise<PathResults> {
                   assetDirectoryPath,
                 });
               } else {
-                assetCheckSpinner.info('asset doesn\'t exist locally, starting download')
+                assetCheckSpinner.info('asset exists locally, but wasn\'t extracted, restarting download')
                   .stop();
 
                 startDownload(results)
