@@ -105,9 +105,9 @@
     "@types/node" "*"
 
 "@types/node@*", "@types/node@^20.14.5":
-  version "20.19.25"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.19.25.tgz#467da94a2fd966b57cc39c357247d68047611190"
-  integrity sha512-ZsJzA5thDQMSQO788d7IocwwQbI8B5OPzmqNvpf3NY/+MHDAS759Wo0gd2WQeXYt5AAAQjzcrTVC6SKCuYgoCQ==
+  version "20.19.29"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.19.29.tgz#49e9857d3e3f3220508d37904eb47cb3434d5b17"
+  integrity sha512-YrT9ArrGaHForBaCNwFjoqJWmn8G1Pr7+BH/vwyLHciA9qT/wSiuOhxGCT50JA5xLvFBd6PIiGkE3afxcPE1nw==
   dependencies:
     undici-types "~6.21.0"
 
