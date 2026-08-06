@@ -53,5 +53,10 @@
     "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-plugin-import": "^2.29.1",
     "typescript": "^5.4.5"
+  },
+  "resolutions": {
+    "ajv": "^6.14.0",
+    "brace-expansion": "^2.0.3",
+    "minimatch": "^9.0.7"
   }
 }
